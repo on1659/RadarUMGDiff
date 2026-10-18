@@ -1,0 +1,5106 @@
+{
+	"engine": "5.1.1",
+	"fileVersionUE5": 1008,
+	"generatedBy": "RadarStructKinds commandlet",
+	"kinds":
+	{
+		"A2CSPose": "tagged",
+		"A2Pose": "tagged",
+		"AbcCompressionSettings": "tagged",
+		"AbcConversionSettings": "tagged",
+		"AbcGeometryCacheSettings": "tagged",
+		"AbcMaterialSettings": "tagged",
+		"AbcNormalGenerationSettings": "tagged",
+		"AbcSamplingSettings": "tagged",
+		"AbcStaticMeshSettings": "tagged",
+		"ActiveCameraAnimationInfo": "tagged",
+		"ActiveCameraShakeInfo": "tagged",
+		"ActiveEditorGizmo": "tagged",
+		"ActiveForceFeedbackEffect": "tagged",
+		"ActiveGizmo": "tagged",
+		"ActiveHapticFeedbackEffect": "tagged",
+		"ActorBrowsingModeConfig": "tagged",
+		"ActorComponentInstanceData": "tagged",
+		"ActorComponentInstanceSourceInfo": "tagged",
+		"ActorComponentTickFunction": "tagged",
+		"ActorContainerID": "tagged",
+		"ActorDataLayer": "tagged",
+		"ActorDesc": "tagged",
+		"ActorFolderProps": "tagged",
+		"ActorFolderSet": "tagged",
+		"ActorForWorldTransforms": "tagged",
+		"ActorInstanceData": "tagged",
+		"ActorInstanceHandle": "tagged",
+		"ActorLayer": "tagged",
+		"ActorPerceptionBlueprintInfo": "tagged",
+		"ActorPerceptionUpdateInfo": "tagged",
+		"ActorPlacementDataLayers": "tagged",
+		"ActorPlacementFolder": "tagged",
+		"ActorRecordedProperty": "tagged",
+		"ActorRecordingSettings": "tagged",
+		"ActorSequenceObjectReference": "tagged",
+		"ActorSequenceObjectReferenceMap": "tagged",
+		"ActorSequenceObjectReferences": "tagged",
+		"ActorTickFunction": "tagged",
+		"AddedPinData": "tagged",
+		"AdditionalBlueprintCategory": "tagged",
+		"AddNewSubobjectParams": "tagged",
+		"AdvancedCopyMap": "tagged",
+		"AdvancedCopyParams": "tagged",
+		"AIDamageEvent": "tagged",
+		"AIDataProviderBoolValue": "tagged",
+		"AIDataProviderFloatValue": "tagged",
+		"AIDataProviderIntValue": "tagged",
+		"AIDataProviderStructValue": "tagged",
+		"AIDataProviderTypedValue": "native",
+		"AIDataProviderValue": "tagged",
+		"AIDynamicParam": "tagged",
+		"AimConstraintDescription": "tagged",
+		"AIMoveRequest": "tagged",
+		"AimTarget": "tagged",
+		"AINoiseEvent": "tagged",
+		"AIPredictionEvent": "tagged",
+		"AIRequestID": "tagged",
+		"AISchemaAction_AddComment": "tagged",
+		"AISchemaAction_NewNode": "tagged",
+		"AISchemaAction_NewSubNode": "tagged",
+		"AISenseAffiliationFilter": "tagged",
+		"AISightEvent": "tagged",
+		"AIStimulus": "tagged",
+		"AITeamStimulusEvent": "tagged",
+		"AITestSpawnInfo": "tagged",
+		"AITestSpawnInfoBase": "tagged",
+		"AITestSpawnSet": "tagged",
+		"AITestSpawnSetBase": "tagged",
+		"AITouchEvent": "tagged",
+		"AlphaBlend": "tagged",
+		"AlphaBlendArgs": "tagged",
+		"AnalogInputEvent": "tagged",
+		"AnchorData": "tagged",
+		"Anchors": "tagged",
+		"AngularDriveConstraint": "tagged",
+		"AngularRangeLimit": "tagged",
+		"AnimatedBoneAttribute": "tagged",
+		"AnimationActiveTransitionEntry": "tagged",
+		"AnimationAttributeIdentifier": "native",
+		"AnimationCurveData": "tagged",
+		"AnimationCurveIdentifier": "tagged",
+		"AnimationErrorStats": "tagged",
+		"AnimationEventBinding": "tagged",
+		"AnimationFrameSnapshot": "tagged",
+		"AnimationGroupReference": "tagged",
+		"AnimationHierarchy": "tagged",
+		"AnimationPotentialTransition": "tagged",
+		"AnimationRecordingSettings": "tagged",
+		"AnimationSetup": "tagged",
+		"AnimationSharingScalability": "tagged",
+		"AnimationState": "tagged",
+		"AnimationStateBase": "tagged",
+		"AnimationStateEntry": "tagged",
+		"AnimationStateMachineReference": "tagged",
+		"AnimationStateResultReference": "tagged",
+		"AnimationTrackAddedPayload": "tagged",
+		"AnimationTrackPayload": "tagged",
+		"AnimationTransitionBetweenStates": "tagged",
+		"AnimationTransitionRule": "tagged",
+		"AnimBlueprintConstantData": "tagged",
+		"AnimBlueprintDebugData": "tagged",
+		"AnimBlueprintFunction": "tagged",
+		"AnimBlueprintFunctionData": "tagged",
+		"AnimBlueprintFunctionPinInfo": "tagged",
+		"AnimBlueprintMutableData": "tagged",
+		"AnimComponentSpacePoseContext": "tagged",
+		"AnimCurveBase": "tagged",
+		"AnimCurveParam": "tagged",
+		"AnimCurveType": "tagged",
+		"AnimDataModelNotifPayload": "tagged",
+		"AnimExecutionContext": "tagged",
+		"AnimGraphAttributeDesc": "tagged",
+		"AnimGraphBlendOptions": "tagged",
+		"AnimGraphNodePropertyBinding": "tagged",
+		"AnimGroupInfo": "tagged",
+		"AnimGroupInstance": "tagged",
+		"AnimInitializationContext": "tagged",
+		"AnimInstanceProxy": "tagged",
+		"AnimLegIKData": "tagged",
+		"AnimLegIKDefinition": "tagged",
+		"AnimLinkableElement": "tagged",
+		"AnimMontageInstance": "tagged",
+		"AnimNode_AimOffsetLookAt": "tagged",
+		"AnimNode_AnimDynamics": "tagged",
+		"AnimNode_ApplyAdditive": "tagged",
+		"AnimNode_ApplyLimits": "tagged",
+		"AnimNode_ApplyMeshSpaceAdditive": "tagged",
+		"AnimNode_AssetPlayerBase": "tagged",
+		"AnimNode_AssetPlayerRelevancyBase": "tagged",
+		"AnimNode_Base": "tagged",
+		"AnimNode_BlendBoneByChannel": "tagged",
+		"AnimNode_BlendListBase": "tagged",
+		"AnimNode_BlendListByBool": "tagged",
+		"AnimNode_BlendListByEnum": "tagged",
+		"AnimNode_BlendListByInt": "tagged",
+		"AnimNode_BlendSpaceEvaluator": "tagged",
+		"AnimNode_BlendSpaceGraph": "tagged",
+		"AnimNode_BlendSpaceGraphBase": "tagged",
+		"AnimNode_BlendSpacePlayer": "tagged",
+		"AnimNode_BlendSpacePlayer_Standalone": "tagged",
+		"AnimNode_BlendSpacePlayerBase": "tagged",
+		"AnimNode_BlendSpaceSampleResult": "tagged",
+		"AnimNode_BoneDrivenController": "tagged",
+		"AnimNode_CallFunction": "tagged",
+		"AnimNode_CCDIK": "tagged",
+		"AnimNode_Constraint": "tagged",
+		"AnimNode_ControlRig": "tagged",
+		"AnimNode_ControlRig_ExternalSource": "tagged",
+		"AnimNode_ControlRigBase": "tagged",
+		"AnimNode_ControlRigInputPose": "tagged",
+		"AnimNode_ConvertComponentToLocalSpace": "tagged",
+		"AnimNode_ConvertLocalToComponentSpace": "tagged",
+		"AnimNode_CopyBone": "tagged",
+		"AnimNode_CopyBoneDelta": "tagged",
+		"AnimNode_CopyPoseFromMesh": "tagged",
+		"AnimNode_CurveSource": "tagged",
+		"AnimNode_CustomProperty": "tagged",
+		"AnimNode_Fabrik": "tagged",
+		"AnimNode_HandIKRetargeting": "tagged",
+		"AnimNode_IKRig": "tagged",
+		"AnimNode_Inertialization": "tagged",
+		"AnimNode_LayeredBoneBlend": "tagged",
+		"AnimNode_LegIK": "tagged",
+		"AnimNode_LinkedAnimGraph": "tagged",
+		"AnimNode_LinkedAnimLayer": "tagged",
+		"AnimNode_LinkedInputPose": "tagged",
+		"AnimNode_LookAt": "tagged",
+		"AnimNode_MakeDynamicAdditive": "tagged",
+		"AnimNode_MeshSpaceRefPose": "tagged",
+		"AnimNode_Mirror": "tagged",
+		"AnimNode_Mirror_Standalone": "tagged",
+		"AnimNode_MirrorBase": "tagged",
+		"AnimNode_ModifyBone": "tagged",
+		"AnimNode_ModifyCurve": "tagged",
+		"AnimNode_MultiWayBlend": "tagged",
+		"AnimNode_ObserveBone": "tagged",
+		"AnimNode_PoseBlendNode": "tagged",
+		"AnimNode_PoseByName": "tagged",
+		"AnimNode_PoseDriver": "tagged",
+		"AnimNode_PoseHandler": "tagged",
+		"AnimNode_PoseSnapshot": "tagged",
+		"AnimNode_PreviewRetargetPose": "tagged",
+		"AnimNode_RandomPlayer": "tagged",
+		"AnimNode_RefPose": "tagged",
+		"AnimNode_ResetRoot": "tagged",
+		"AnimNode_RetargetPoseFromMesh": "tagged",
+		"AnimNode_RigidBody": "tagged",
+		"AnimNode_Root": "tagged",
+		"AnimNode_RotateRootBone": "tagged",
+		"AnimNode_RotationMultiplier": "tagged",
+		"AnimNode_RotationOffsetBlendSpace": "tagged",
+		"AnimNode_RotationOffsetBlendSpaceGraph": "tagged",
+		"AnimNode_SaveCachedPose": "tagged",
+		"AnimNode_ScaleChainLength": "tagged",
+		"AnimNode_SequenceEvaluator": "tagged",
+		"AnimNode_SequenceEvaluator_Standalone": "tagged",
+		"AnimNode_SequenceEvaluatorBase": "tagged",
+		"AnimNode_SequencePlayer": "tagged",
+		"AnimNode_SequencePlayer_Standalone": "tagged",
+		"AnimNode_SequencePlayerBase": "tagged",
+		"AnimNode_SingleNode": "tagged",
+		"AnimNode_SkeletalControlBase": "tagged",
+		"AnimNode_Slot": "tagged",
+		"AnimNode_SplineIK": "tagged",
+		"AnimNode_SpringBone": "tagged",
+		"AnimNode_StateMachine": "tagged",
+		"AnimNode_StateResult": "tagged",
+		"AnimNode_Sync": "tagged",
+		"AnimNode_Trail": "tagged",
+		"AnimNode_TransitionPoseEvaluator": "tagged",
+		"AnimNode_TransitionResult": "tagged",
+		"AnimNode_TwistCorrectiveNode": "tagged",
+		"AnimNode_TwoBoneIK": "tagged",
+		"AnimNode_TwoWayBlend": "tagged",
+		"AnimNode_UseCachedPose": "tagged",
+		"AnimNodeConstantData": "tagged",
+		"AnimNodeData": "tagged",
+		"AnimNodeFunctionRef": "tagged",
+		"AnimNodeReference": "tagged",
+		"AnimNodeStructData": "tagged",
+		"AnimNotifyArray": "tagged",
+		"AnimNotifyContext": "tagged",
+		"AnimNotifyEvent": "native",
+		"AnimNotifyEventReference": "tagged",
+		"AnimNotifyQueue": "tagged",
+		"AnimNotifyTrack": "tagged",
+		"AnimParentNodeAssetOverride": "tagged",
+		"AnimPhysBodyDefinition": "tagged",
+		"AnimPhysConstraintSetup": "tagged",
+		"AnimPhysPlanarLimit": "tagged",
+		"AnimPhysSphericalLimit": "tagged",
+		"AnimPose": "tagged",
+		"AnimPoseContext": "tagged",
+		"AnimPoseEvaluationOptions": "tagged",
+		"AnimPreviewAttacheInstanceProxy": "tagged",
+		"AnimPreviewInstanceProxy": "tagged",
+		"AnimSegment": "tagged",
+		"AnimSequencerInstanceProxy": "tagged",
+		"AnimSequenceTrackContainer": "tagged",
+		"AnimSetMeshLinkup": "tagged",
+		"AnimSingleNodeInstanceProxy": "tagged",
+		"AnimSlotDesc": "tagged",
+		"AnimSlotGroup": "tagged",
+		"AnimSubsystem": "tagged",
+		"AnimSubsystem_Base": "tagged",
+		"AnimSubsystem_BlendSpaceGraph": "tagged",
+		"AnimSubsystem_PropertyAccess": "tagged",
+		"AnimSubsystem_Tag": "tagged",
+		"AnimSubsystemInstance": "tagged",
+		"AnimSubsystemInstance_NodeRelevancy": "tagged",
+		"AnimSyncMarker": "native",
+		"AnimTickRecord": "tagged",
+		"AnimTrack": "tagged",
+		"AnimUpdateContext": "tagged",
+		"AnimUpdateRateParameters": "tagged",
+		"AppleImageUtilsImageConversionResult": "tagged",
+		"ARCameraIntrinsics": "tagged",
+		"AREnvironmentProbeUpdatePayload": "tagged",
+		"ARFaceUpdatePayload": "tagged",
+		"ARFilter": "tagged",
+		"ARGeoAnchorUpdatePayload": "tagged",
+		"ARImageUpdatePayload": "tagged",
+		"ARMeshUpdatePayload": "tagged",
+		"ARObjectUpdatePayload": "tagged",
+		"ARPlaneUpdatePayload": "tagged",
+		"ARPointUpdatePayload": "tagged",
+		"ARPose2D": "tagged",
+		"ARPose3D": "tagged",
+		"ARPoseUpdatePayload": "tagged",
+		"ARQRCodeUpdatePayload": "tagged",
+		"ARSessionPayload": "tagged",
+		"ARSessionStatus": "tagged",
+		"ARSharedWorldReplicationState": "tagged",
+		"ARSkeletonDefinition": "tagged",
+		"ARTraceResult": "tagged",
+		"ARVideoFormat": "tagged",
+		"AssetBundleData": "tagged",
+		"AssetBundleEntry": "tagged",
+		"AssetCompileData": "tagged",
+		"AssetData": "tagged",
+		"AssetEditorOptions": "tagged",
+		"AssetEditorOrbitCameraPosition": "tagged",
+		"AssetEditorRequestOpenAsset": "tagged",
+		"AssetImportInfo": "tagged",
+		"AssetImportTime": "tagged",
+		"AssetInfo": "tagged",
+		"AssetManagerRedirect": "tagged",
+		"AssetManagerSearchRules": "tagged",
+		"AssetMapping": "tagged",
+		"AssetPlacementInfo": "tagged",
+		"AssetRegistryDependencyOptions": "tagged",
+		"AssetRenameData": "tagged",
+		"AssetSchemaAction_Dataflow_CreateCommentNode_DataflowEdNode": "tagged",
+		"AssetSchemaAction_Dataflow_CreateNode_DataflowEdNode": "tagged",
+		"AsyncPhysicsTimestamp": "tagged",
+		"AttenuationSubmixSendSettings": "tagged",
+		"AttributeCurve": "native",
+		"AttributeKey": "tagged",
+		"AttributePayload": "tagged",
+		"AudioCaptureDeviceInfo": "tagged",
+		"AudioComponentParam": "tagged",
+		"AudioEffectParameters": "tagged",
+		"AudioEQEffect": "tagged",
+		"AudioInputDeviceInfo": "tagged",
+		"AudioMeterStyle": "tagged",
+		"AudioOutputDeviceInfo": "tagged",
+		"AudioParameter": "tagged",
+		"AudioQualitySettings": "tagged",
+		"AudioRadialSliderStyle": "tagged",
+		"AudioReverbEffect": "tagged",
+		"AudioSliderStyle": "tagged",
+		"AudioTextBoxStyle": "tagged",
+		"AudioVolumeSubmixOverrideSettings": "tagged",
+		"AudioVolumeSubmixSendSettings": "tagged",
+		"AutoCompleteCommand": "tagged",
+		"AutoCompleteNode": "tagged",
+		"AutomatedTestFilter": "tagged",
+		"AutomatedTestGroup": "tagged",
+		"AutomatedTestPassResults": "tagged",
+		"AutomatedTestResult": "tagged",
+		"AutomationArtifact": "tagged",
+		"AutomationDeviceInfo": "tagged",
+		"AutomationEvent": "tagged",
+		"AutomationExecutionEntry": "tagged",
+		"AutomationScreenshotMetadata": "tagged",
+		"AutomationScreenshotOptions": "tagged",
+		"AutomationTestExcludelistEntry": "tagged",
+		"AutomationTestExcludeOptions": "tagged",
+		"AutomationWaitForLoadingOptions": "tagged",
+		"AutomationWorkerFindWorkers": "tagged",
+		"AutomationWorkerFindWorkersResponse": "tagged",
+		"AutomationWorkerImageComparisonResults": "tagged",
+		"AutomationWorkerNextNetworkCommandReply": "tagged",
+		"AutomationWorkerPerformanceDataRequest": "tagged",
+		"AutomationWorkerPerformanceDataResponse": "tagged",
+		"AutomationWorkerPing": "tagged",
+		"AutomationWorkerPong": "tagged",
+		"AutomationWorkerRequestNextNetworkCommand": "tagged",
+		"AutomationWorkerRequestTests": "tagged",
+		"AutomationWorkerRequestTestsReplyComplete": "tagged",
+		"AutomationWorkerResetTests": "tagged",
+		"AutomationWorkerRunTests": "tagged",
+		"AutomationWorkerRunTestsReply": "tagged",
+		"AutomationWorkerScreenImage": "tagged",
+		"AutomationWorkerSingleTestReply": "tagged",
+		"AutomationWorkerStopTests": "tagged",
+		"AutomationWorkerTelemetryData": "tagged",
+		"AutomationWorkerTelemetryItem": "tagged",
+		"AutomationWorkerTestDataRequest": "tagged",
+		"AutomationWorkerTestDataResponse": "tagged",
+		"AutomationWorkerWorkerOffline": "tagged",
+		"AutoReimportDirectoryConfig": "tagged",
+		"AutoReimportWildcard": "tagged",
+		"Axis": "tagged",
+		"BakedAnimationState": "tagged",
+		"BakedAnimationStateMachine": "tagged",
+		"BakedCustomAttributePerBoneData": "tagged",
+		"BakedFloatCustomAttribute": "tagged",
+		"BakedIntegerCustomAttribute": "tagged",
+		"BakedStateExitTransition": "tagged",
+		"BakedStringCustomAttribute": "tagged",
+		"BakeMultiMeshDetailProperties": "tagged",
+		"BandwidthTestGenerator": "tagged",
+		"BandwidthTestItem": "tagged",
+		"BaseAttenuationSettings": "tagged",
+		"BaseComponentReference": "tagged",
+		"BasedMovementInfo": "tagged",
+		"BasedPosition": "tagged",
+		"BasicParticleData": "tagged",
+		"BatchedLine": "tagged",
+		"BatchedPoint": "tagged",
+		"BeamModifierOptions": "tagged",
+		"BeamTargetData": "tagged",
+		"BehaviorInfo": "tagged",
+		"BehaviorTreeSchemaAction_AutoArrange": "tagged",
+		"BehaviorTreeTemplateInfo": "tagged",
+		"BifrostNodeInfo": "tagged",
+		"BindingTargets": "tagged",
+		"BlackboardEntry": "tagged",
+		"BlackboardKeySelector": "tagged",
+		"BlendBoneByChannelEntry": "tagged",
+		"BlendFilter": "tagged",
+		"BlendParameter": "tagged",
+		"BlendProfileBoneEntry": "tagged",
+		"BlendSample": "tagged",
+		"BlendSampleData": "tagged",
+		"BlendSpaceData": "tagged",
+		"BlendSpacePlayerReference": "tagged",
+		"BlendSpaceSegment": "tagged",
+		"BlendSpaceTriangle": "tagged",
+		"BlendSpaceTriangleEdgeInfo": "tagged",
+		"BlendTarget": "tagged",
+		"BlueprintActionMenuItem": "tagged",
+		"BlueprintBreakpoint": "tagged",
+		"BlueprintCallableFunctionRedirect": "tagged",
+		"BlueprintCompiledData": "tagged",
+		"BlueprintComponentChangedPropertyInfo": "tagged",
+		"BlueprintComponentDelegateBinding": "tagged",
+		"BlueprintCookedComponentInstancingData": "tagged",
+		"BlueprintDebugData": "tagged",
+		"BlueprintDragDropMenuItem": "tagged",
+		"BlueprintEditorPromotionSettings": "tagged",
+		"BlueprintEnhancedInputActionBinding": "tagged",
+		"BlueprintInputActionDelegateBinding": "tagged",
+		"BlueprintInputAxisDelegateBinding": "tagged",
+		"BlueprintInputAxisKeyDelegateBinding": "tagged",
+		"BlueprintInputDebugKeyDelegateBinding": "tagged",
+		"BlueprintInputDelegateBinding": "tagged",
+		"BlueprintInputKeyDelegateBinding": "tagged",
+		"BlueprintInputTouchDelegateBinding": "tagged",
+		"BlueprintMacroCosmeticInfo": "tagged",
+		"BlueprintSessionResult": "tagged",
+		"BlueprintWatchedPin": "tagged",
+		"BlueprintWidgetAnimationDelegateBinding": "tagged",
+		"BodyInstance": "tagged",
+		"BodyInstanceAsyncPhysicsTickHandle": "tagged",
+		"BodyInstanceCore": "tagged",
+		"BoneAnimationTrack": "tagged",
+		"BoneChain": "tagged",
+		"BoneFilter": "tagged",
+		"BoneMirrorExport": "tagged",
+		"BoneMirrorInfo": "tagged",
+		"BoneNode": "tagged",
+		"BoneReductionSetting": "tagged",
+		"BoneReference": "tagged",
+		"BoneReferencePair": "tagged",
+		"BoneSocketTarget": "tagged",
+		"Bookmark2DJumpToSettings": "tagged",
+		"BookmarkBaseJumpToSettings": "tagged",
+		"BookmarkJumpToSettings": "tagged",
+		"BoolParameterNameAndCurve": "tagged",
+		"BoolToStringDataflowNode": "tagged",
+		"BoundActorProxy": "tagged",
+		"BoundingBoxDataflowNode": "tagged",
+		"Box": "native",
+		"Box2D": "immutable",
+		"Box2f": "immutable",
+		"Box3d": "native",
+		"Box3f": "native",
+		"BoxSphereBounds": "tagged",
+		"BoxSphereBounds3d": "tagged",
+		"BoxSphereBounds3f": "tagged",
+		"BPComponentClassOverride": "tagged",
+		"BPEditorBookmarkNode": "tagged",
+		"BPGraphClipboardData": "tagged",
+		"BPInterfaceDescription": "tagged",
+		"BPVariableDescription": "tagged",
+		"BPVariableMetaDataEntry": "tagged",
+		"BracketPayload": "tagged",
+		"BranchFilter": "tagged",
+		"BranchingPoint": "tagged",
+		"BranchingPointMarker": "tagged",
+		"BranchingPointNotifyPayload": "tagged",
+		"BreakEventCallbackWrapper": "tagged",
+		"BreakingEvent": "tagged",
+		"BroadphaseSettings": "tagged",
+		"BrushStampData": "tagged",
+		"BrushToolRadius": "tagged",
+		"BTCompositeChild": "tagged",
+		"BTDecoratorLogic": "tagged",
+		"BuilderPoly": "tagged",
+		"BuildPromotionImportWorkflowSettings": "tagged",
+		"BuildPromotionNewProjectSettings": "tagged",
+		"BuildPromotionOpenAssetSettings": "tagged",
+		"BuildPromotionTestSettings": "tagged",
+		"ButtonStyle": "tagged",
+		"CachedAnimAssetPlayerData": "tagged",
+		"CachedAnimRelevancyData": "tagged",
+		"CachedAnimStateArray": "tagged",
+		"CachedAnimStateData": "tagged",
+		"CachedAnimTransitionData": "tagged",
+		"CachedFloatCurve": "tagged",
+		"CachedKeyToActionInfo": "tagged",
+		"CachedPoseIndices": "tagged",
+		"CachedPropertyPath": "tagged",
+		"CachedRigElement": "tagged",
+		"CachedSubjectFrame": "tagged",
+		"CacheEventBase": "tagged",
+		"CacheEventTrack": "native",
+		"CacheSpawnableTemplate": "tagged",
+		"CameraAnimationHandle": "tagged",
+		"CameraAnimationParams": "tagged",
+		"CameraCacheEntry": "tagged",
+		"CameraExposureSettings": "tagged",
+		"CameraFilmbackSettings": "tagged",
+		"CameraFocusSettings": "tagged",
+		"CameraLensInterfaceClassSupport": "tagged",
+		"CameraLensSettings": "tagged",
+		"CameraLookatTrackingSettings": "tagged",
+		"CameraShakeDuration": "tagged",
+		"CameraShakeInfo": "tagged",
+		"CameraShakeScrubParams": "tagged",
+		"CameraShakeStartParams": "tagged",
+		"CameraShakeStopParams": "tagged",
+		"CameraShakeUpdateParams": "tagged",
+		"CameraShakeUpdateResult": "tagged",
+		"CameraTrackingFocusSettings": "tagged",
+		"CanvasIcon": "tagged",
+		"CanvasUVTri": "tagged",
+		"CapturableProperty": "tagged",
+		"CapturedPixels": "tagged",
+		"CapturedPixelsID": "tagged",
+		"CapturedPropSegment": "tagged",
+		"CaptureLostEvent": "tagged",
+		"CaptureResolution": "tagged",
+		"CCDIKChainLink": "tagged",
+		"ChannelDefinition": "tagged",
+		"ChannelMapInfo": "tagged",
+		"ChannelPackedInfo": "tagged",
+		"ChaosBreakEvent": "tagged",
+		"ChaosBreakingEventData": "tagged",
+		"ChaosBreakingEventRequestSettings": "tagged",
+		"ChaosClothWeightedValue": "tagged",
+		"ChaosCollisionEventData": "tagged",
+		"ChaosCollisionEventRequestSettings": "tagged",
+		"ChaosCrumblingEvent": "tagged",
+		"ChaosDebugSubstepControl": "tagged",
+		"ChaosDestructionEvent": "tagged",
+		"ChaosHandlerSet": "tagged",
+		"ChaosPhysicsCollisionInfo": "tagged",
+		"ChaosPhysicsSettings": "tagged",
+		"ChaosRemovalEvent": "tagged",
+		"ChaosRemovalEventData": "tagged",
+		"ChaosRemovalEventRequestSettings": "tagged",
+		"ChaosSolverConfiguration": "tagged",
+		"ChaosTrailingEventData": "tagged",
+		"ChaosTrailingEventRequestSettings": "tagged",
+		"CharacterEvent": "tagged",
+		"CharacterMovementComponentPostPhysicsTickFunction": "tagged",
+		"CharacterMovementComponentPrePhysicsTickFunction": "tagged",
+		"CharacterMoveResponsePackedBits": "tagged",
+		"CharacterNetworkSerializationPackedBits": "tagged",
+		"CharacterNetworkSerializationPackedBitsNetSerializerConfig": "tagged",
+		"CharacterServerMovePackedBits": "tagged",
+		"CheckBoxStyle": "tagged",
+		"CheckerboardSettings": "tagged",
+		"ChildActorAttachedActorInfo": "tagged",
+		"ChildActorComponentInstanceData": "tagged",
+		"ChunkDependency": "tagged",
+		"ChunkInfoData": "tagged",
+		"ChunkPartData": "tagged",
+		"ClassMoveInfo": "tagged",
+		"ClassPickerDefaults": "tagged",
+		"ClassRedirect": "tagged",
+		"ClientReceiveData": "tagged",
+		"CloseGeometryOnCollectionDataflowNode": "tagged",
+		"ClothCollisionData": "tagged",
+		"ClothCollisionPrim_Box": "tagged",
+		"ClothCollisionPrim_Convex": "tagged",
+		"ClothCollisionPrim_ConvexFace": "tagged",
+		"ClothCollisionPrim_Sphere": "tagged",
+		"ClothCollisionPrim_SphereConnection": "tagged",
+		"ClothConfig_Legacy": "tagged",
+		"ClothConstraintSetup_Legacy": "tagged",
+		"ClothConstraintSetupNv": "tagged",
+		"ClothingAssetData_Legacy": "tagged",
+		"ClothLODDataCommon": "native",
+		"ClothParameterMask_Legacy": "tagged",
+		"ClothPhysicalMeshData": "tagged",
+		"ClothPhysicsProperties_Legacy": "tagged",
+		"ClothTetherData": "native",
+		"ClothVertBoneData": "tagged",
+		"ClusterNode": "tagged",
+		"ClusterNode_DEPRECATED": "tagged",
+		"CollectionParameterBase": "tagged",
+		"CollectionReference": "tagged",
+		"CollectionScalarParameter": "tagged",
+		"CollectionVectorParameter": "tagged",
+		"CollisionEvent": "tagged",
+		"CollisionImpactData": "tagged",
+		"CollisionProfileName": "tagged",
+		"CollisionResponse": "tagged",
+		"CollisionResponseContainer": "tagged",
+		"CollisionResponseTemplate": "tagged",
+		"Color": "native",
+		"ColorGradePerRangeSettings": "tagged",
+		"ColorGradingSettings": "tagged",
+		"ColorMaterialInput": "native",
+		"ColorParameterNameAndCurves": "tagged",
+		"ComboBoxStyle": "tagged",
+		"ComboButtonStyle": "tagged",
+		"CompactIndexedHandleBase": "tagged",
+		"ComparisonToleranceAmount": "tagged",
+		"CompilerNativizationOptions": "tagged",
+		"ComponentKey": "tagged",
+		"ComponentMaskParameter": "tagged",
+		"ComponentOverrideRecord": "tagged",
+		"ComponentPropertyPath": "tagged",
+		"ComponentReference": "tagged",
+		"ComponentSpacePose": "tagged",
+		"ComponentSpacePoseLink": "tagged",
+		"ComponentSync": "tagged",
+		"CompositeFallbackFont": "tagged",
+		"CompositeFont": "tagged",
+		"CompositeReroute": "tagged",
+		"CompositeSection": "tagged",
+		"CompositeSubFont": "tagged",
+		"CompositionGraphCapturePasses": "tagged",
+		"CompressedRichCurve": "native",
+		"CompressedTrack": "tagged",
+		"ConeConstraint": "tagged",
+		"ConstrainComponentPropName": "tagged",
+		"Constraint": "tagged",
+		"ConstraintAndActiveChannel": "tagged",
+		"ConstraintBaseParams": "tagged",
+		"ConstraintComponentData": "tagged",
+		"ConstraintData": "tagged",
+		"ConstraintDescription": "tagged",
+		"ConstraintDescriptionEx": "tagged",
+		"ConstraintDescriptor": "tagged",
+		"ConstraintDrive": "tagged",
+		"ConstraintInstance": "native",
+		"ConstraintInstanceAccessor": "tagged",
+		"ConstraintInstanceBase": "tagged",
+		"ConstraintNodeData": "tagged",
+		"ConstraintOffset": "tagged",
+		"ConstraintParent": "tagged",
+		"ConstraintProfileProperties": "tagged",
+		"ConstraintTarget": "tagged",
+		"ConstraintTickFunction": "tagged",
+		"ContentBrowserCompiledAssetDataFilter": "tagged",
+		"ContentBrowserCompiledClassDataFilter": "tagged",
+		"ContentBrowserCompiledFileDataFilter": "tagged",
+		"ContentBrowserCompiledSubsystemFilter": "tagged",
+		"ContentBrowserCompiledVirtualFolderFilter": "tagged",
+		"ContentBrowserDataClassFilter": "tagged",
+		"ContentBrowserDataCollectionFilter": "tagged",
+		"ContentBrowserDataFilter": "tagged",
+		"ContentBrowserDataLegacyFilter": "tagged",
+		"ContentBrowserDataObjectFilter": "tagged",
+		"ContentBrowserDataPackageFilter": "tagged",
+		"ContentBrowserItem": "tagged",
+		"ContentBrowserItemPath": "tagged",
+		"ContentBrowserPluginSettings": "tagged",
+		"ControlFindReplaceString": "tagged",
+		"ControlRigAnimInstanceProxy": "tagged",
+		"ControlRigAnimNodeEventName": "tagged",
+		"ControlRigComponentMappedBone": "tagged",
+		"ControlRigComponentMappedComponent": "tagged",
+		"ControlRigComponentMappedCurve": "tagged",
+		"ControlRigComponentMappedElement": "tagged",
+		"ControlRigControlPose": "tagged",
+		"ControlRigDrawContainer": "tagged",
+		"ControlRigDrawContainerImportFbxSettings": "tagged",
+		"ControlRigDrawInstruction": "tagged",
+		"ControlRigDrawInterface": "tagged",
+		"ControlRigEnumControlProxyValue": "tagged",
+		"ControlRigExecuteContext": "tagged",
+		"ControlRigForWorldTransforms": "tagged",
+		"ControlRigGraphNodeContextMenuContext": "tagged",
+		"ControlRigGraphSchemaAction_Event": "tagged",
+		"ControlRigGraphSchemaAction_LocalVar": "tagged",
+		"ControlRigGraphSchemaAction_PromoteToVariable": "tagged",
+		"ControlRigIOSettings": "tagged",
+		"ControlRigLayerInstanceProxy": "tagged",
+		"ControlRigPublicFunctionArg": "tagged",
+		"ControlRigPublicFunctionData": "tagged",
+		"ControlRigPythonSettings": "tagged",
+		"ControlRigRigHierarchyDragAndDropContext": "tagged",
+		"ControlRigRigHierarchyToGraphDragAndDropContext": "tagged",
+		"ControlRigSequenceObjectReference": "tagged",
+		"ControlRigSequenceObjectReferenceMap": "tagged",
+		"ControlRigSequenceObjectReferences": "tagged",
+		"ControlRigSequencerBindingProxy": "tagged",
+		"ControlRigSettingsPerPinBool": "tagged",
+		"ControlRigShapeDefinition": "tagged",
+		"ControlRigSnapperSelection": "tagged",
+		"ControlRigSpline": "tagged",
+		"ControlRigSplineImpl": "tagged",
+		"ControlRigValidationContext": "tagged",
+		"ControlShapeActorCreationParam": "tagged",
+		"ControlToProxyMap": "tagged",
+		"ControlToTransformMappings": "tagged",
+		"ConvolutionBloomSettings": "tagged",
+		"CopySelectedInfo": "tagged",
+		"CreateMeshObjectParams": "tagged",
+		"CreateMeshObjectResult": "tagged",
+		"CreateNonOverlappingConvexHullsDataflowNode": "tagged",
+		"CreateProxyMeshActorOptions": "tagged",
+		"CreateTextureObjectParams": "tagged",
+		"CreateTextureObjectResult": "tagged",
+		"CRFourPointBezier": "tagged",
+		"CrowdAvoidanceConfig": "tagged",
+		"CrowdAvoidanceSamplingPattern": "tagged",
+		"CRSimContainer": "tagged",
+		"CRSimLinearSpring": "tagged",
+		"CRSimPoint": "tagged",
+		"CRSimPointConstraint": "tagged",
+		"CRSimPointContainer": "tagged",
+		"CRSimPointForce": "tagged",
+		"CRSimSoftCollision": "tagged",
+		"CrumblingEventCallbackWrapper": "tagged",
+		"CryptoEncryptionKey": "tagged",
+		"CSVImportSettings": "tagged",
+		"CullDistanceSizePair": "tagged",
+		"CultureStatistics": "tagged",
+		"CurveAtlasColorAdjustments": "tagged",
+		"CurveEdEntry": "tagged",
+		"CurveEditorRetimeAnchor": "tagged",
+		"CurveEdTab": "tagged",
+		"CurveFlagsChangedPayload": "tagged",
+		"CurveMetaData": "tagged",
+		"CurveParameterPair": "tagged",
+		"CurvePayload": "tagged",
+		"CurveRenamedPayload": "tagged",
+		"CurveScaledPayload": "tagged",
+		"CurveTableRowHandle": "tagged",
+		"CurveTrack": "tagged",
+		"CustomAttribute": "native",
+		"CustomAttributePerBoneData": "tagged",
+		"CustomAttributeSetting": "tagged",
+		"CustomChannelSetup": "tagged",
+		"CustomColorForChannel": "tagged",
+		"CustomColorForSpaceSwitch": "tagged",
+		"CustomDefine": "tagged",
+		"CustomFieldData": "tagged",
+		"CustomInput": "tagged",
+		"CustomizedToolMenu": "tagged",
+		"CustomizedToolMenuEntry": "tagged",
+		"CustomizedToolMenuNameArray": "tagged",
+		"CustomizedToolMenuSection": "tagged",
+		"CustomMeshTriangle": "tagged",
+		"CustomOutput": "tagged",
+		"CustomPin": "tagged",
+		"CustomPrimitiveData": "tagged",
+		"CustomProfile": "tagged",
+		"CustomTextFilterData": "tagged",
+		"CustomTextFilterState": "tagged",
+		"DamageEvent": "tagged",
+		"DataCacheDuplicatedObjectData": "native",
+		"DataDrivenConsoleVariable": "tagged",
+		"DataflowConnection": "tagged",
+		"DataflowInput": "tagged",
+		"DataflowNode": "tagged",
+		"DataflowOutput": "tagged",
+		"DataLayerCreationParameters": "tagged",
+		"DatasmithAssetImportOptions": "tagged",
+		"DatasmithCameraFilmbackSettingsTemplate": "tagged",
+		"DatasmithCameraFocusSettingsTemplate": "tagged",
+		"DatasmithCameraLensSettingsTemplate": "tagged",
+		"DatasmithCameraLookatTrackingSettingsTemplate": "tagged",
+		"DatasmithImportBaseOptions": "tagged",
+		"DatasmithImportInfo": "tagged",
+		"DatasmithMeshBuildSettingsTemplate": "tagged",
+		"DatasmithMeshSectionInfoMapTemplate": "tagged",
+		"DatasmithMeshSectionInfoTemplate": "tagged",
+		"DatasmithPostProcessSettingsTemplate": "tagged",
+		"DatasmithReimportOptions": "tagged",
+		"DatasmithRetessellationOptions": "tagged",
+		"DatasmithStaticMaterialTemplate": "tagged",
+		"DatasmithStaticMeshImportOptions": "tagged",
+		"DatasmithStaticParameterSetTemplate": "tagged",
+		"DatasmithTessellationOptions": "tagged",
+		"DataTableCategoryHandle": "tagged",
+		"DataTableRowHandle": "tagged",
+		"DateTime": "native",
+		"DComponentMaskParameter": "tagged",
+		"DebugCameraControllerSettingsViewModeIndex": "tagged",
+		"DebugDisplayProperty": "tagged",
+		"DebugFloatHistory": "tagged",
+		"DebuggingInfoForSingleFunction": "tagged",
+		"DebugResolution": "tagged",
+		"DebugTextInfo": "tagged",
+		"DecoratorSchemaAction_NewNode": "tagged",
+		"DefaultAudioBusSettings": "tagged",
+		"DefaultContextSetting": "tagged",
+		"DefaultMetaSoundAssetAutoUpdateSettings": "tagged",
+		"DegreesToRadiansDataflowNode": "tagged",
+		"DelegateArray": "tagged",
+		"DelegateEditorBinding": "tagged",
+		"DelegateRuntimeBinding": "tagged",
+		"DepthFieldGlowInfo": "tagged",
+		"DetailsSectionSelection": "tagged",
+		"DetailsViewConfig": "tagged",
+		"DFontParameters": "tagged",
+		"DialogueContext": "tagged",
+		"DialogueContextMapping": "tagged",
+		"DialogueScriptEntry": "tagged",
+		"DialogueWaveParameter": "tagged",
+		"DirectoryPath": "tagged",
+		"DirectoryWidgetCompilerOptions": "tagged",
+		"DistanceDatum": "tagged",
+		"DistributionLookupTable": "tagged",
+		"DockTabStyle": "tagged",
+		"DoubleRange": "tagged",
+		"DoubleRangeBound": "tagged",
+		"DoubleVectorParameterValue": "tagged",
+		"DPMatchingIfCondition": "tagged",
+		"DPMatchingRulestruct": "tagged",
+		"DPMatchingRulestructA": "tagged",
+		"DPMatchingRulestructB": "tagged",
+		"DPMatchingRulestructBase": "tagged",
+		"DPMatchingRulestructC": "tagged",
+		"DPMatchingRulestructD": "tagged",
+		"DPMatchingRulestructE": "tagged",
+		"DraggingTransformableData": "tagged",
+		"DrawToRenderTargetContext": "tagged",
+		"DropNoteInfo": "tagged",
+		"DummySpacerCameraTypes": "tagged",
+		"DynamicMeshChangeInfo": "tagged",
+		"DynamicPropertyPath": "tagged",
+		"DynamicsBandSettings": "tagged",
+		"DynamicTextureInstance": "tagged",
+		"EasingComponentData": "tagged",
+		"EdgeID": "tagged",
+		"EdGraphPinReference": "tagged",
+		"EdGraphPinType": "native",
+		"EdGraphSchemaAction": "tagged",
+		"EdGraphSchemaAction_BlueprintVariableBase": "tagged",
+		"EdGraphSchemaAction_EventFromFunction": "tagged",
+		"EdGraphSchemaAction_K2AddCallOnActor": "tagged",
+		"EdGraphSchemaAction_K2AddComment": "tagged",
+		"EdGraphSchemaAction_K2AddComponent": "tagged",
+		"EdGraphSchemaAction_K2AddCustomEvent": "tagged",
+		"EdGraphSchemaAction_K2AddEvent": "tagged",
+		"EdGraphSchemaAction_K2AssignDelegate": "tagged",
+		"EdGraphSchemaAction_K2Delegate": "tagged",
+		"EdGraphSchemaAction_K2Enum": "tagged",
+		"EdGraphSchemaAction_K2Event": "tagged",
+		"EdGraphSchemaAction_K2Graph": "tagged",
+		"EdGraphSchemaAction_K2InputAction": "tagged",
+		"EdGraphSchemaAction_K2LocalVar": "tagged",
+		"EdGraphSchemaAction_K2NewNode": "tagged",
+		"EdGraphSchemaAction_K2PasteHere": "tagged",
+		"EdGraphSchemaAction_K2Struct": "tagged",
+		"EdGraphSchemaAction_K2TargetNode": "tagged",
+		"EdGraphSchemaAction_K2Var": "tagged",
+		"EdGraphSchemaAction_K2ViewNode": "tagged",
+		"EdGraphSchemaAction_NewNode": "tagged",
+		"EdGraphSchemaAction_NewStateComment": "tagged",
+		"EdGraphSchemaAction_NewStateNode": "tagged",
+		"EdGraphTerminalType": "tagged",
+		"EditableTextBoxStyle": "tagged",
+		"EditableTextStyle": "tagged",
+		"EditedDocumentInfo": "tagged",
+		"EditorCommand": "tagged",
+		"EditorCommandCategory": "tagged",
+		"EditorConfigTestComplexArray": "tagged",
+		"EditorConfigTestComplexMap": "tagged",
+		"EditorConfigTestComplexSet": "tagged",
+		"EditorConfigTestEnumStruct": "tagged",
+		"EditorConfigTestKey": "tagged",
+		"EditorConfigTestSimpleKeyComplexValueMap": "tagged",
+		"EditorConfigTestSimpleMap": "tagged",
+		"EditorConfigTestSimpleSet": "tagged",
+		"EditorConfigTestSimpleStruct": "tagged",
+		"EditorDialogLibraryObjectDetailsViewOptions": "tagged",
+		"EditorElement": "tagged",
+		"EditorFontParameterValue": "tagged",
+		"EditorImportExportTestDefinition": "tagged",
+		"EditorImportWorkflowDefinition": "tagged",
+		"EditorKeyBinding": "tagged",
+		"EditorMapPerformanceTestDefinition": "tagged",
+		"EditorMaterialLayersParameterValue": "tagged",
+		"EditorParameterGroup": "tagged",
+		"EditorParameterValue": "tagged",
+		"EditorPropertyPath": "tagged",
+		"EditorPropertyPathSegment": "tagged",
+		"EditorScalarParameterValue": "tagged",
+		"EditorScriptingCreateProxyMeshActorOptions_Deprecated": "tagged",
+		"EditorScriptingJoinStaticMeshActorsOptions_Deprecated": "tagged",
+		"EditorScriptingMergeStaticMeshActorsOptions_Deprecated": "tagged",
+		"EditorScriptingMeshReductionOptions_Deprecated": "tagged",
+		"EditorScriptingMeshReductionSettings_Deprecated": "tagged",
+		"EditorStaticComponentMaskParameterValue": "tagged",
+		"EditorStaticSwitchParameterValue": "tagged",
+		"EditorTextureParameterValue": "tagged",
+		"EditorVectorParameterValue": "tagged",
+		"EditorWorldExtensionActorData": "tagged",
+		"EditPivotTarget": "tagged",
+		"ElementID": "tagged",
+		"EmitterCompiledScriptPair": "tagged",
+		"EmitterDynamicParameter": "tagged",
+		"EmptyPayload": "tagged",
+		"EnableStateEvent": "tagged",
+		"EncounteredStateMachineStack": "tagged",
+		"EndPhysicsTickFunction": "tagged",
+		"EngineServiceAuthDeny": "tagged",
+		"EngineServiceAuthGrant": "tagged",
+		"EngineServiceExecuteCommand": "tagged",
+		"EngineServiceNotification": "tagged",
+		"EngineServicePing": "tagged",
+		"EngineServicePong": "tagged",
+		"EngineServiceTerminate": "tagged",
+		"EngineShowFlagsSetting": "tagged",
+		"EnhancedActionKeyMapping": "tagged",
+		"EnumParameterNameAndCurve": "tagged",
+		"EnvDirection": "tagged",
+		"EnvNamedValue": "tagged",
+		"EnvOverlapData": "tagged",
+		"EnvQueryInstanceCache": "tagged",
+		"EnvQueryManagerConfig": "tagged",
+		"EnvQueryRequest": "tagged",
+		"EnvQueryResult": "tagged",
+		"EnvTraceData": "tagged",
+		"EpicSynth1Patch": "tagged",
+		"EQSParametrizedQueryExecutionRequest": "tagged",
+		"EquirectProps": "tagged",
+		"EscalationState": "tagged",
+		"EulerTransform": "tagged",
+		"EventGraphFastCallPair": "tagged",
+		"EventPayload": "tagged",
+		"EventReply": "tagged",
+		"ExampleCollectionEditDataflowNode": "tagged",
+		"ExpandableAreaStyle": "tagged",
+		"ExpandBoundingBoxDataflowNode": "tagged",
+		"ExpandVectorDataflowNode": "tagged",
+		"ExplodedViewDataflowNode": "tagged",
+		"ExponentialHeightFogData": "tagged",
+		"ExposedValueCopyRecord": "tagged",
+		"ExposedValueHandler": "tagged",
+		"ExposureSettings": "tagged",
+		"ExpressionExecOutput": "tagged",
+		"ExpressionInput": "native",
+		"ExpressionOutput": "tagged",
+		"ExternalToolDefinition": "tagged",
+		"FABRIKChainLink": "tagged",
+		"FallbackStruct": "tagged",
+		"FastArraySerializer": "tagged",
+		"FastArraySerializerItem": "tagged",
+		"FavoritedBlueprintPaletteItem": "tagged",
+		"FBIKBoneLimit": "tagged",
+		"FBIKConstraintOption": "tagged",
+		"FBIKDebugOption": "tagged",
+		"FBIKEndEffector": "tagged",
+		"FbxTestPlanExpectedResult": "tagged",
+		"FeatureAdditionalFiles": "tagged",
+		"FeaturePackLevelSet": "tagged",
+		"FieldCookedMetaDataStore": "tagged",
+		"FieldNotificationId": "tagged",
+		"FieldObjectCommands": "tagged",
+		"FileManifestData": "tagged",
+		"FilePath": "tagged",
+		"FileServerReady": "tagged",
+		"FilmStockSettings": "tagged",
+		"FilterBarSettings": "tagged",
+		"FilterData": "tagged",
+		"FilterOptionPerAxis": "tagged",
+		"FindFloorResult": "tagged",
+		"FloatAnimationAttribute": "tagged",
+		"FloatCurve": "tagged",
+		"FloatDistribution": "tagged",
+		"FloatInterval": "tagged",
+		"FloatRange": "tagged",
+		"FloatRangeBound": "tagged",
+		"FloatRK4SpringInterpolator": "tagged",
+		"FloatSpringState": "tagged",
+		"FloatToIntDataflowNode": "tagged",
+		"FloatToStringDataflowNode": "tagged",
+		"FocusEvent": "tagged",
+		"FoliageDensityFalloff": "tagged",
+		"FoliageTypeInfo": "tagged",
+		"FoliageTypeObject": "tagged",
+		"FoliageVertexColorChannelMask": "tagged",
+		"FontCharacter": "native",
+		"FontData": "native",
+		"FontImportOptionsData": "tagged",
+		"FontOutlineSettings": "native",
+		"FontParameterValue": "tagged",
+		"FontRenderInfo": "tagged",
+		"ForceFeedbackAttenuationSettings": "tagged",
+		"ForceFeedbackChannelDetails": "tagged",
+		"ForceFeedbackParameters": "tagged",
+		"ForeignControlPointData": "tagged",
+		"ForeignSplineSegmentData": "tagged",
+		"ForeignWorldSplineData": "tagged",
+		"FormatArgumentData": "tagged",
+		"FOscillator": "tagged",
+		"FractureEffect": "tagged",
+		"FractureModeCustomSectionColor": "tagged",
+		"FractureModeCustomToolColor": "tagged",
+		"FrameMetrics": "tagged",
+		"FrameNumber": "native",
+		"FrameNumberRange": "tagged",
+		"FrameNumberRangeBound": "tagged",
+		"FrameRate": "tagged",
+		"FrameRateChangedPayload": "tagged",
+		"FrameTime": "tagged",
+		"FreezablePerPlatformInt": "tagged",
+		"FullyLoadedPackagesInfo": "tagged",
+		"FunctionCaller": "tagged",
+		"FunctionExpressionInput": "tagged",
+		"FunctionExpressionOutput": "tagged",
+		"FunctionInputSummaryViewKey": "tagged",
+		"FunctionInputSummaryViewMetadata": "tagged",
+		"FXSystemSpawnParameters": "tagged",
+		"GameModeName": "tagged",
+		"GameNameRedirect": "tagged",
+		"GameplayDebuggerCategoryConfig": "tagged",
+		"GameplayDebuggerDebugActor": "tagged",
+		"GameplayDebuggerExtensionConfig": "tagged",
+		"GameplayDebuggerInputConfig": "tagged",
+		"GameplayDebuggerNetPack": "tagged",
+		"GameplayDebuggerPlayerData": "tagged",
+		"GameplayDebuggerVisLogSync": "tagged",
+		"GameplayResourceSet": "tagged",
+		"GameplayTag": "tagged",
+		"GameplayTagCategoryRemap": "tagged",
+		"GameplayTagContainer": "native",
+		"GameplayTagContainerNetSerializerConfig": "tagged",
+		"GameplayTagContainerNetSerializerSerializationHelper": "tagged",
+		"GameplayTagCreationWidgetHelper": "tagged",
+		"GameplayTagNetSerializerConfig": "tagged",
+		"GameplayTagNode": "tagged",
+		"GameplayTagQuery": "tagged",
+		"GameplayTagRedirect": "tagged",
+		"GameplayTagReferenceHelper": "tagged",
+		"GameplayTagSource": "tagged",
+		"GameplayTagTableRow": "tagged",
+		"GameViewportWidgetSlot": "tagged",
+		"GatherTextExcludePath": "tagged",
+		"GatherTextFileExtension": "tagged",
+		"GatherTextFromMetaDataConfiguration": "tagged",
+		"GatherTextFromPackagesConfiguration": "tagged",
+		"GatherTextFromTextFilesConfiguration": "tagged",
+		"GatherTextIncludePath": "tagged",
+		"GatherTextSearchDirectory": "tagged",
+		"GaussianSumBloomSettings": "tagged",
+		"GeneratedMovieSceneKeyStruct": "tagged",
+		"GenerateTetrahedralCollectionDataflowNodes": "tagged",
+		"GenericStruct": "tagged",
+		"GenericTeamId": "tagged",
+		"GeomComponentCacheParameters": "tagged",
+		"Geometry": "tagged",
+		"GeometryCacheMeshBatchInfo": "tagged",
+		"GeometryCacheMeshData": "tagged",
+		"GeometryCacheVertexInfo": "tagged",
+		"GeometryCollectionAutoInstanceMesh": "tagged",
+		"GeometryCollectionCollisionParticleData": "tagged",
+		"GeometryCollectionCollisionTypeData": "tagged",
+		"GeometryCollectionDamagePropagationData": "tagged",
+		"GeometryCollectionDebugDrawActorSelectedRigidBody": "tagged",
+		"GeometryCollectionDebugDrawWarningMessage": "tagged",
+		"GeometryCollectionEmbeddedExemplar": "tagged",
+		"GeometryCollectionLevelSetData": "tagged",
+		"GeometryCollectionRepData": "tagged",
+		"GeometryCollectionSizeSpecificData": "native",
+		"GeometryCollectionSource": "tagged",
+		"GeomSelection": "tagged",
+		"GetCollectionAssetDataflowNode": "tagged",
+		"GetSkeletalMeshDataflowNode": "tagged",
+		"GetStaticMeshDataflowNode": "tagged",
+		"GizmoElementColorAttribute": "tagged",
+		"GizmoElementLineRenderStateAttributes": "tagged",
+		"GizmoElementMaterialAttribute": "tagged",
+		"GizmoElementMeshRenderStateAttributes": "tagged",
+		"GizmoFloatParameterChange": "tagged",
+		"GizmoHandle": "tagged",
+		"GizmoImportLayer": "tagged",
+		"GizmoSelectData": "tagged",
+		"GizmoVec2ParameterChange": "tagged",
+		"GLTFExportMessages": "tagged",
+		"GLTFOverrideMaterialBakeSettings": "tagged",
+		"GoalBone": "tagged",
+		"GPUSpriteEmitterInfo": "tagged",
+		"GPUSpriteLocalVectorFieldInfo": "tagged",
+		"GPUSpriteResourceData": "tagged",
+		"GraphAssetPlayerInformation": "tagged",
+		"GraphNodeClassData": "tagged",
+		"GraphReference": "tagged",
+		"GrassInput": "tagged",
+		"GrassVariety": "tagged",
+		"GridBlendSample": "tagged",
+		"Guid": "native",
+		"HapticFeedbackDetails_Curve": "tagged",
+		"HardwareCursorReference": "tagged",
+		"HashStringDataflowNode": "tagged",
+		"HashVectorDataflowNode": "tagged",
+		"HeaderRowStyle": "tagged",
+		"HeaderViewSyntaxColors": "tagged",
+		"HeightmapData": "tagged",
+		"HierarchicalSimplification": "native",
+		"HitResult": "tagged",
+		"HLODInstancingKey": "tagged",
+		"HLODISMComponentDesc": "tagged",
+		"HLODLayerActorMapping": "tagged",
+		"HLODProxyMesh": "tagged",
+		"HLODSubActor": "tagged",
+		"HLODSubActorDesc": "tagged",
+		"HyperlinkStyle": "tagged",
+		"IKChain": "tagged",
+		"IKChainLink": "tagged",
+		"IKFootPelvisPullDownSolver": "tagged",
+		"IKRetargetAnimInstanceProxy": "tagged",
+		"IKRetargetPose": "tagged",
+		"IKRigAnimInstanceProxy": "tagged",
+		"IKRigGoal": "tagged",
+		"IKRigGoalContainer": "tagged",
+		"IKRigInputSkeleton": "tagged",
+		"IKRigRetargetChainSettings": "tagged",
+		"IKRigSkeleton": "tagged",
+		"ilterState": "tagged",
+		"ImageWriteOptions": "tagged",
+		"ImgMediaSourceCustomizationSequenceProxy": "tagged",
+		"ImportanceTexture": "tagged",
+		"ImportAssetParameters": "tagged",
+		"ImportFactorySettingValues": "tagged",
+		"ImportMeshLodSectionsData": "tagged",
+		"ImportTimeData": "tagged",
+		"InAppPurchaseProductInfo2": "tagged",
+		"InAppPurchaseProductRequest2": "tagged",
+		"InAppPurchaseReceiptInfo2": "tagged",
+		"InAppPurchaseRestoreInfo2": "tagged",
+		"IndexedCurve": "tagged",
+		"IndexedHandleBase": "tagged",
+		"InertializationBoneDiff": "tagged",
+		"InertializationCurveDiff": "tagged",
+		"InertializationPose": "tagged",
+		"InertializationPoseDiff": "tagged",
+		"InertializationRequest": "tagged",
+		"IniStringValue": "tagged",
+		"InjectedInputArray": "tagged",
+		"InlineEditableTextBlockStyle": "tagged",
+		"InlineTextImageStyle": "tagged",
+		"InputActionInstance": "tagged",
+		"InputActionKeyMapping": "tagged",
+		"InputActionSpeechMapping": "tagged",
+		"InputActionValue": "tagged",
+		"InputAlphaBoolBlend": "tagged",
+		"InputAxisConfigEntry": "tagged",
+		"InputAxisKeyMapping": "tagged",
+		"InputAxisProperties": "tagged",
+		"InputBlendPose": "tagged",
+		"InputChord": "tagged",
+		"InputClampConstants": "tagged",
+		"InputClampState": "tagged",
+		"InputComboStepData": "tagged",
+		"InputDeviceId": "tagged",
+		"InputEvent": "tagged",
+		"InputRange": "tagged",
+		"InputRayHit": "tagged",
+		"InputScaleBias": "tagged",
+		"InputScaleBiasClamp": "tagged",
+		"InputScaleBiasClampConstants": "tagged",
+		"InputScaleBiasClampState": "tagged",
+		"InstanceCacheDataBase": "tagged",
+		"InstancedStaticMeshComponentInstanceData": "tagged",
+		"InstancedStaticMeshInstanceData": "tagged",
+		"InstancedStaticMeshLightMapInstanceData": "tagged",
+		"InstancedStaticMeshMappingInfo": "tagged",
+		"InstancedStaticMeshRandomSeed": "tagged",
+		"Int32Interval": "tagged",
+		"Int32Point": "native",
+		"Int32Range": "tagged",
+		"Int32RangeBound": "tagged",
+		"Int32Vector": "native",
+		"Int32Vector2": "native",
+		"Int32Vector4": "native",
+		"Int64Point": "native",
+		"Int64Vector": "native",
+		"Int64Vector2": "native",
+		"Int64Vector4": "native",
+		"IntegerAnimationAttribute": "tagged",
+		"IntegerParameterNameAndCurve": "tagged",
+		"IntegralCurve": "tagged",
+		"IntegralKey": "tagged",
+		"InteractiveToolStack": "tagged",
+		"InterchangeContentImportSettings": "tagged",
+		"InterchangeCurve": "tagged",
+		"InterchangeCurveKey": "tagged",
+		"InterchangeFilePickerParameters": "tagged",
+		"InterchangeImportSettings": "tagged",
+		"InterchangeLodSceneNodeContainer": "tagged",
+		"InterchangeMeshGeometry": "tagged",
+		"InterchangeMeshInstance": "tagged",
+		"InterchangePipelinePropertyStatePerContext": "tagged",
+		"InterchangePipelinePropertyStates": "tagged",
+		"InterchangePipelineStack": "tagged",
+		"InterchangeStepCurve": "tagged",
+		"InterchangeTestFunction": "tagged",
+		"InterchangeTestFunctionResult": "tagged",
+		"InterchangeUserDefinedAttributeInfo": "tagged",
+		"InteriorSettings": "tagged",
+		"InterpControlPoint": "tagged",
+		"InterpCurveFloat": "tagged",
+		"InterpCurveLinearColor": "tagged",
+		"InterpCurvePointFloat": "tagged",
+		"InterpCurvePointLinearColor": "tagged",
+		"InterpCurvePointQuat": "tagged",
+		"InterpCurvePointTwoVectors": "tagged",
+		"InterpCurvePointVector": "tagged",
+		"InterpCurvePointVector2D": "tagged",
+		"InterpCurveQuat": "tagged",
+		"InterpCurveTwoVectors": "tagged",
+		"InterpCurveVector": "tagged",
+		"InterpCurveVector2D": "tagged",
+		"InterpolationParameter": "tagged",
+		"IntervalCountdown": "tagged",
+		"IntMargin": "tagged",
+		"IntPoint": "native",
+		"IntToFloatDataflowNode": "tagged",
+		"IntToStringDataflowNode": "tagged",
+		"IntVector": "native",
+		"IntVector2": "native",
+		"IntVector4": "native",
+		"IrisNetDriverConfig": "tagged",
+		"ISMClientData": "tagged",
+		"ISMClientHandle": "tagged",
+		"ISMClientInstance": "tagged",
+		"ISMClientInstanceManagerData": "native",
+		"ISMComponentData": "tagged",
+		"ISMComponentDescriptor": "tagged",
+		"ISMComponentInstance": "tagged",
+		"ISMEditorTarget": "tagged",
+		"JoinabilitySettings": "tagged",
+		"JoinStaticMeshActorsOptions": "tagged",
+		"JsonObjectWrapper": "tagged",
+		"KAggregateGeom": "tagged",
+		"KBoxElem": "tagged",
+		"KConvexElem": "tagged",
+		"Key": "tagged",
+		"KeyAttributes": "tagged",
+		"KeyBind": "tagged",
+		"KeyEvent": "tagged",
+		"KeyHandleLookupTable": "native",
+		"KeyHandleMap": "native",
+		"KeyPosition": "tagged",
+		"KismetUserDeclaredFunctionMetadata": "tagged",
+		"KLevelSetElem": "native",
+		"KShapeElem": "tagged",
+		"KSphereElem": "tagged",
+		"KSphylElem": "tagged",
+		"KTaperedCapsuleElem": "tagged",
+		"LandscapeComponentMaterialOverride": "tagged",
+		"LandscapeEditorLayerSettings": "tagged",
+		"LandscapeEditToolRenderData": "tagged",
+		"LandscapeFileResolution": "tagged",
+		"LandscapeImportDescriptor": "tagged",
+		"LandscapeImportFileDescriptor": "tagged",
+		"LandscapeImportLayer": "tagged",
+		"LandscapeImportLayerInfo": "tagged",
+		"LandscapeImportResolution": "tagged",
+		"LandscapeInfoLayerSettings": "tagged",
+		"LandscapeLayer": "tagged",
+		"LandscapeLayerBrush": "tagged",
+		"LandscapeLayerComponentData": "tagged",
+		"LandscapeLayerStruct": "tagged",
+		"LandscapeMaterialTextureStreamingInfo": "tagged",
+		"LandscapePatternBrushWorldSpaceSettings": "tagged",
+		"LandscapePerLODMaterialOverride": "tagged",
+		"LandscapeProxyMaterialOverride": "tagged",
+		"LandscapeSplineConnection": "tagged",
+		"LandscapeSplineInterpPoint": "tagged",
+		"LandscapeSplineMeshEntry": "tagged",
+		"LandscapeSplineSegmentConnection": "tagged",
+		"LatentActionInfo": "tagged",
+		"LatentActionManager": "tagged",
+		"LaunchOnTestSettings": "tagged",
+		"LayerActorStats": "tagged",
+		"LayerBlendInput": "tagged",
+		"LayeredBoneBlendReference": "tagged",
+		"LensBloomSettings": "tagged",
+		"LensImperfectionSettings": "tagged",
+		"LensSettings": "tagged",
+		"LevelCollection": "tagged",
+		"LevelEditorPlayNetworkEmulationSettings": "tagged",
+		"LevelEditorViewportInstanceSettings": "tagged",
+		"LevelEditorViewportInstanceSettingsKeyValuePair": "tagged",
+		"LevelNameAndTime": "tagged",
+		"LevelSequenceAnimSequenceLinkItem": "tagged",
+		"LevelSequenceBindingReference": "tagged",
+		"LevelSequenceBindingReferenceArray": "tagged",
+		"LevelSequenceBindingReferences": "tagged",
+		"LevelSequenceCameraSettings": "tagged",
+		"LevelSequenceLegacyObjectReference": "tagged",
+		"LevelSequenceObject": "tagged",
+		"LevelSequenceObjectReferenceMap": "native",
+		"LevelSequencePlayerSnapshot": "tagged",
+		"LevelSequencePropertyTrackSettings": "tagged",
+		"LevelSequenceSnapshotSettings": "tagged",
+		"LevelSequenceTrackSettings": "tagged",
+		"LevelSimplificationDetails": "tagged",
+		"LevelStreamingStatus": "tagged",
+		"LevelViewportInfo": "tagged",
+		"LevelVisibilityComponentData": "tagged",
+		"LightingChannels": "tagged",
+		"LightmassBooleanParameterValue": "tagged",
+		"LightmassDebugOptions": "tagged",
+		"LightmassDirectionalLightSettings": "tagged",
+		"LightmassLightSettings": "tagged",
+		"LightmassMaterialInterfaceSettings": "tagged",
+		"LightmassParameterizedMaterialSettings": "tagged",
+		"LightmassParameterValue": "tagged",
+		"LightmassPointLightSettings": "tagged",
+		"LightmassPrimitiveSettings": "tagged",
+		"LightmassScalarParameterValue": "tagged",
+		"LightmassWorldInfoSettings": "tagged",
+		"LimbLink": "tagged",
+		"LimbSolver": "tagged",
+		"LimbSolverSettings": "tagged",
+		"LinearColor": "native",
+		"LinearConstraint": "tagged",
+		"LinearDriveConstraint": "tagged",
+		"LinkedAnimGraphReference": "tagged",
+		"ListViewColumnInfo": "tagged",
+		"LiveLinkAnimationFrameData": "tagged",
+		"LiveLinkBaseBlueprintData": "tagged",
+		"LiveLinkBaseFrameData": "tagged",
+		"LiveLinkBaseStaticData": "tagged",
+		"LiveLinkBasicBlueprintData": "tagged",
+		"LiveLinkCameraBlueprintData": "tagged",
+		"LiveLinkCameraFrameData": "tagged",
+		"LiveLinkCameraStaticData": "tagged",
+		"LiveLinkCurveConversionSettings": "tagged",
+		"LiveLinkCurveElement": "tagged",
+		"LiveLinkFrameData": "tagged",
+		"LiveLinkFrameRate": "tagged",
+		"LiveLinkInterpolationSettings": "tagged",
+		"LiveLinkLightBlueprintData": "tagged",
+		"LiveLinkLightFrameData": "tagged",
+		"LiveLinkLightStaticData": "tagged",
+		"LiveLinkMetaData": "tagged",
+		"LiveLinkRefSkeleton": "tagged",
+		"LiveLinkSkeletonStaticData": "tagged",
+		"LiveLinkSourceBufferManagementSettings": "tagged",
+		"LiveLinkSourceDebugInfo": "tagged",
+		"LiveLinkSourceHandle": "tagged",
+		"LiveLinkSourcePreset": "tagged",
+		"LiveLinkSubjectKey": "tagged",
+		"LiveLinkSubjectName": "tagged",
+		"LiveLinkSubjectPreset": "tagged",
+		"LiveLinkSubjectRepresentation": "tagged",
+		"LiveLinkTime": "tagged",
+		"LiveLinkTimeCode": "tagged",
+		"LiveLinkTimeCode_Base_DEPRECATED": "tagged",
+		"LiveLinkTimeSynchronizationSettings": "tagged",
+		"LiveLinkTransform": "tagged",
+		"LiveLinkTransformBlueprintData": "tagged",
+		"LiveLinkTransformFrameData": "tagged",
+		"LiveLinkTransformStaticData": "tagged",
+		"LiveLinkWorldTime": "tagged",
+		"LocalizationCompilationSettings": "tagged",
+		"LocalizationExportingSettings": "tagged",
+		"LocalizationImportDialogueSettings": "tagged",
+		"LocalizationTargetSettings": "tagged",
+		"LocalizedTemplateString": "tagged",
+		"LocalSpacePose": "tagged",
+		"LocationBoneSocketInfo": "tagged",
+		"LocationServicesData": "tagged",
+		"LODMappingData": "tagged",
+		"LODSoloTrack": "tagged",
+		"LogStringDataflowNode": "tagged",
+		"LoudnessResults": "tagged",
+		"MakeBoxDataflowNode": "tagged",
+		"MakeLiteralBoolDataflowNode": "tagged",
+		"MakeLiteralFloatDataflowNode": "tagged",
+		"MakeLiteralIntDataflowNode": "tagged",
+		"MakeLiteralStringDataflowNode": "tagged",
+		"MakeLiteralVectorDataflowNode": "tagged",
+		"MakePointsDataflowNode": "tagged",
+		"ManagedArrayCollection": "tagged",
+		"MappingQueryIssue": "tagged",
+		"Margin": "tagged",
+		"MarkerSyncAnimPosition": "tagged",
+		"MarkerSyncData": "tagged",
+		"MasterMaterialInfo": "tagged",
+		"MaterialAttributesInput": "native",
+		"MaterialCachedExpressionData": "tagged",
+		"MaterialCachedExpressionEditorOnlyData": "tagged",
+		"MaterialCachedParameterEditorEntry": "tagged",
+		"MaterialCachedParameterEditorInfo": "tagged",
+		"MaterialCachedParameterEntry": "tagged",
+		"MaterialEditorPromotionSettings": "tagged",
+		"MaterialExpressionCollection": "tagged",
+		"MaterialFunctionInfo": "tagged",
+		"MaterialGraphSchemaAction_NewComment": "tagged",
+		"MaterialGraphSchemaAction_NewComposite": "tagged",
+		"MaterialGraphSchemaAction_NewFunctionCall": "tagged",
+		"MaterialGraphSchemaAction_NewNamedRerouteUsage": "tagged",
+		"MaterialGraphSchemaAction_NewNode": "tagged",
+		"MaterialGraphSchemaAction_Paste": "tagged",
+		"MaterialInput": "tagged",
+		"MaterialInstanceBasePropertyOverrides": "tagged",
+		"MaterialInstanceCachedData": "tagged",
+		"MaterialInstanceInfo": "tagged",
+		"MaterialLayersFunctions": "tagged",
+		"MaterialLayersFunctionsEditorOnlyData": "tagged",
+		"MaterialLayersFunctionsRuntimeData": "tagged",
+		"MaterialOverrideNanite": "native",
+		"MaterialParameterCollectionInfo": "tagged",
+		"MaterialParameterInfo": "tagged",
+		"MaterialParams": "tagged",
+		"MaterialProxySettings": "tagged",
+		"MaterialQualityOverrides": "tagged",
+		"MaterialRemapIndex": "tagged",
+		"MaterialShadingModelField": "tagged",
+		"MaterialSpriteElement": "tagged",
+		"MaterialStatistics": "tagged",
+		"MaterialTextureInfo": "tagged",
+		"MaterialUsage": "tagged",
+		"MathConstantsDataflowNode": "tagged",
+		"MathRBFInterpolateQuatColor_Target": "tagged",
+		"MathRBFInterpolateQuatFloat_Target": "tagged",
+		"MathRBFInterpolateQuatQuat_Target": "tagged",
+		"MathRBFInterpolateQuatVector_Target": "tagged",
+		"MathRBFInterpolateQuatXform_Target": "tagged",
+		"MathRBFInterpolateVectorColor_Target": "tagged",
+		"MathRBFInterpolateVectorFloat_Target": "tagged",
+		"MathRBFInterpolateVectorQuat_Target": "tagged",
+		"MathRBFInterpolateVectorVector_Target": "tagged",
+		"MathRBFInterpolateVectorXform_Target": "tagged",
+		"Matrix": "native",
+		"Matrix44d": "native",
+		"Matrix44f": "native",
+		"MediaCaptureDevice": "tagged",
+		"MediaPlayerOptions": "tagged",
+		"MediaPlayerRecordingSettings": "tagged",
+		"MediaPlayerTrackOptions": "tagged",
+		"MediaSoundComponentSpectralData": "tagged",
+		"MediaSourceCacheSettings": "tagged",
+		"MemberReference": "tagged",
+		"MergeStaticMeshActorsOptions": "tagged",
+		"MeshApproximationSettings": "tagged",
+		"MeshBuildSettings": "tagged",
+		"MeshInfo": "tagged",
+		"MeshInstancingSettings": "tagged",
+		"MeshMergingSettings": "tagged",
+		"MeshNaniteSettings": "tagged",
+		"MeshProxySettings": "tagged",
+		"MeshReductionSettings": "tagged",
+		"MeshSectionInfo": "tagged",
+		"MeshSectionInfoMap": "tagged",
+		"MeshTriCoordinate": "tagged",
+		"MeshUVChannelInfo": "tagged",
+		"MetadataConfig": "tagged",
+		"MetaDataKeyGatherSpecification": "tagged",
+		"MetaDataKeyName": "tagged",
+		"MetadataSet": "tagged",
+		"MetaDataTextKeyPattern": "tagged",
+		"MetasoundAnalyzerAnimationSettings": "tagged",
+		"MetaSoundAssetDirectory": "tagged",
+		"MetaSoundAsyncAssetDependencies": "tagged",
+		"MetasoundEditorGraphMemberDefaultBoolRef": "tagged",
+		"MetasoundEditorGraphMemberDefaultIntRef": "tagged",
+		"MetasoundEditorGraphMemberDefaultObjectRef": "tagged",
+		"MetasoundFrontendClass": "tagged",
+		"MetasoundFrontendClassEnvironmentVariable": "tagged",
+		"MetasoundFrontendClassInput": "tagged",
+		"MetasoundFrontendClassInterface": "tagged",
+		"MetasoundFrontendClassMetadata": "tagged",
+		"MetasoundFrontendClassName": "tagged",
+		"MetasoundFrontendClassOutput": "tagged",
+		"MetasoundFrontendClassStyle": "tagged",
+		"MetasoundFrontendClassStyleDisplay": "tagged",
+		"MetasoundFrontendClassVariable": "tagged",
+		"MetasoundFrontendClassVertex": "tagged",
+		"MetasoundFrontendDocument": "tagged",
+		"MetasoundFrontendDocumentMetadata": "tagged",
+		"MetasoundFrontendEdge": "tagged",
+		"MetasoundFrontendEdgeStyle": "tagged",
+		"MetasoundFrontendEdgeStyleLiteralColorPair": "tagged",
+		"MetasoundFrontendGraph": "tagged",
+		"MetasoundFrontendGraphClass": "tagged",
+		"MetasoundFrontendGraphClassPresetOptions": "tagged",
+		"MetasoundFrontendGraphStyle": "tagged",
+		"MetasoundFrontendInterface": "tagged",
+		"MetasoundFrontendInterfaceStyle": "tagged",
+		"MetasoundFrontendLiteral": "tagged",
+		"MetasoundFrontendNode": "tagged",
+		"MetasoundFrontendNodeInterface": "tagged",
+		"MetasoundFrontendNodeStyle": "tagged",
+		"MetasoundFrontendNodeStyleDisplay": "tagged",
+		"MetasoundFrontendVariable": "tagged",
+		"MetasoundFrontendVersion": "tagged",
+		"MetasoundFrontendVersionNumber": "tagged",
+		"MetasoundFrontendVertex": "tagged",
+		"MetasoundFrontendVertexLiteral": "tagged",
+		"MetasoundFrontendVertexMetadata": "tagged",
+		"MetasoundGraphSchemaAction": "tagged",
+		"MetasoundGraphSchemaAction_NewComment": "tagged",
+		"MetasoundGraphSchemaAction_NewFromSelected": "tagged",
+		"MetasoundGraphSchemaAction_NewInput": "tagged",
+		"MetasoundGraphSchemaAction_NewNode": "tagged",
+		"MetasoundGraphSchemaAction_NewOutput": "tagged",
+		"MetasoundGraphSchemaAction_NewReroute": "tagged",
+		"MetasoundGraphSchemaAction_NewVariableAccessorNode": "tagged",
+		"MetasoundGraphSchemaAction_NewVariableDeferredAccessorNode": "tagged",
+		"MetasoundGraphSchemaAction_NewVariableMutatorNode": "tagged",
+		"MetasoundGraphSchemaAction_NewVariableNode": "tagged",
+		"MetasoundGraphSchemaAction_NodeWithMultipleOutputs": "tagged",
+		"MetasoundGraphSchemaAction_Paste": "tagged",
+		"MetasoundGraphSchemaAction_PromoteToInput": "tagged",
+		"MetasoundGraphSchemaAction_PromoteToOutput": "tagged",
+		"MetasoundGraphSchemaAction_PromoteToVariable_AccessorNode": "tagged",
+		"MetasoundGraphSchemaAction_PromoteToVariable_DeferredAccessorNode": "tagged",
+		"MetasoundGraphSchemaAction_PromoteToVariable_MutatorNode": "tagged",
+		"MeterChannelInfo": "tagged",
+		"MeterResults": "tagged",
+		"MigrationOptions": "tagged",
+		"MinimalViewInfo": "tagged",
+		"MirrorFindReplaceExpression": "tagged",
+		"MirrorTableRow": "tagged",
+		"Mode2DLayer": "tagged",
+		"ModelingToolsAxisFilter": "tagged",
+		"ModifyContextOptions": "tagged",
+		"ModularSynthPreset": "tagged",
+		"ModularSynthPresetBankEntry": "tagged",
+		"ModulatorContinuousParams": "tagged",
+		"MontageBlendSettings": "tagged",
+		"MotionEvent": "tagged",
+		"MotionProcessInput": "tagged",
+		"MovementProperties": "tagged",
+		"MovieScene2DTransformMask": "tagged",
+		"MovieScene3DLocationKeyStruct": "tagged",
+		"MovieScene3DPathSectionTemplate": "tagged",
+		"MovieScene3DRotationKeyStruct": "tagged",
+		"MovieScene3DScaleKeyStruct": "tagged",
+		"MovieScene3DTransformKeyStruct": "tagged",
+		"MovieSceneActorReferenceData": "tagged",
+		"MovieSceneActorReferenceKey": "tagged",
+		"MovieSceneActorReferenceSectionTemplate": "tagged",
+		"MovieSceneAudioSectionTemplate": "tagged",
+		"MovieSceneAudioTriggerChannel": "tagged",
+		"MovieSceneBaseCacheParams": "tagged",
+		"MovieSceneBaseCacheSectionTemplateParameters": "tagged",
+		"MovieSceneBinding": "tagged",
+		"MovieSceneBindingOverrideData": "tagged",
+		"MovieSceneBindingProxy": "tagged",
+		"MovieSceneBoolChannel": "tagged",
+		"MovieSceneBoolPropertySectionTemplate": "tagged",
+		"MovieSceneByteChannel": "tagged",
+		"MovieSceneCameraShakeSectionData": "tagged",
+		"MovieSceneCameraShakeSectionTemplate": "tagged",
+		"MovieSceneCameraShakeSourceShakeSectionTemplate": "tagged",
+		"MovieSceneCameraShakeSourceTrigger": "tagged",
+		"MovieSceneCameraShakeSourceTriggerChannel": "tagged",
+		"MovieSceneCameraShakeSourceTriggerSectionTemplate": "tagged",
+		"MovieSceneCaptureSettings": "tagged",
+		"MovieSceneChannel": "tagged",
+		"MovieSceneChaosCacheParams": "tagged",
+		"MovieSceneChaosCacheSectionTemplate": "tagged",
+		"MovieSceneChaosCacheSectionTemplateParameters": "tagged",
+		"MovieSceneColorKeyStruct": "tagged",
+		"MovieSceneColorSectionTemplate": "tagged",
+		"MovieSceneCompiledSequenceFlagStruct": "tagged",
+		"MovieSceneConstraintChannel": "tagged",
+		"MovieSceneControlRigInstanceData": "tagged",
+		"MovieSceneControlRigParameterTemplate": "tagged",
+		"MovieSceneControlRigSpaceBaseKey": "tagged",
+		"MovieSceneControlRigSpaceChannel": "tagged",
+		"MovieSceneCVarOverrides": "tagged",
+		"MovieSceneDataLayerComponentData": "tagged",
+		"MovieSceneDeterminismData": "tagged",
+		"MovieSceneDoubleChannel": "native",
+		"MovieSceneDoublePerlinNoiseChannel": "tagged",
+		"MovieSceneDoubleValue": "native",
+		"MovieSceneDoubleVectorKeyStructBase": "tagged",
+		"MovieSceneEasingSettings": "tagged",
+		"MovieSceneEditorData": "tagged",
+		"MovieSceneEmptyStruct": "tagged",
+		"MovieSceneEntityComponentField": "tagged",
+		"MovieSceneEntitySystemGraph": "tagged",
+		"MovieSceneEntitySystemGraphNode": "tagged",
+		"MovieSceneEntitySystemGraphNodes": "tagged",
+		"MovieSceneEvalTemplate": "tagged",
+		"MovieSceneEvalTemplateBase": "tagged",
+		"MovieSceneEvalTemplatePtr": "native",
+		"MovieSceneEvaluationField": "tagged",
+		"MovieSceneEvaluationFieldEntity": "tagged",
+		"MovieSceneEvaluationFieldEntityKey": "tagged",
+		"MovieSceneEvaluationFieldEntityMetaData": "tagged",
+		"MovieSceneEvaluationFieldEntityTree": "native",
+		"MovieSceneEvaluationFieldSegmentPtr": "tagged",
+		"MovieSceneEvaluationFieldSharedEntityMetaData": "tagged",
+		"MovieSceneEvaluationFieldTrackPtr": "tagged",
+		"MovieSceneEvaluationGroup": "tagged",
+		"MovieSceneEvaluationGroupLUTIndex": "tagged",
+		"MovieSceneEvaluationHookComponent": "tagged",
+		"MovieSceneEvaluationHookEvent": "tagged",
+		"MovieSceneEvaluationHookEventContainer": "tagged",
+		"MovieSceneEvaluationInstanceKey": "tagged",
+		"MovieSceneEvaluationKey": "native",
+		"MovieSceneEvaluationMetaData": "tagged",
+		"MovieSceneEvaluationOperand": "tagged",
+		"MovieSceneEvaluationTemplate": "tagged",
+		"MovieSceneEvaluationTemplateSerialNumber": "tagged",
+		"MovieSceneEvaluationTrack": "tagged",
+		"MovieSceneEvent": "tagged",
+		"MovieSceneEventChannel": "tagged",
+		"MovieSceneEventParameters": "native",
+		"MovieSceneEventPayloadVariable": "tagged",
+		"MovieSceneEventPtrs": "tagged",
+		"MovieSceneEventSectionData": "tagged",
+		"MovieSceneEventSectionTemplate": "tagged",
+		"MovieSceneEventTriggerData": "tagged",
+		"MovieSceneExpansionState": "tagged",
+		"MovieSceneFadeSectionTemplate": "tagged",
+		"MovieSceneFieldEntry_ChildTemplate": "tagged",
+		"MovieSceneFieldEntry_EvaluationTrack": "tagged",
+		"MovieSceneFloatChannel": "native",
+		"MovieSceneFloatPerlinNoiseChannel": "tagged",
+		"MovieSceneFloatValue": "native",
+		"MovieSceneFloatVectorKeyStructBase": "tagged",
+		"MovieSceneFrameRange": "native",
+		"MovieSceneGeometryCacheParams": "tagged",
+		"MovieSceneGeometryCacheSectionTemplate": "tagged",
+		"MovieSceneGeometryCacheSectionTemplateParameters": "tagged",
+		"MovieSceneGeometryCollectionParams": "tagged",
+		"MovieSceneGeometryCollectionSectionTemplate": "tagged",
+		"MovieSceneGeometryCollectionSectionTemplateParameters": "tagged",
+		"MovieSceneIntegerChannel": "tagged",
+		"MovieSceneKeyHandleMap": "native",
+		"MovieSceneKeyStruct": "tagged",
+		"MovieSceneKeyTimeStruct": "tagged",
+		"MovieSceneMarkedFrame": "tagged",
+		"MovieSceneMediaPlayerPropertySectionTemplate": "tagged",
+		"MovieSceneMediaSectionParams": "tagged",
+		"MovieSceneMediaSectionTemplate": "tagged",
+		"MovieSceneNestedSequenceTransform": "tagged",
+		"MovieSceneNiagaraBoolParameterSectionTemplate": "tagged",
+		"MovieSceneNiagaraColorParameterSectionTemplate": "tagged",
+		"MovieSceneNiagaraEmitterChannel": "tagged",
+		"MovieSceneNiagaraFloatParameterSectionTemplate": "tagged",
+		"MovieSceneNiagaraIntegerParameterSectionTemplate": "tagged",
+		"MovieSceneNiagaraParameterSectionTemplate": "tagged",
+		"MovieSceneNiagaraSystemTrackImplementation": "tagged",
+		"MovieSceneNiagaraSystemTrackTemplate": "tagged",
+		"MovieSceneNiagaraVectorParameterSectionTemplate": "tagged",
+		"MovieSceneObjectBindingID": "tagged",
+		"MovieSceneObjectBindingIDs": "tagged",
+		"MovieSceneObjectPathChannel": "tagged",
+		"MovieSceneObjectPathChannelKeyValue": "tagged",
+		"MovieSceneObjectPropertyTemplate": "tagged",
+		"MovieSceneOrderedEvaluationKey": "tagged",
+		"MovieSceneParameterSectionTemplate": "tagged",
+		"MovieSceneParticleChannel": "tagged",
+		"MovieSceneParticleParameterSectionTemplate": "tagged",
+		"MovieSceneParticleSectionTemplate": "tagged",
+		"MovieScenePasteBindingsParams": "tagged",
+		"MovieScenePasteFoldersParams": "tagged",
+		"MovieScenePasteSectionsParams": "tagged",
+		"MovieScenePasteTracksParams": "tagged",
+		"MovieScenePossessable": "tagged",
+		"MovieScenePreAnimatedMaterialParameters": "tagged",
+		"MovieScenePropertyBinding": "tagged",
+		"MovieScenePropertySectionData": "tagged",
+		"MovieScenePropertySectionTemplate": "tagged",
+		"MovieSceneRootEvaluationTemplateInstance": "tagged",
+		"MovieSceneScriptingParams": "tagged",
+		"MovieSceneSectionEvalOptions": "tagged",
+		"MovieSceneSectionGroup": "tagged",
+		"MovieSceneSectionParameters": "tagged",
+		"MovieSceneSegment": "native",
+		"MovieSceneSegmentIdentifier": "native",
+		"MovieSceneSequenceCompilerMaskStruct": "tagged",
+		"MovieSceneSequenceHierarchy": "tagged",
+		"MovieSceneSequenceHierarchyNode": "tagged",
+		"MovieSceneSequenceID": "native",
+		"MovieSceneSequenceInstanceData": "tagged",
+		"MovieSceneSequenceInstanceDataPtr": "native",
+		"MovieSceneSequenceLoopCount": "tagged",
+		"MovieSceneSequencePlaybackParams": "tagged",
+		"MovieSceneSequencePlaybackSettings": "tagged",
+		"MovieSceneSequencePlayToParams": "tagged",
+		"MovieSceneSequenceReplProperties": "tagged",
+		"MovieSceneSequenceTickInterval": "tagged",
+		"MovieSceneSequenceTransform": "tagged",
+		"MovieSceneSkeletalAnimationParams": "tagged",
+		"MovieSceneSkeletalAnimationSectionTemplate": "tagged",
+		"MovieSceneSkeletalAnimationSectionTemplateParameters": "tagged",
+		"MovieSceneSkeletalAnimRootMotionTrackParams": "tagged",
+		"MovieSceneSlomoSectionTemplate": "tagged",
+		"MovieSceneSpawnable": "tagged",
+		"MovieSceneStringChannel": "tagged",
+		"MovieSceneStringPropertySectionTemplate": "tagged",
+		"MovieSceneSubSectionData": "tagged",
+		"MovieSceneSubSequenceData": "tagged",
+		"MovieSceneSubSequenceTree": "native",
+		"MovieSceneSubSequenceTreeEntry": "tagged",
+		"MovieSceneTangentData": "native",
+		"MovieSceneTemplateGenerationLedger": "tagged",
+		"MovieSceneTimecodeSource": "tagged",
+		"MovieSceneTimeTransform": "tagged",
+		"MovieSceneTimeWarping": "tagged",
+		"MovieSceneToolsFbxSettings": "tagged",
+		"MovieSceneToolsPropertyTrackSettings": "tagged",
+		"MovieSceneTrackDisplayOptions": "tagged",
+		"MovieSceneTrackEvalOptions": "tagged",
+		"MovieSceneTrackEvaluationField": "tagged",
+		"MovieSceneTrackEvaluationFieldEntry": "tagged",
+		"MovieSceneTrackIdentifier": "native",
+		"MovieSceneTrackImplementation": "tagged",
+		"MovieSceneTrackImplementationPtr": "native",
+		"MovieSceneTrackInstanceComponent": "tagged",
+		"MovieSceneTrackInstanceEntry": "tagged",
+		"MovieSceneTrackInstanceInput": "native",
+		"MovieSceneTrackLabels": "tagged",
+		"MovieSceneTransformMask": "tagged",
+		"MovieSceneVector2DKeyStruct": "tagged",
+		"MovieSceneVector2fKeyStruct": "tagged",
+		"MovieSceneVector3dKeyStruct": "tagged",
+		"MovieSceneVector3fKeyStruct": "tagged",
+		"MovieSceneVector4dKeyStruct": "tagged",
+		"MovieSceneVector4fKeyStruct": "tagged",
+		"MovieSceneVisibilitySectionTemplate": "tagged",
+		"MovieSceneWarpCounter": "tagged",
+		"MRMeshConfiguration": "tagged",
+		"MTDResult": "tagged",
+		"MulticastRecordOptions": "tagged",
+		"MultiScaleToolOptions": "tagged",
+		"MyPluginStruct": "tagged",
+		"NameCurve": "tagged",
+		"NameCurveKey": "native",
+		"NamedColor": "tagged",
+		"NamedCurveValue": "tagged",
+		"NamedEmitterMaterial": "tagged",
+		"NamedFilmbackPreset": "tagged",
+		"NamedFloat": "tagged",
+		"NamedInterface": "tagged",
+		"NamedInterfaceDef": "tagged",
+		"NamedLensPreset": "tagged",
+		"NamedNetDriver": "tagged",
+		"NamedPlateCropPreset": "tagged",
+		"NamedSlotBinding": "tagged",
+		"NamedTransform": "tagged",
+		"NamedVector": "tagged",
+		"NameMapping": "tagged",
+		"NavAgentProperties": "tagged",
+		"NavAgentSelector": "native",
+		"NavAvoidanceData": "tagged",
+		"NavAvoidanceMask": "tagged",
+		"NavCollisionBox": "tagged",
+		"NavCollisionCylinder": "tagged",
+		"NavDataConfig": "tagged",
+		"NavGraphEdge": "tagged",
+		"NavGraphNode": "tagged",
+		"NavigationEvent": "tagged",
+		"NavigationFilterArea": "tagged",
+		"NavigationFilterFlags": "tagged",
+		"NavigationLink": "tagged",
+		"NavigationLinkBase": "tagged",
+		"NavigationSegmentLink": "tagged",
+		"NavigationSimulationArguments": "tagged",
+		"NavLinkCustomInstanceData": "tagged",
+		"NCPool": "tagged",
+		"NCPoolElement": "tagged",
+		"NDIStaticMeshSectionFilter": "tagged",
+		"NetAnalyticsDataConfig": "tagged",
+		"NetDriverDefinition": "tagged",
+		"NetFaultState": "tagged",
+		"NetLevelVisibilityTransactionId": "tagged",
+		"NetSerializerConfig": "tagged",
+		"NetViewer": "tagged",
+		"NetworkEmulationPacketSettings": "tagged",
+		"NetworkEmulationProfileDescription": "tagged",
+		"NewLevelInstanceParams": "tagged",
+		"NiagaraAction_NewNode": "tagged",
+		"NiagaraActionColors": "tagged",
+		"NiagaraActionSourceData": "tagged",
+		"NiagaraAssetVersion": "tagged",
+		"NiagaraBakerCameraSettings": "tagged",
+		"NiagaraBakerTextureSettings": "tagged",
+		"NiagaraBakerTextureSource": "tagged",
+		"NiagaraBakerTextureSourceAction": "tagged",
+		"NiagaraBool": "tagged",
+		"NiagaraBoolParameterMetaData": "tagged",
+		"NiagaraBoundParameter": "tagged",
+		"NiagaraClipboardScriptVariable": "tagged",
+		"NiagaraCollisionEventPayload": "tagged",
+		"NiagaraCompileDependency": "tagged",
+		"NiagaraCompileEvent": "tagged",
+		"NiagaraCompileHash": "tagged",
+		"NiagaraCompileHashVisitorDebugInfo": "tagged",
+		"NiagaraCompilerTag": "tagged",
+		"NiagaraComponentPropertyBinding": "tagged",
+		"NiagaraConvertConnection": "tagged",
+		"NiagaraConvertPinRecord": "tagged",
+		"NiagaraCulledComponentInfo": "tagged",
+		"NiagaraCurveTemplate": "tagged",
+		"NiagaraDataInterfaceEmitterBinding": "tagged",
+		"NiagaraDataInterfaceGeneratedFunction": "native",
+		"NiagaraDataInterfaceGPUParamInfo": "native",
+		"NiagaraDataInterfaceSplineLUT": "tagged",
+		"NiagaraDataSetCompiledData": "tagged",
+		"NiagaraDataSetID": "tagged",
+		"NiagaraDataSetProperties": "tagged",
+		"NiagaraDebuggerAcceptConnection": "tagged",
+		"NiagaraDebuggerConnectionClosed": "tagged",
+		"NiagaraDebuggerExecuteConsoleCommand": "tagged",
+		"NiagaraDebuggerOutlinerUpdate": "tagged",
+		"NiagaraDebuggerRequestConnection": "tagged",
+		"NiagaraDebuggerSpawnData": "tagged",
+		"NiagaraDebugHUDSettingsData": "tagged",
+		"NiagaraDebugHudTextOptions": "tagged",
+		"NiagaraDebugHUDVariable": "tagged",
+		"NiagaraDetailsLevelScaleOverrides": "tagged",
+		"NiagaraDeviceProfileStateEntry": "tagged",
+		"NiagaraEmitterCompiledData": "tagged",
+		"NiagaraEmitterHandle": "tagged",
+		"NiagaraEmitterNameSettingsRef": "tagged",
+		"NiagaraEmitterScalabilityOverride": "tagged",
+		"NiagaraEmitterScalabilityOverrides": "tagged",
+		"NiagaraEmitterScalabilitySettings": "tagged",
+		"NiagaraEmitterScalabilitySettingsArray": "tagged",
+		"NiagaraEmitterScriptProperties": "tagged",
+		"NiagaraEmitterSectionKey": "tagged",
+		"NiagaraEnumParameterMetaData": "tagged",
+		"NiagaraEnumToByteHelper": "tagged",
+		"NiagaraEventGeneratorProperties": "tagged",
+		"NiagaraEventReceiverProperties": "tagged",
+		"NiagaraEventScriptProperties": "tagged",
+		"NiagaraFloat": "tagged",
+		"NiagaraFunctionSignature": "tagged",
+		"NiagaraGeometryCacheReference": "tagged",
+		"NiagaraGlobalBudgetScaling": "tagged",
+		"NiagaraGraphParameterReference": "tagged",
+		"NiagaraGraphParameterReferenceCollection": "tagged",
+		"NiagaraGraphScriptUsageInfo": "tagged",
+		"NiagaraGraphViewSettings": "tagged",
+		"NiagaraHalf": "tagged",
+		"NiagaraHalfVector2": "tagged",
+		"NiagaraHalfVector3": "tagged",
+		"NiagaraHalfVector4": "tagged",
+		"NiagaraID": "tagged",
+		"NiagaraInputConditionMetadata": "tagged",
+		"NiagaraInputExposureOptions": "tagged",
+		"NiagaraInt32": "tagged",
+		"NiagaraLinearRamp": "tagged",
+		"NiagaraLwcStructConverter": "tagged",
+		"NiagaraMaterialAttributeBinding": "tagged",
+		"NiagaraMatrix": "tagged",
+		"NiagaraMenuAction": "tagged",
+		"NiagaraMenuAction_Base": "tagged",
+		"NiagaraMenuAction_Generic": "tagged",
+		"NiagaraMeshMaterialOverride": "tagged",
+		"NiagaraMeshRendererMeshProperties": "tagged",
+		"NiagaraModuleDependency": "tagged",
+		"NiagaraNamespaceMetadata": "tagged",
+		"NiagaraNewAssetDialogConfig": "tagged",
+		"NiagaraNumeric": "tagged",
+		"NiagaraOutlinerCaptureSettings": "tagged",
+		"NiagaraOutlinerData": "tagged",
+		"NiagaraOutlinerEmitterInstanceData": "tagged",
+		"NiagaraOutlinerEmitterInstanceDataCustomizationWrapper": "tagged",
+		"NiagaraOutlinerFilterSettings": "tagged",
+		"NiagaraOutlinerSystemData": "tagged",
+		"NiagaraOutlinerSystemDataCustomizationWrapper": "tagged",
+		"NiagaraOutlinerSystemInstanceData": "tagged",
+		"NiagaraOutlinerSystemInstanceDataCustomizationWrapper": "tagged",
+		"NiagaraOutlinerTimingData": "tagged",
+		"NiagaraOutlinerViewSettings": "tagged",
+		"NiagaraOutlinerWorldData": "tagged",
+		"NiagaraOutlinerWorldDataCustomizationWrapper": "tagged",
+		"NiagaraParameterDataSetBinding": "tagged",
+		"NiagaraParameterDataSetBindingCollection": "tagged",
+		"NiagaraParameterMap": "tagged",
+		"NiagaraParameterPanelSectionStorage": "tagged",
+		"NiagaraParameters": "tagged",
+		"NiagaraParameterStore": "tagged",
+		"NiagaraPerfBaselineStats": "tagged",
+		"NiagaraPlatformSet": "tagged",
+		"NiagaraPlatformSetConflictEntry": "tagged",
+		"NiagaraPlatformSetConflictInfo": "tagged",
+		"NiagaraPlatformSetCVarCondition": "tagged",
+		"NiagaraPlatformSetRedirect": "tagged",
+		"NiagaraPosition": "tagged",
+		"NiagaraPositionSource": "tagged",
+		"NiagaraPropagatedVariable": "tagged",
+		"NiagaraRandInfo": "tagged",
+		"NiagaraRendererCreationInfo": "tagged",
+		"NiagaraRendererMaterialParameters": "tagged",
+		"NiagaraRendererMaterialScalarParameter": "tagged",
+		"NiagaraRendererMaterialTextureParameter": "tagged",
+		"NiagaraRendererMaterialVectorParameter": "tagged",
+		"NiagaraRequestSimpleClientInfoMessage": "tagged",
+		"NiagaraRibbonShapeCustomVertex": "tagged",
+		"NiagaraRibbonUVSettings": "tagged",
+		"NiagaraScalabilityManager": "tagged",
+		"NiagaraScalabilityState": "tagged",
+		"NiagaraSchemaAction_NewComment": "tagged",
+		"NiagaraSchemaAction_NewNode": "tagged",
+		"NiagaraScriptDataInterfaceCompileInfo": "tagged",
+		"NiagaraScriptDataInterfaceInfo": "tagged",
+		"NiagaraScriptDataUsageInfo": "tagged",
+		"NiagaraScriptExecutionPaddingInfo": "tagged",
+		"NiagaraScriptExecutionParameterStore": "tagged",
+		"NiagaraScriptHighlight": "tagged",
+		"NiagaraScriptInstanceParameterStore": "tagged",
+		"NiagaraScriptVariableBinding": "tagged",
+		"NiagaraScriptVariableData": "tagged",
+		"NiagaraShaderScriptExternalConstant": "tagged",
+		"NiagaraShaderScriptParametersMetadata": "tagged",
+		"NiagaraSimCacheCreateParameters": "tagged",
+		"NiagaraSimCacheDataBuffers": "tagged",
+		"NiagaraSimCacheDataBuffersLayout": "tagged",
+		"NiagaraSimCacheEmitterFrame": "tagged",
+		"NiagaraSimCacheFrame": "tagged",
+		"NiagaraSimCacheLayout": "tagged",
+		"NiagaraSimCacheSystemFrame": "tagged",
+		"NiagaraSimCacheVariable": "tagged",
+		"NiagaraSimpleClientInfo": "tagged",
+		"NiagaraSpawnInfo": "tagged",
+		"NiagaraSpawnShortcut": "tagged",
+		"NiagaraStackAssetAction_EventSource": "tagged",
+		"NiagaraStackAssetAction_VarBind": "tagged",
+		"NiagaraStackMessage": "tagged",
+		"NiagaraStackSection": "tagged",
+		"NiagaraStatScope": "tagged",
+		"NiagaraStructConversionStep": "tagged",
+		"NiagaraSystemCompiledData": "tagged",
+		"NiagaraSystemCompileRequest": "tagged",
+		"NiagaraSystemScalabilityOverride": "tagged",
+		"NiagaraSystemScalabilityOverrides": "tagged",
+		"NiagaraSystemScalabilitySettings": "tagged",
+		"NiagaraSystemScalabilitySettingsArray": "tagged",
+		"NiagaraSystemSimCacheCaptureReply": "tagged",
+		"NiagaraSystemSimCacheCaptureRequest": "tagged",
+		"NiagaraSystemUpdateContext": "tagged",
+		"NiagaraSystemVisibilityCullingSettings": "tagged",
+		"NiagaraTypeDefinition": "native",
+		"NiagaraTypeDefinitionHandle": "tagged",
+		"NiagaraTypeLayoutInfo": "tagged",
+		"NiagaraUObjectPropertyReaderRemap": "tagged",
+		"NiagaraUserParameterBinding": "tagged",
+		"NiagaraUserRedirectionParameterStore": "tagged",
+		"NiagaraVariable": "native",
+		"NiagaraVariableAttributeBinding": "tagged",
+		"NiagaraVariableBase": "native",
+		"NiagaraVariableDataInterfaceBinding": "tagged",
+		"NiagaraVariableInfo": "tagged",
+		"NiagaraVariableLayoutInfo": "tagged",
+		"NiagaraVariableMetaData": "tagged",
+		"NiagaraVariableMetaDataContainer": "tagged",
+		"NiagaraVariableWithOffset": "native",
+		"NiagaraVariant": "tagged",
+		"NiagaraVMExecutableByteCode": "tagged",
+		"NiagaraVMExecutableData": "tagged",
+		"NiagaraVMExecutableDataId": "tagged",
+		"NiagaraWildcard": "tagged",
+		"NiagaraWorldManagerTickFunction": "tagged",
+		"Node": "tagged",
+		"NodeChain": "tagged",
+		"NodeHierarchyData": "tagged",
+		"NodeHierarchyWithUserData": "tagged",
+		"NodeItem": "tagged",
+		"NodeObject": "tagged",
+		"NodeSpawnData": "tagged",
+		"NodeToCodeAssociation": "tagged",
+		"NonBlendableFloatAnimationAttribute": "tagged",
+		"NonBlendableIntegerAnimationAttribute": "tagged",
+		"NonBlendableQuaternionAnimationAttribute": "tagged",
+		"NonBlendableTransformAnimationAttribute": "tagged",
+		"NonBlendableVectorAnimationAttribute": "tagged",
+		"ObjectCookedMetaDataStore": "tagged",
+		"ObjectMixerCollectionObjectData": "tagged",
+		"ObjectMixerCollectionObjectSet": "tagged",
+		"ObjectMixerColumnData": "tagged",
+		"ObjectMixerSerializationDataPerFilter": "tagged",
+		"ObservedComponent": "tagged",
+		"OnlineProxyStoreOffer": "tagged",
+		"OptionalMovieSceneBlendType": "tagged",
+		"OptionalPinFromProperty": "tagged",
+		"OrbitOptions": "tagged",
+		"OrientedBox": "immutable",
+		"OrientedBoxFloat": "tagged",
+		"OverlapResult": "tagged",
+		"OverlayItem": "tagged",
+		"PackedNormal": "immutable",
+		"PackedRGB10A2N": "immutable",
+		"PackedRGBA16N": "immutable",
+		"PacketSimulationSettings": "tagged",
+		"PaintContext": "tagged",
+		"PaintedVertex": "tagged",
+		"PaintTexture2DData": "tagged",
+		"PakOrderFileSpec": "tagged",
+		"PaperFlipbookKeyFrame": "tagged",
+		"PaperSpriteAtlasSlot": "tagged",
+		"PaperSpriteSocket": "tagged",
+		"PaperTerrainMaterialRule": "tagged",
+		"PaperTileInfo": "tagged",
+		"PaperTileMetadata": "tagged",
+		"PaperTileSetTerrain": "tagged",
+		"ParameterChannelNames": "tagged",
+		"ParameterDefinitionsBindingNameSubscription": "tagged",
+		"ParameterDefinitionsSubscription": "tagged",
+		"ParameterGroupData": "tagged",
+		"ParticleBurst": "tagged",
+		"ParticleCurvePair": "tagged",
+		"ParticleEditorPromotionSettings": "tagged",
+		"ParticleEmitterReplayFrame": "tagged",
+		"ParticleEvent_GenerateInfo": "tagged",
+		"ParticleRandomSeedInfo": "tagged",
+		"ParticleSysParam": "tagged",
+		"ParticleSystemLOD": "tagged",
+		"ParticleSystemReplayFrame": "tagged",
+		"ParticleSystemWorldManagerTickFunction": "tagged",
+		"ParticleTransformTrack": "tagged",
+		"PartyBeaconCrossplayPlatformMapping": "tagged",
+		"PartyReservation": "tagged",
+		"PassiveSoundMixModifier": "tagged",
+		"PatchId": "tagged",
+		"PawnActionEvent": "tagged",
+		"PawnActionStack": "tagged",
+		"PBIKBoneSetting": "tagged",
+		"PBIKDebug": "tagged",
+		"PBIKEffector": "tagged",
+		"PBIKSolver": "tagged",
+		"PBIKSolverSettings": "tagged",
+		"PendingDelayedSpawn": "tagged",
+		"PerBlueprintSettings": "tagged",
+		"PerBoneBlendWeight": "tagged",
+		"PerBoneBlendWeights": "tagged",
+		"PerBoneInterpolation": "tagged",
+		"PerlinLayerProperties": "tagged",
+		"PerlinNoiseParams": "tagged",
+		"PerlinNoiseShaker": "tagged",
+		"PerParticleCacheData": "tagged",
+		"PerPlatformBool": "native",
+		"PerPlatformFloat": "native",
+		"PerPlatformInt": "native",
+		"PerPlatformSettings": "tagged",
+		"PerQualityLevelInt": "native",
+		"PerSkeletonAnimationSharingSetup": "tagged",
+		"PhysAssetCreateParams": "tagged",
+		"PhysicalAnimationData": "tagged",
+		"PhysicalAnimationProfile": "tagged",
+		"PhysicalMaterialInput": "tagged",
+		"PhysicalSurfaceName": "tagged",
+		"PhysicsAssetRenderSettings": "tagged",
+		"PhysicsAssetSolverSettings": "tagged",
+		"PhysicsBoxData": "tagged",
+		"PhysicsCapsuleData": "tagged",
+		"PhysicsConstraintProfileHandle": "tagged",
+		"PhysicsConvexData": "tagged",
+		"PhysicsLevelSetData": "tagged",
+		"PhysicsSphereData": "tagged",
+		"PIEAndroidDeviceProperties": "tagged",
+		"PIEBezelProperties": "tagged",
+		"PIEIOSDeviceProperties": "tagged",
+		"PIELoginInfo": "tagged",
+		"PIELoginSettingsInternal": "tagged",
+		"PIEPreviewDeviceBezelViewportRect": "tagged",
+		"PIEPreviewDeviceSpecifications": "tagged",
+		"PIEPreviewWindowStyle": "tagged",
+		"PIERHIOverrideState": "tagged",
+		"PIESwitchDeviceProperties": "tagged",
+		"PinGuidsForPath": "tagged",
+		"PinnedCommandListCommand": "tagged",
+		"PinnedCommandListContext": "tagged",
+		"PinStructEditWrapper": "tagged",
+		"PlacementOptions": "tagged",
+		"Plane": "native",
+		"Plane4d": "native",
+		"Plane4f": "native",
+		"PlaneCutterDataflowNode": "tagged",
+		"PlateCropSettings": "tagged",
+		"PlatformInputDeviceState": "tagged",
+		"PlatformInterfaceData": "tagged",
+		"PlatformInterfaceDelegateResult": "tagged",
+		"PlatformRuntimeAudioCompressionOverrides": "tagged",
+		"PlatformSettingsInstances": "tagged",
+		"PlatformUserId": "tagged",
+		"PlayerMappableKeyOptions": "tagged",
+		"PlayerMuteList": "tagged",
+		"PlayerReservation": "tagged",
+		"PlayScreenResolution": "tagged",
+		"PluginRedirect": "tagged",
+		"PluginReferenceMetadata": "tagged",
+		"PointDamageEvent": "tagged",
+		"PointerEvent": "tagged",
+		"PointerToUberGraphFrame": "tagged",
+		"PointWeightMap": "tagged",
+		"PolyglotTextData": "tagged",
+		"PolygonGroupID": "tagged",
+		"PolygonID": "tagged",
+		"PolymorphicArrayStructNetSerializerConfig": "tagged",
+		"PolymorphicStructNetSerializerConfig": "tagged",
+		"PooledCameraShakes": "tagged",
+		"PoseAssetInfluence": "tagged",
+		"PoseAssetInfluences": "tagged",
+		"PoseData": "tagged",
+		"PoseDataContainer": "tagged",
+		"PoseDriverTarget": "tagged",
+		"PoseDriverTransform": "tagged",
+		"PoseLink": "tagged",
+		"PoseLinkBase": "tagged",
+		"PoseSnapshot": "tagged",
+		"PositionHistory": "tagged",
+		"PostProcessSettings": "native",
+		"POV": "tagged",
+		"PrecomputedLightInstanceData": "tagged",
+		"PrecomputedSkyLightInstanceData": "tagged",
+		"PredictProjectilePathParams": "tagged",
+		"PredictProjectilePathPointData": "tagged",
+		"PredictProjectilePathResult": "tagged",
+		"PreviewAssetAttachContainer": "tagged",
+		"PreviewAttachedObjectPair": "tagged",
+		"PreviewBackgroundSettings": "tagged",
+		"PreviewMeshCollectionEntry": "tagged",
+		"PreviewSceneProfile": "tagged",
+		"PrimaryAssetId": "tagged",
+		"PrimaryAssetRules": "tagged",
+		"PrimaryAssetRulesCustomOverride": "tagged",
+		"PrimaryAssetRulesOverride": "tagged",
+		"PrimaryAssetType": "tagged",
+		"PrimaryAssetTypeInfo": "tagged",
+		"PrimitiveComponentInstanceData": "tagged",
+		"PrintStringDataflowNode": "tagged",
+		"ProceduralFoliageInstance": "tagged",
+		"ProcMeshSection": "tagged",
+		"ProcMeshTangent": "tagged",
+		"ProcMeshVertex": "tagged",
+		"ProgressBarStyle": "tagged",
+		"ProjectBuildSettings": "tagged",
+		"PropertiesToRecordForActorClass": "tagged",
+		"PropertiesToRecordForClass": "tagged",
+		"PropertyAccessCopy": "tagged",
+		"PropertyAccessCopyBatch": "tagged",
+		"PropertyAccessIndirection": "tagged",
+		"PropertyAccessIndirectionChain": "tagged",
+		"PropertyAccessLibrary": "tagged",
+		"PropertyAccessPath": "tagged",
+		"PropertyAccessSegment": "tagged",
+		"PropertyData": "tagged",
+		"PropertyEditorTestBasicStruct": "tagged",
+		"PropertyEditorTestEditCondition": "tagged",
+		"PropertyEditorTestInstancedStruct": "tagged",
+		"PropertyEditorTestSubStruct": "tagged",
+		"PropertyEditTestTextStruct": "tagged",
+		"PropertyEntry": "tagged",
+		"PropertyNameAndIndex": "tagged",
+		"PropertyPathSegment": "tagged",
+		"PSCPool": "tagged",
+		"PSCPoolElem": "tagged",
+		"PurchaseInfo": "tagged",
+		"PyTestChildStruct": "tagged",
+		"PyTestStruct": "tagged",
+		"PythonLogOutputEntry": "tagged",
+		"QualifiedFrameTime": "tagged",
+		"QuartzClockSettings": "tagged",
+		"QuartzPulseOverrideStep": "tagged",
+		"QuartzQuantizationBoundary": "tagged",
+		"QuartzTimeSignature": "tagged",
+		"QuartzTransportTimeStamp": "tagged",
+		"Quat": "native",
+		"Quat4d": "native",
+		"Quat4f": "native",
+		"QuaternionAnimationAttribute": "tagged",
+		"QuaternionSpringState": "tagged",
+		"RadialBoxSettings": "tagged",
+		"RadialDamageEvent": "tagged",
+		"RadialDamageParams": "tagged",
+		"RadialScatterPointsDataflowNode": "tagged",
+		"RadiansToDegreesDataflowNode": "tagged",
+		"RandomFloatDataflowNode": "tagged",
+		"RandomFloatInRangeDataflowNode": "tagged",
+		"RandomPlayerSequenceEntry": "tagged",
+		"RandomStream": "tagged",
+		"RandomUnitVectorDataflowNode": "tagged",
+		"RandomUnitVectorInConeDataflowNode": "tagged",
+		"RawAnimSequenceTrack": "native",
+		"RawCurveTracks": "tagged",
+		"RawDistribution": "tagged",
+		"RawDistributionFloat": "tagged",
+		"RawDistributionVector": "tagged",
+		"RBFEntry": "tagged",
+		"RBFParams": "tagged",
+		"RBFTarget": "tagged",
+		"RealCurve": "tagged",
+		"RecastGraphWrapper": "tagged",
+		"RecastNavMeshGenerationProperties": "tagged",
+		"RecastNavMeshTileGenerationDebug": "tagged",
+		"RecentProjectFile": "tagged",
+		"RecordedFrame": "tagged",
+		"RecordedTransformTrack": "tagged",
+		"Redirector": "tagged",
+		"ReferenceBoneFrame": "tagged",
+		"ReferencePose": "tagged",
+		"RegionScaleFactors": "tagged",
+		"RemovalEventCallbackWrapper": "tagged",
+		"RenderableTriangle": "tagged",
+		"RenderableTriangleVertex": "tagged",
+		"ReparentSubobjectParams": "tagged",
+		"RepAttachment": "tagged",
+		"ReplicatedStaticActorDestructionInfo": "tagged",
+		"RepMovement": "tagged",
+		"RepMovementNetSerializerConfig": "tagged",
+		"RepRootMotionMontage": "tagged",
+		"ReservedParameter": "tagged",
+		"ResetGeometryCollectionDataflowNode": "tagged",
+		"ResonanceAudioReverbPluginSettings": "tagged",
+		"ResponseChannel": "tagged",
+		"RestrictedConfigInfo": "tagged",
+		"RestrictedGameplayTagTableRow": "tagged",
+		"ResultMessage": "tagged",
+		"RetargetChainMap": "tagged",
+		"RetargetDefinition": "tagged",
+		"RetargetGlobalSettings": "tagged",
+		"RetargetProfile": "tagged",
+		"ReverbSettings": "tagged",
+		"RevisionInfo": "tagged",
+		"RichCurve": "tagged",
+		"RichCurveKey": "native",
+		"RichCurves": "tagged",
+		"RichImageRow": "tagged",
+		"RichTextStyleRow": "tagged",
+		"RigBaseElement": "tagged",
+		"RigBaseMetadata": "tagged",
+		"RigBone": "tagged",
+		"RigBoneElement": "tagged",
+		"RigBoneHierarchy": "tagged",
+		"RigBoolArrayMetadata": "tagged",
+		"RigBoolMetadata": "tagged",
+		"RigComputedTransform": "tagged",
+		"RigConfiguration": "tagged",
+		"RigControl": "tagged",
+		"RigControlCopy": "tagged",
+		"RigControlElement": "tagged",
+		"RigControlElementCustomization": "tagged",
+		"RigControlHierarchy": "tagged",
+		"RigControlLimitEnabled": "tagged",
+		"RigControlModifiedContext": "tagged",
+		"RigControlSettings": "tagged",
+		"RigControlValue": "tagged",
+		"RigControlValueStorage": "tagged",
+		"RigCurrentAndInitialTransform": "tagged",
+		"RigCurve": "tagged",
+		"RigCurveContainer": "tagged",
+		"RigCurveElement": "tagged",
+		"RigDispatch_AnimAttributeBase": "tagged",
+		"RigDispatch_CoreBase": "tagged",
+		"RigDispatch_CoreEquals": "tagged",
+		"RigDispatch_CoreNotEquals": "tagged",
+		"RigDispatch_FromString": "tagged",
+		"RigDispatch_GetAnimAttribute": "tagged",
+		"RigDispatch_GetMetadata": "tagged",
+		"RigDispatch_MetadataBase": "tagged",
+		"RigDispatch_Print": "tagged",
+		"RigDispatch_SetAnimAttribute": "tagged",
+		"RigDispatch_SetMetadata": "tagged",
+		"RigDispatch_ToString": "tagged",
+		"RigDispatchFactory": "tagged",
+		"RigElement": "tagged",
+		"RigElementKey": "tagged",
+		"RigElementKeyArrayMetadata": "tagged",
+		"RigElementKeyCollection": "tagged",
+		"RigElementKeyMetadata": "tagged",
+		"RigElementParentConstraint": "tagged",
+		"RigElementWeight": "tagged",
+		"RigEventContext": "tagged",
+		"RigFloatArrayMetadata": "tagged",
+		"RigFloatMetadata": "tagged",
+		"RigGraphDisplaySettings": "tagged",
+		"RigHierarchyContainer": "tagged",
+		"RigHierarchyCopyPasteContent": "tagged",
+		"RigHierarchyCopyPasteContentPerElement": "tagged",
+		"RigHierarchyImportSettings": "tagged",
+		"RigHierarchyRef": "tagged",
+		"RigHierarchySettings": "tagged",
+		"RigidBodyContactInfo": "tagged",
+		"RigidBodyErrorCorrection": "tagged",
+		"RigidBodyState": "tagged",
+		"RigInfluenceEntry": "tagged",
+		"RigInfluenceEntryModifier": "tagged",
+		"RigInfluenceMap": "tagged",
+		"RigInfluenceMapPerEvent": "tagged",
+		"RigInt32ArrayMetadata": "tagged",
+		"RigInt32Metadata": "tagged",
+		"RigLinearColorArrayMetadata": "tagged",
+		"RigLinearColorMetadata": "tagged",
+		"RigLocalAndGlobalTransform": "tagged",
+		"RigMirrorSettings": "tagged",
+		"RigMultiParentElement": "tagged",
+		"RigNameArrayMetadata": "tagged",
+		"RigNameMetadata": "tagged",
+		"RigNullElement": "tagged",
+		"RigPose": "tagged",
+		"RigPoseElement": "tagged",
+		"RigPreferredEulerAngles": "tagged",
+		"RigQuatArrayMetadata": "tagged",
+		"RigQuatMetadata": "tagged",
+		"RigReferenceElement": "tagged",
+		"RigRigidBodyElement": "tagged",
+		"RigRigidBodySettings": "tagged",
+		"RigRotatorArrayMetadata": "tagged",
+		"RigRotatorMetadata": "tagged",
+		"RigSingleParentElement": "tagged",
+		"RigSpace": "tagged",
+		"RigSpaceHierarchy": "tagged",
+		"RigSpacePickerBakeSettings": "tagged",
+		"RigStructScope": "tagged",
+		"RigTransformArrayMetadata": "tagged",
+		"RigTransformConstraint": "tagged",
+		"RigTransformElement": "tagged",
+		"RigTransformMetadata": "tagged",
+		"RigTransformStackEntry": "tagged",
+		"RigUnit": "tagged",
+		"RigUnit_AccumulateBase": "tagged",
+		"RigUnit_AccumulateFloatAdd": "tagged",
+		"RigUnit_AccumulateFloatLerp": "tagged",
+		"RigUnit_AccumulateFloatMul": "tagged",
+		"RigUnit_AccumulateFloatRange": "tagged",
+		"RigUnit_AccumulateQuatLerp": "tagged",
+		"RigUnit_AccumulateQuatMul": "tagged",
+		"RigUnit_AccumulateTransformLerp": "tagged",
+		"RigUnit_AccumulateTransformMul": "tagged",
+		"RigUnit_AccumulateVectorAdd": "tagged",
+		"RigUnit_AccumulateVectorLerp": "tagged",
+		"RigUnit_AccumulateVectorMul": "tagged",
+		"RigUnit_AccumulateVectorRange": "tagged",
+		"RigUnit_Add_FloatFloat": "tagged",
+		"RigUnit_Add_VectorVector": "tagged",
+		"RigUnit_AddBoneTransform": "tagged",
+		"RigUnit_AddParent": "tagged",
+		"RigUnit_AimBone": "tagged",
+		"RigUnit_AimBone_DebugSettings": "tagged",
+		"RigUnit_AimBone_Target": "tagged",
+		"RigUnit_AimBoneMath": "tagged",
+		"RigUnit_AimConstraint": "tagged",
+		"RigUnit_AimConstraint_AdvancedSettings": "tagged",
+		"RigUnit_AimConstraint_WorkData": "tagged",
+		"RigUnit_AimConstraint_WorldUp": "tagged",
+		"RigUnit_AimConstraintLocalSpaceOffset": "tagged",
+		"RigUnit_AimItem": "tagged",
+		"RigUnit_AimItem_Target": "tagged",
+		"RigUnit_AlphaInterp": "tagged",
+		"RigUnit_AlphaInterpQuat": "tagged",
+		"RigUnit_AlphaInterpVector": "tagged",
+		"RigUnit_AnimBase": "tagged",
+		"RigUnit_AnimEasing": "tagged",
+		"RigUnit_AnimEasingType": "tagged",
+		"RigUnit_AnimEvalRichCurve": "tagged",
+		"RigUnit_AnimRichCurve": "tagged",
+		"RigUnit_ApplyFK": "tagged",
+		"RigUnit_BeginExecution": "tagged",
+		"RigUnit_BinaryFloatOp": "tagged",
+		"RigUnit_BinaryQuaternionOp": "tagged",
+		"RigUnit_BinaryTransformOp": "tagged",
+		"RigUnit_BinaryVectorOp": "tagged",
+		"RigUnit_BlendTransform": "tagged",
+		"RigUnit_BoneHarmonics": "tagged",
+		"RigUnit_BoneHarmonics_BoneTarget": "tagged",
+		"RigUnit_BoneHarmonics_WorkData": "tagged",
+		"RigUnit_BoneName": "tagged",
+		"RigUnit_CCDIK": "tagged",
+		"RigUnit_CCDIK_RotationLimit": "tagged",
+		"RigUnit_CCDIK_RotationLimitPerItem": "tagged",
+		"RigUnit_CCDIK_WorkData": "tagged",
+		"RigUnit_CCDIKItemArray": "tagged",
+		"RigUnit_CCDIKPerItem": "tagged",
+		"RigUnit_ChainHarmonics": "tagged",
+		"RigUnit_ChainHarmonics_Pendulum": "tagged",
+		"RigUnit_ChainHarmonics_Reach": "tagged",
+		"RigUnit_ChainHarmonics_Wave": "tagged",
+		"RigUnit_ChainHarmonics_WorkData": "tagged",
+		"RigUnit_ChainHarmonicsPerItem": "tagged",
+		"RigUnit_Clamp_Float": "tagged",
+		"RigUnit_ClosestParameterFromControlRigSpline": "tagged",
+		"RigUnit_CollectionAddItem": "tagged",
+		"RigUnit_CollectionBase": "tagged",
+		"RigUnit_CollectionBaseMutable": "tagged",
+		"RigUnit_CollectionChain": "tagged",
+		"RigUnit_CollectionChainArray": "tagged",
+		"RigUnit_CollectionChildren": "tagged",
+		"RigUnit_CollectionChildrenArray": "tagged",
+		"RigUnit_CollectionCount": "tagged",
+		"RigUnit_CollectionDifference": "tagged",
+		"RigUnit_CollectionGetAll": "tagged",
+		"RigUnit_CollectionGetItems": "tagged",
+		"RigUnit_CollectionGetParentIndices": "tagged",
+		"RigUnit_CollectionGetParentIndicesItemArray": "tagged",
+		"RigUnit_CollectionIntersection": "tagged",
+		"RigUnit_CollectionItemAtIndex": "tagged",
+		"RigUnit_CollectionItems": "tagged",
+		"RigUnit_CollectionLoop": "tagged",
+		"RigUnit_CollectionNameSearch": "tagged",
+		"RigUnit_CollectionNameSearchArray": "tagged",
+		"RigUnit_CollectionReplaceItems": "tagged",
+		"RigUnit_CollectionReplaceItemsArray": "tagged",
+		"RigUnit_CollectionReverse": "tagged",
+		"RigUnit_CollectionUnion": "tagged",
+		"RigUnit_Contains": "tagged",
+		"RigUnit_Control": "tagged",
+		"RigUnit_Control_StaticMesh": "tagged",
+		"RigUnit_ControlName": "tagged",
+		"RigUnit_ControlRigSplineBase": "tagged",
+		"RigUnit_ControlRigSplineFromPoints": "tagged",
+		"RigUnit_ConvertEulerTransform": "tagged",
+		"RigUnit_ConvertQuaternion": "tagged",
+		"RigUnit_ConvertQuaternionToVector": "tagged",
+		"RigUnit_ConvertRotation": "tagged",
+		"RigUnit_ConvertRotationToVector": "tagged",
+		"RigUnit_ConvertTransform": "tagged",
+		"RigUnit_ConvertVectorRotation": "tagged",
+		"RigUnit_ConvertVectorToQuaternion": "tagged",
+		"RigUnit_ConvertVectorToRotation": "tagged",
+		"RigUnit_DebugArc": "tagged",
+		"RigUnit_DebugArcItemSpace": "tagged",
+		"RigUnit_DebugBase": "tagged",
+		"RigUnit_DebugBaseMutable": "tagged",
+		"RigUnit_DebugBezier": "tagged",
+		"RigUnit_DebugBezierItemSpace": "tagged",
+		"RigUnit_DebugHierarchy": "tagged",
+		"RigUnit_DebugLine": "tagged",
+		"RigUnit_DebugLineItemSpace": "tagged",
+		"RigUnit_DebugLineStrip": "tagged",
+		"RigUnit_DebugLineStripItemSpace": "tagged",
+		"RigUnit_DebugPoint": "tagged",
+		"RigUnit_DebugPointMutable": "tagged",
+		"RigUnit_DebugPose": "tagged",
+		"RigUnit_DebugRectangle": "tagged",
+		"RigUnit_DebugRectangleItemSpace": "tagged",
+		"RigUnit_DebugTransform": "tagged",
+		"RigUnit_DebugTransformArrayMutable": "tagged",
+		"RigUnit_DebugTransformArrayMutable_WorkData": "tagged",
+		"RigUnit_DebugTransformArrayMutableItemSpace": "tagged",
+		"RigUnit_DebugTransformMutable": "tagged",
+		"RigUnit_DebugTransformMutableItemSpace": "tagged",
+		"RigUnit_DeltaFromPreviousFloat": "tagged",
+		"RigUnit_DeltaFromPreviousQuat": "tagged",
+		"RigUnit_DeltaFromPreviousTransform": "tagged",
+		"RigUnit_DeltaFromPreviousVector": "tagged",
+		"RigUnit_Distance_VectorVector": "tagged",
+		"RigUnit_DistributeRotation": "tagged",
+		"RigUnit_DistributeRotation_Rotation": "tagged",
+		"RigUnit_DistributeRotation_WorkData": "tagged",
+		"RigUnit_DistributeRotationForCollection": "tagged",
+		"RigUnit_DistributeRotationForItemArray": "tagged",
+		"RigUnit_Divide_FloatFloat": "tagged",
+		"RigUnit_Divide_VectorVector": "tagged",
+		"RigUnit_DrawContainerGetInstruction": "tagged",
+		"RigUnit_DrawContainerSetColor": "tagged",
+		"RigUnit_DrawContainerSetThickness": "tagged",
+		"RigUnit_DrawContainerSetTransform": "tagged",
+		"RigUnit_DrawControlRigSpline": "tagged",
+		"RigUnit_DynamicHierarchyBase": "tagged",
+		"RigUnit_DynamicHierarchyBaseMutable": "tagged",
+		"RigUnit_EndProfilingTimer": "tagged",
+		"RigUnit_EndsWith": "tagged",
+		"RigUnit_FABRIK": "tagged",
+		"RigUnit_FABRIK_WorkData": "tagged",
+		"RigUnit_FABRIKItemArray": "tagged",
+		"RigUnit_FABRIKPerItem": "tagged",
+		"RigUnit_FilterItemsByMetadataTags": "tagged",
+		"RigUnit_FindItemsWithMetadata": "tagged",
+		"RigUnit_FindItemsWithMetadataTag": "tagged",
+		"RigUnit_FindItemsWithMetadataTagArray": "tagged",
+		"RigUnit_FitChainToCurve": "tagged",
+		"RigUnit_FitChainToCurve_DebugSettings": "tagged",
+		"RigUnit_FitChainToCurve_Rotation": "tagged",
+		"RigUnit_FitChainToCurve_WorkData": "tagged",
+		"RigUnit_FitChainToCurveItemArray": "tagged",
+		"RigUnit_FitChainToCurvePerItem": "tagged",
+		"RigUnit_FitChainToSplineCurve": "tagged",
+		"RigUnit_FitChainToSplineCurveItemArray": "tagged",
+		"RigUnit_FitSplineCurveToChain": "tagged",
+		"RigUnit_FitSplineCurveToChainItemArray": "tagged",
+		"RigUnit_ForLoopCount": "tagged",
+		"RigUnit_FramesToSeconds": "tagged",
+		"RigUnit_FullbodyIK": "tagged",
+		"RigUnit_FullbodyIK_WorkData": "tagged",
+		"RigUnit_GetAnimationChannelBase": "tagged",
+		"RigUnit_GetBoneTransform": "tagged",
+		"RigUnit_GetBoolAnimationChannel": "tagged",
+		"RigUnit_GetControlBool": "tagged",
+		"RigUnit_GetControlColor": "tagged",
+		"RigUnit_GetControlDrivenList": "tagged",
+		"RigUnit_GetControlFloat": "tagged",
+		"RigUnit_GetControlInitialTransform": "tagged",
+		"RigUnit_GetControlInteger": "tagged",
+		"RigUnit_GetControlRotator": "tagged",
+		"RigUnit_GetControlTransform": "tagged",
+		"RigUnit_GetControlVector": "tagged",
+		"RigUnit_GetControlVector2D": "tagged",
+		"RigUnit_GetControlVisibility": "tagged",
+		"RigUnit_GetCurveValue": "tagged",
+		"RigUnit_GetDeltaTime": "tagged",
+		"RigUnit_GetFloatAnimationChannel": "tagged",
+		"RigUnit_GetInitialBoneTransform": "tagged",
+		"RigUnit_GetIntAnimationChannel": "tagged",
+		"RigUnit_GetJointTransform": "tagged",
+		"RigUnit_GetLengthControlRigSpline": "tagged",
+		"RigUnit_GetMetadataTags": "tagged",
+		"RigUnit_GetRelativeBoneTransform": "tagged",
+		"RigUnit_GetRelativeTransform": "tagged",
+		"RigUnit_GetRelativeTransformForItem": "tagged",
+		"RigUnit_GetRotatorAnimationChannel": "tagged",
+		"RigUnit_GetShapeTransform": "tagged",
+		"RigUnit_GetSpaceTransform": "tagged",
+		"RigUnit_GetTransform": "tagged",
+		"RigUnit_GetTransformAnimationChannel": "tagged",
+		"RigUnit_GetTransformArray": "tagged",
+		"RigUnit_GetTransformItemArray": "tagged",
+		"RigUnit_GetVector2DAnimationChannel": "tagged",
+		"RigUnit_GetVectorAnimationChannel": "tagged",
+		"RigUnit_GetWorldTime": "tagged",
+		"RigUnit_Harmonics_TargetItem": "tagged",
+		"RigUnit_HasMetadata": "tagged",
+		"RigUnit_HasMetadataTag": "tagged",
+		"RigUnit_HasMetadataTagArray": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelBool": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelFloat": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelInteger": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelRotator": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelVector": "tagged",
+		"RigUnit_HierarchyAddAnimationChannelVector2D": "tagged",
+		"RigUnit_HierarchyAddBone": "tagged",
+		"RigUnit_HierarchyAddControl_ProxySettings": "tagged",
+		"RigUnit_HierarchyAddControl_Settings": "tagged",
+		"RigUnit_HierarchyAddControl_ShapeSettings": "tagged",
+		"RigUnit_HierarchyAddControlFloat": "tagged",
+		"RigUnit_HierarchyAddControlFloat_LimitSettings": "tagged",
+		"RigUnit_HierarchyAddControlFloat_Settings": "tagged",
+		"RigUnit_HierarchyAddControlInteger": "tagged",
+		"RigUnit_HierarchyAddControlInteger_LimitSettings": "tagged",
+		"RigUnit_HierarchyAddControlInteger_Settings": "tagged",
+		"RigUnit_HierarchyAddControlRotator": "tagged",
+		"RigUnit_HierarchyAddControlRotator_LimitSettings": "tagged",
+		"RigUnit_HierarchyAddControlRotator_Settings": "tagged",
+		"RigUnit_HierarchyAddControlTransform": "tagged",
+		"RigUnit_HierarchyAddControlTransform_Settings": "tagged",
+		"RigUnit_HierarchyAddControlVector": "tagged",
+		"RigUnit_HierarchyAddControlVector2D": "tagged",
+		"RigUnit_HierarchyAddControlVector2D_LimitSettings": "tagged",
+		"RigUnit_HierarchyAddControlVector2D_Settings": "tagged",
+		"RigUnit_HierarchyAddControlVector_LimitSettings": "tagged",
+		"RigUnit_HierarchyAddControlVector_Settings": "tagged",
+		"RigUnit_HierarchyAddElement": "tagged",
+		"RigUnit_HierarchyAddNull": "tagged",
+		"RigUnit_HierarchyBase": "tagged",
+		"RigUnit_HierarchyBaseMutable": "tagged",
+		"RigUnit_HierarchyGetChildren": "tagged",
+		"RigUnit_HierarchyGetParent": "tagged",
+		"RigUnit_HierarchyGetParents": "tagged",
+		"RigUnit_HierarchyGetParentsItemArray": "tagged",
+		"RigUnit_HierarchyGetParentWeights": "tagged",
+		"RigUnit_HierarchyGetParentWeightsArray": "tagged",
+		"RigUnit_HierarchyGetPose": "tagged",
+		"RigUnit_HierarchyGetPoseItemArray": "tagged",
+		"RigUnit_HierarchyGetSiblings": "tagged",
+		"RigUnit_HierarchyGetSiblingsItemArray": "tagged",
+		"RigUnit_HierarchyImportFromSkeleton": "tagged",
+		"RigUnit_HierarchyRemoveElement": "tagged",
+		"RigUnit_HierarchyReset": "tagged",
+		"RigUnit_HierarchySetParentWeights": "tagged",
+		"RigUnit_HierarchySetPose": "tagged",
+		"RigUnit_HierarchySetPoseItemArray": "tagged",
+		"RigUnit_HighlevelBase": "tagged",
+		"RigUnit_HighlevelBaseMutable": "tagged",
+		"RigUnit_InteractionExecution": "tagged",
+		"RigUnit_InverseExecution": "tagged",
+		"RigUnit_InverseQuaterion": "tagged",
+		"RigUnit_IsInteracting": "tagged",
+		"RigUnit_Item": "tagged",
+		"RigUnit_ItemBase": "tagged",
+		"RigUnit_ItemBaseMutable": "tagged",
+		"RigUnit_ItemEquals": "tagged",
+		"RigUnit_ItemExists": "tagged",
+		"RigUnit_ItemHarmonics": "tagged",
+		"RigUnit_ItemNotEquals": "tagged",
+		"RigUnit_ItemReplace": "tagged",
+		"RigUnit_ItemTypeEquals": "tagged",
+		"RigUnit_ItemTypeNotEquals": "tagged",
+		"RigUnit_KalmanFloat": "tagged",
+		"RigUnit_KalmanTransform": "tagged",
+		"RigUnit_KalmanVector": "tagged",
+		"RigUnit_MapRange_Float": "tagged",
+		"RigUnit_MathBase": "tagged",
+		"RigUnit_MathBoolAnd": "tagged",
+		"RigUnit_MathBoolBase": "tagged",
+		"RigUnit_MathBoolBinaryAggregateOp": "tagged",
+		"RigUnit_MathBoolBinaryOp": "tagged",
+		"RigUnit_MathBoolConstant": "tagged",
+		"RigUnit_MathBoolConstFalse": "tagged",
+		"RigUnit_MathBoolConstTrue": "tagged",
+		"RigUnit_MathBoolEquals": "tagged",
+		"RigUnit_MathBoolFlipFlop": "tagged",
+		"RigUnit_MathBoolNand": "tagged",
+		"RigUnit_MathBoolNand2": "tagged",
+		"RigUnit_MathBoolNot": "tagged",
+		"RigUnit_MathBoolNotEquals": "tagged",
+		"RigUnit_MathBoolOnce": "tagged",
+		"RigUnit_MathBoolOr": "tagged",
+		"RigUnit_MathBoolToFloat": "tagged",
+		"RigUnit_MathBoolToggled": "tagged",
+		"RigUnit_MathBoolToInteger": "tagged",
+		"RigUnit_MathBoolUnaryOp": "tagged",
+		"RigUnit_MathColorAdd": "tagged",
+		"RigUnit_MathColorBase": "tagged",
+		"RigUnit_MathColorBinaryAggregateOp": "tagged",
+		"RigUnit_MathColorBinaryOp": "tagged",
+		"RigUnit_MathColorFromFloat": "tagged",
+		"RigUnit_MathColorLerp": "tagged",
+		"RigUnit_MathColorMul": "tagged",
+		"RigUnit_MathColorSub": "tagged",
+		"RigUnit_MathDistanceToPlane": "tagged",
+		"RigUnit_MathDoubleAbs": "tagged",
+		"RigUnit_MathDoubleAcos": "tagged",
+		"RigUnit_MathDoubleAdd": "tagged",
+		"RigUnit_MathDoubleAsin": "tagged",
+		"RigUnit_MathDoubleAtan": "tagged",
+		"RigUnit_MathDoubleBase": "tagged",
+		"RigUnit_MathDoubleBinaryAggregateOp": "tagged",
+		"RigUnit_MathDoubleBinaryOp": "tagged",
+		"RigUnit_MathDoubleCeil": "tagged",
+		"RigUnit_MathDoubleClamp": "tagged",
+		"RigUnit_MathDoubleConstant": "tagged",
+		"RigUnit_MathDoubleConstE": "tagged",
+		"RigUnit_MathDoubleConstHalfPi": "tagged",
+		"RigUnit_MathDoubleConstPi": "tagged",
+		"RigUnit_MathDoubleConstTwoPi": "tagged",
+		"RigUnit_MathDoubleCos": "tagged",
+		"RigUnit_MathDoubleDeg": "tagged",
+		"RigUnit_MathDoubleDiv": "tagged",
+		"RigUnit_MathDoubleEquals": "tagged",
+		"RigUnit_MathDoubleExponential": "tagged",
+		"RigUnit_MathDoubleFloor": "tagged",
+		"RigUnit_MathDoubleGreater": "tagged",
+		"RigUnit_MathDoubleGreaterEqual": "tagged",
+		"RigUnit_MathDoubleIsNearlyEqual": "tagged",
+		"RigUnit_MathDoubleIsNearlyZero": "tagged",
+		"RigUnit_MathDoubleLawOfCosine": "tagged",
+		"RigUnit_MathDoubleLerp": "tagged",
+		"RigUnit_MathDoubleLess": "tagged",
+		"RigUnit_MathDoubleLessEqual": "tagged",
+		"RigUnit_MathDoubleMax": "tagged",
+		"RigUnit_MathDoubleMin": "tagged",
+		"RigUnit_MathDoubleMod": "tagged",
+		"RigUnit_MathDoubleMul": "tagged",
+		"RigUnit_MathDoubleNegate": "tagged",
+		"RigUnit_MathDoubleNotEquals": "tagged",
+		"RigUnit_MathDoublePow": "tagged",
+		"RigUnit_MathDoubleRad": "tagged",
+		"RigUnit_MathDoubleRemap": "tagged",
+		"RigUnit_MathDoubleRound": "tagged",
+		"RigUnit_MathDoubleSign": "tagged",
+		"RigUnit_MathDoubleSin": "tagged",
+		"RigUnit_MathDoubleSqrt": "tagged",
+		"RigUnit_MathDoubleSub": "tagged",
+		"RigUnit_MathDoubleTan": "tagged",
+		"RigUnit_MathDoubleToInt": "tagged",
+		"RigUnit_MathDoubleUnaryOp": "tagged",
+		"RigUnit_MathFloatAbs": "tagged",
+		"RigUnit_MathFloatAcos": "tagged",
+		"RigUnit_MathFloatAdd": "tagged",
+		"RigUnit_MathFloatAsin": "tagged",
+		"RigUnit_MathFloatAtan": "tagged",
+		"RigUnit_MathFloatBase": "tagged",
+		"RigUnit_MathFloatBinaryAggregateOp": "tagged",
+		"RigUnit_MathFloatBinaryOp": "tagged",
+		"RigUnit_MathFloatCeil": "tagged",
+		"RigUnit_MathFloatClamp": "tagged",
+		"RigUnit_MathFloatConstant": "tagged",
+		"RigUnit_MathFloatConstE": "tagged",
+		"RigUnit_MathFloatConstHalfPi": "tagged",
+		"RigUnit_MathFloatConstPi": "tagged",
+		"RigUnit_MathFloatConstTwoPi": "tagged",
+		"RigUnit_MathFloatCos": "tagged",
+		"RigUnit_MathFloatDeg": "tagged",
+		"RigUnit_MathFloatDiv": "tagged",
+		"RigUnit_MathFloatEquals": "tagged",
+		"RigUnit_MathFloatExponential": "tagged",
+		"RigUnit_MathFloatFloor": "tagged",
+		"RigUnit_MathFloatGreater": "tagged",
+		"RigUnit_MathFloatGreaterEqual": "tagged",
+		"RigUnit_MathFloatIsNearlyEqual": "tagged",
+		"RigUnit_MathFloatIsNearlyZero": "tagged",
+		"RigUnit_MathFloatLawOfCosine": "tagged",
+		"RigUnit_MathFloatLerp": "tagged",
+		"RigUnit_MathFloatLess": "tagged",
+		"RigUnit_MathFloatLessEqual": "tagged",
+		"RigUnit_MathFloatMax": "tagged",
+		"RigUnit_MathFloatMin": "tagged",
+		"RigUnit_MathFloatMod": "tagged",
+		"RigUnit_MathFloatMul": "tagged",
+		"RigUnit_MathFloatNegate": "tagged",
+		"RigUnit_MathFloatNotEquals": "tagged",
+		"RigUnit_MathFloatPow": "tagged",
+		"RigUnit_MathFloatRad": "tagged",
+		"RigUnit_MathFloatRemap": "tagged",
+		"RigUnit_MathFloatRound": "tagged",
+		"RigUnit_MathFloatSelectBool": "tagged",
+		"RigUnit_MathFloatSign": "tagged",
+		"RigUnit_MathFloatSin": "tagged",
+		"RigUnit_MathFloatSqrt": "tagged",
+		"RigUnit_MathFloatSub": "tagged",
+		"RigUnit_MathFloatTan": "tagged",
+		"RigUnit_MathFloatToInt": "tagged",
+		"RigUnit_MathFloatUnaryOp": "tagged",
+		"RigUnit_MathIntAbs": "tagged",
+		"RigUnit_MathIntAdd": "tagged",
+		"RigUnit_MathIntBase": "tagged",
+		"RigUnit_MathIntBinaryAggregateOp": "tagged",
+		"RigUnit_MathIntBinaryOp": "tagged",
+		"RigUnit_MathIntClamp": "tagged",
+		"RigUnit_MathIntDiv": "tagged",
+		"RigUnit_MathIntEquals": "tagged",
+		"RigUnit_MathIntersectPlane": "tagged",
+		"RigUnit_MathIntGreater": "tagged",
+		"RigUnit_MathIntGreaterEqual": "tagged",
+		"RigUnit_MathIntLess": "tagged",
+		"RigUnit_MathIntLessEqual": "tagged",
+		"RigUnit_MathIntMax": "tagged",
+		"RigUnit_MathIntMin": "tagged",
+		"RigUnit_MathIntMod": "tagged",
+		"RigUnit_MathIntMul": "tagged",
+		"RigUnit_MathIntNegate": "tagged",
+		"RigUnit_MathIntNotEquals": "tagged",
+		"RigUnit_MathIntPow": "tagged",
+		"RigUnit_MathIntSign": "tagged",
+		"RigUnit_MathIntSub": "tagged",
+		"RigUnit_MathIntToFloat": "tagged",
+		"RigUnit_MathIntUnaryOp": "tagged",
+		"RigUnit_MathMatrixBase": "tagged",
+		"RigUnit_MathMatrixBinaryAggregateOp": "tagged",
+		"RigUnit_MathMatrixBinaryOp": "tagged",
+		"RigUnit_MathMatrixFromTransform": "tagged",
+		"RigUnit_MathMatrixFromTransformV2": "tagged",
+		"RigUnit_MathMatrixFromVectors": "tagged",
+		"RigUnit_MathMatrixInverse": "tagged",
+		"RigUnit_MathMatrixMul": "tagged",
+		"RigUnit_MathMatrixToTransform": "tagged",
+		"RigUnit_MathMatrixToVectors": "tagged",
+		"RigUnit_MathMatrixUnaryOp": "tagged",
+		"RigUnit_MathMutableBase": "tagged",
+		"RigUnit_MathQuaternionBase": "tagged",
+		"RigUnit_MathQuaternionBinaryAggregateOp": "tagged",
+		"RigUnit_MathQuaternionBinaryOp": "tagged",
+		"RigUnit_MathQuaternionDot": "tagged",
+		"RigUnit_MathQuaternionEquals": "tagged",
+		"RigUnit_MathQuaternionFromAxisAndAngle": "tagged",
+		"RigUnit_MathQuaternionFromEuler": "tagged",
+		"RigUnit_MathQuaternionFromRotator": "tagged",
+		"RigUnit_MathQuaternionFromRotatorV2": "tagged",
+		"RigUnit_MathQuaternionFromTwoVectors": "tagged",
+		"RigUnit_MathQuaternionGetAxis": "tagged",
+		"RigUnit_MathQuaternionInverse": "tagged",
+		"RigUnit_MathQuaternionMakeAbsolute": "tagged",
+		"RigUnit_MathQuaternionMakeRelative": "tagged",
+		"RigUnit_MathQuaternionMirrorTransform": "tagged",
+		"RigUnit_MathQuaternionMul": "tagged",
+		"RigUnit_MathQuaternionNotEquals": "tagged",
+		"RigUnit_MathQuaternionRotateVector": "tagged",
+		"RigUnit_MathQuaternionRotationOrder": "tagged",
+		"RigUnit_MathQuaternionScale": "tagged",
+		"RigUnit_MathQuaternionScaleV2": "tagged",
+		"RigUnit_MathQuaternionSelectBool": "tagged",
+		"RigUnit_MathQuaternionSlerp": "tagged",
+		"RigUnit_MathQuaternionSwingTwist": "tagged",
+		"RigUnit_MathQuaternionToAxisAndAngle": "tagged",
+		"RigUnit_MathQuaternionToEuler": "tagged",
+		"RigUnit_MathQuaternionToRotator": "tagged",
+		"RigUnit_MathQuaternionUnaryOp": "tagged",
+		"RigUnit_MathQuaternionUnit": "tagged",
+		"RigUnit_MathRBFInterpolateBase": "tagged",
+		"RigUnit_MathRBFInterpolateQuatBase": "tagged",
+		"RigUnit_MathRBFInterpolateQuatColor": "tagged",
+		"RigUnit_MathRBFInterpolateQuatFloat": "tagged",
+		"RigUnit_MathRBFInterpolateQuatQuat": "tagged",
+		"RigUnit_MathRBFInterpolateQuatVector": "tagged",
+		"RigUnit_MathRBFInterpolateQuatWorkData": "tagged",
+		"RigUnit_MathRBFInterpolateQuatXform": "tagged",
+		"RigUnit_MathRBFInterpolateVectorBase": "tagged",
+		"RigUnit_MathRBFInterpolateVectorColor": "tagged",
+		"RigUnit_MathRBFInterpolateVectorFloat": "tagged",
+		"RigUnit_MathRBFInterpolateVectorQuat": "tagged",
+		"RigUnit_MathRBFInterpolateVectorVector": "tagged",
+		"RigUnit_MathRBFInterpolateVectorWorkData": "tagged",
+		"RigUnit_MathRBFInterpolateVectorXform": "tagged",
+		"RigUnit_MathTransformAccumulateArray": "tagged",
+		"RigUnit_MathTransformArrayToSRT": "tagged",
+		"RigUnit_MathTransformBase": "tagged",
+		"RigUnit_MathTransformBinaryAggregateOp": "tagged",
+		"RigUnit_MathTransformBinaryOp": "tagged",
+		"RigUnit_MathTransformClampSpatially": "tagged",
+		"RigUnit_MathTransformFromEulerTransform": "tagged",
+		"RigUnit_MathTransformFromEulerTransformV2": "tagged",
+		"RigUnit_MathTransformFromSRT": "tagged",
+		"RigUnit_MathTransformInverse": "tagged",
+		"RigUnit_MathTransformLerp": "tagged",
+		"RigUnit_MathTransformMakeAbsolute": "tagged",
+		"RigUnit_MathTransformMakeRelative": "tagged",
+		"RigUnit_MathTransformMirrorTransform": "tagged",
+		"RigUnit_MathTransformMul": "tagged",
+		"RigUnit_MathTransformMutableBase": "tagged",
+		"RigUnit_MathTransformRotateVector": "tagged",
+		"RigUnit_MathTransformSelectBool": "tagged",
+		"RigUnit_MathTransformToEulerTransform": "tagged",
+		"RigUnit_MathTransformTransformVector": "tagged",
+		"RigUnit_MathTransformUnaryOp": "tagged",
+		"RigUnit_MathVectorAbs": "tagged",
+		"RigUnit_MathVectorAdd": "tagged",
+		"RigUnit_MathVectorAngle": "tagged",
+		"RigUnit_MathVectorBase": "tagged",
+		"RigUnit_MathVectorBezierFourPoint": "tagged",
+		"RigUnit_MathVectorBinaryAggregateOp": "tagged",
+		"RigUnit_MathVectorBinaryOp": "tagged",
+		"RigUnit_MathVectorCeil": "tagged",
+		"RigUnit_MathVectorClamp": "tagged",
+		"RigUnit_MathVectorClampLength": "tagged",
+		"RigUnit_MathVectorClampSpatially": "tagged",
+		"RigUnit_MathVectorCross": "tagged",
+		"RigUnit_MathVectorDeg": "tagged",
+		"RigUnit_MathVectorDistance": "tagged",
+		"RigUnit_MathVectorDiv": "tagged",
+		"RigUnit_MathVectorDot": "tagged",
+		"RigUnit_MathVectorEquals": "tagged",
+		"RigUnit_MathVectorFloor": "tagged",
+		"RigUnit_MathVectorFromFloat": "tagged",
+		"RigUnit_MathVectorIsNearlyEqual": "tagged",
+		"RigUnit_MathVectorIsNearlyZero": "tagged",
+		"RigUnit_MathVectorLength": "tagged",
+		"RigUnit_MathVectorLengthSquared": "tagged",
+		"RigUnit_MathVectorLerp": "tagged",
+		"RigUnit_MathVectorMakeAbsolute": "tagged",
+		"RigUnit_MathVectorMakeBezierFourPoint": "tagged",
+		"RigUnit_MathVectorMakeRelative": "tagged",
+		"RigUnit_MathVectorMax": "tagged",
+		"RigUnit_MathVectorMin": "tagged",
+		"RigUnit_MathVectorMirror": "tagged",
+		"RigUnit_MathVectorMirrorTransform": "tagged",
+		"RigUnit_MathVectorMod": "tagged",
+		"RigUnit_MathVectorMul": "tagged",
+		"RigUnit_MathVectorNegate": "tagged",
+		"RigUnit_MathVectorNotEquals": "tagged",
+		"RigUnit_MathVectorOrthogonal": "tagged",
+		"RigUnit_MathVectorParallel": "tagged",
+		"RigUnit_MathVectorRad": "tagged",
+		"RigUnit_MathVectorRemap": "tagged",
+		"RigUnit_MathVectorRound": "tagged",
+		"RigUnit_MathVectorScale": "tagged",
+		"RigUnit_MathVectorSelectBool": "tagged",
+		"RigUnit_MathVectorSetLength": "tagged",
+		"RigUnit_MathVectorSign": "tagged",
+		"RigUnit_MathVectorSub": "tagged",
+		"RigUnit_MathVectorUnaryOp": "tagged",
+		"RigUnit_MathVectorUnit": "tagged",
+		"RigUnit_ModifyBoneTransforms": "tagged",
+		"RigUnit_ModifyBoneTransforms_PerBone": "tagged",
+		"RigUnit_ModifyBoneTransforms_WorkData": "tagged",
+		"RigUnit_ModifyTransforms": "tagged",
+		"RigUnit_ModifyTransforms_PerItem": "tagged",
+		"RigUnit_ModifyTransforms_WorkData": "tagged",
+		"RigUnit_MultiFABRIK": "tagged",
+		"RigUnit_MultiFABRIK_EndEffector": "tagged",
+		"RigUnit_MultiFABRIK_WorkData": "tagged",
+		"RigUnit_Multiply_FloatFloat": "tagged",
+		"RigUnit_Multiply_VectorVector": "tagged",
+		"RigUnit_MultiplyQuaternion": "tagged",
+		"RigUnit_MultiplyTransform": "tagged",
+		"RigUnit_NameBase": "tagged",
+		"RigUnit_NameConcat": "tagged",
+		"RigUnit_NameReplace": "tagged",
+		"RigUnit_NameTruncate": "tagged",
+		"RigUnit_NoiseDouble": "tagged",
+		"RigUnit_NoiseFloat": "tagged",
+		"RigUnit_NoiseVector": "tagged",
+		"RigUnit_NoiseVector2": "tagged",
+		"RigUnit_OffsetTransformForItem": "tagged",
+		"RigUnit_ParameterAtPercentage": "tagged",
+		"RigUnit_ParentConstraint": "tagged",
+		"RigUnit_ParentConstraint_AdvancedSettings": "tagged",
+		"RigUnit_ParentSwitchConstraint": "tagged",
+		"RigUnit_ParentSwitchConstraintArray": "tagged",
+		"RigUnit_PBIK": "tagged",
+		"RigUnit_PointSimulation": "tagged",
+		"RigUnit_PointSimulation_BoneTarget": "tagged",
+		"RigUnit_PointSimulation_DebugSettings": "tagged",
+		"RigUnit_PointSimulation_WorkData": "tagged",
+		"RigUnit_PoseGetCurve": "tagged",
+		"RigUnit_PoseGetDelta": "tagged",
+		"RigUnit_PoseGetItems": "tagged",
+		"RigUnit_PoseGetItemsItemArray": "tagged",
+		"RigUnit_PoseGetTransform": "tagged",
+		"RigUnit_PoseGetTransformArray": "tagged",
+		"RigUnit_PoseIsEmpty": "tagged",
+		"RigUnit_PoseLoop": "tagged",
+		"RigUnit_PositionConstraint": "tagged",
+		"RigUnit_PositionConstraintLocalSpaceOffset": "tagged",
+		"RigUnit_PositionFromControlRigSpline": "tagged",
+		"RigUnit_PrepareForExecution": "tagged",
+		"RigUnit_ProjectTransformToNewParent": "tagged",
+		"RigUnit_PropagateTransform": "tagged",
+		"RigUnit_QuaternionFromAxisAndAngle": "tagged",
+		"RigUnit_QuaternionToAngle": "tagged",
+		"RigUnit_QuaternionToAxisAndAngle": "tagged",
+		"RigUnit_RandomFloat": "tagged",
+		"RigUnit_RandomVector": "tagged",
+		"RigUnit_RemoveAllMetadata": "tagged",
+		"RigUnit_RemoveMetadata": "tagged",
+		"RigUnit_RemoveMetadataTag": "tagged",
+		"RigUnit_RotationConstraint": "tagged",
+		"RigUnit_RotationConstraint_AdvancedSettings": "tagged",
+		"RigUnit_RotationConstraintLocalSpaceOffset": "tagged",
+		"RigUnit_ScaleConstraint": "tagged",
+		"RigUnit_ScaleConstraintLocalSpaceOffset": "tagged",
+		"RigUnit_SecondsToFrames": "tagged",
+		"RigUnit_SendEvent": "tagged",
+		"RigUnit_SequenceAggregate": "tagged",
+		"RigUnit_SequenceExecution": "tagged",
+		"RigUnit_SetAnimationChannelBase": "tagged",
+		"RigUnit_SetBoneInitialTransform": "tagged",
+		"RigUnit_SetBoneRotation": "tagged",
+		"RigUnit_SetBoneTransform": "tagged",
+		"RigUnit_SetBoneTranslation": "tagged",
+		"RigUnit_SetBoolAnimationChannel": "tagged",
+		"RigUnit_SetControlBool": "tagged",
+		"RigUnit_SetControlColor": "tagged",
+		"RigUnit_SetControlDrivenList": "tagged",
+		"RigUnit_SetControlFloat": "tagged",
+		"RigUnit_SetControlInteger": "tagged",
+		"RigUnit_SetControlOffset": "tagged",
+		"RigUnit_SetControlRotator": "tagged",
+		"RigUnit_SetControlTransform": "tagged",
+		"RigUnit_SetControlVector": "tagged",
+		"RigUnit_SetControlVector2D": "tagged",
+		"RigUnit_SetControlVisibility": "tagged",
+		"RigUnit_SetCurveValue": "tagged",
+		"RigUnit_SetDefaultParent": "tagged",
+		"RigUnit_SetFloatAnimationChannel": "tagged",
+		"RigUnit_SetIntAnimationChannel": "tagged",
+		"RigUnit_SetMetadataTag": "tagged",
+		"RigUnit_SetMetadataTagArray": "tagged",
+		"RigUnit_SetMultiControlBool": "tagged",
+		"RigUnit_SetMultiControlBool_Entry": "tagged",
+		"RigUnit_SetMultiControlFloat": "tagged",
+		"RigUnit_SetMultiControlFloat_Entry": "tagged",
+		"RigUnit_SetMultiControlInteger": "tagged",
+		"RigUnit_SetMultiControlInteger_Entry": "tagged",
+		"RigUnit_SetMultiControlRotator": "tagged",
+		"RigUnit_SetMultiControlRotator_Entry": "tagged",
+		"RigUnit_SetMultiControlVector2D": "tagged",
+		"RigUnit_SetMultiControlVector2D_Entry": "tagged",
+		"RigUnit_SetRelativeBoneTransform": "tagged",
+		"RigUnit_SetRelativeRotationForItem": "tagged",
+		"RigUnit_SetRelativeTransformForItem": "tagged",
+		"RigUnit_SetRelativeTranslationForItem": "tagged",
+		"RigUnit_SetRotation": "tagged",
+		"RigUnit_SetRotatorAnimationChannel": "tagged",
+		"RigUnit_SetScale": "tagged",
+		"RigUnit_SetShapeTransform": "tagged",
+		"RigUnit_SetSpaceInitialTransform": "tagged",
+		"RigUnit_SetSpaceTransform": "tagged",
+		"RigUnit_SetSplinePoints": "tagged",
+		"RigUnit_SetTransform": "tagged",
+		"RigUnit_SetTransformAnimationChannel": "tagged",
+		"RigUnit_SetTransformArray": "tagged",
+		"RigUnit_SetTransformItemArray": "tagged",
+		"RigUnit_SetTranslation": "tagged",
+		"RigUnit_SetVector2DAnimationChannel": "tagged",
+		"RigUnit_SetVectorAnimationChannel": "tagged",
+		"RigUnit_SimBase": "tagged",
+		"RigUnit_SimBaseMutable": "tagged",
+		"RigUnit_SlideChain": "tagged",
+		"RigUnit_SlideChain_WorkData": "tagged",
+		"RigUnit_SlideChainItemArray": "tagged",
+		"RigUnit_SlideChainPerItem": "tagged",
+		"RigUnit_SpaceName": "tagged",
+		"RigUnit_SphereTraceByObjectTypes": "tagged",
+		"RigUnit_SphereTraceByTraceChannel": "tagged",
+		"RigUnit_SphereTraceWorld": "tagged",
+		"RigUnit_SphericalPoseReader": "tagged",
+		"RigUnit_SpringIK": "tagged",
+		"RigUnit_SpringIK_DebugSettings": "tagged",
+		"RigUnit_SpringIK_WorkData": "tagged",
+		"RigUnit_SpringInterp": "tagged",
+		"RigUnit_SpringInterpQuaternionV2": "tagged",
+		"RigUnit_SpringInterpV2": "tagged",
+		"RigUnit_SpringInterpVector": "tagged",
+		"RigUnit_SpringInterpVectorV2": "tagged",
+		"RigUnit_StartProfilingTimer": "tagged",
+		"RigUnit_StartsWith": "tagged",
+		"RigUnit_StringBase": "tagged",
+		"RigUnit_StringConcat": "tagged",
+		"RigUnit_StringContains": "tagged",
+		"RigUnit_StringEndsWith": "tagged",
+		"RigUnit_StringFind": "tagged",
+		"RigUnit_StringJoin": "tagged",
+		"RigUnit_StringLeft": "tagged",
+		"RigUnit_StringLength": "tagged",
+		"RigUnit_StringMiddle": "tagged",
+		"RigUnit_StringPadInteger": "tagged",
+		"RigUnit_StringReplace": "tagged",
+		"RigUnit_StringReverse": "tagged",
+		"RigUnit_StringRight": "tagged",
+		"RigUnit_StringSplit": "tagged",
+		"RigUnit_StringStartsWith": "tagged",
+		"RigUnit_StringToLowercase": "tagged",
+		"RigUnit_StringToUppercase": "tagged",
+		"RigUnit_StringTrimWhitespace": "tagged",
+		"RigUnit_StringTruncate": "tagged",
+		"RigUnit_Subtract_FloatFloat": "tagged",
+		"RigUnit_Subtract_VectorVector": "tagged",
+		"RigUnit_SwitchParent": "tagged",
+		"RigUnit_TangentFromControlRigSpline": "tagged",
+		"RigUnit_Timeline": "tagged",
+		"RigUnit_TimeLoop": "tagged",
+		"RigUnit_TimeOffsetFloat": "tagged",
+		"RigUnit_TimeOffsetTransform": "tagged",
+		"RigUnit_TimeOffsetVector": "tagged",
+		"RigUnit_ToRigSpace_Location": "tagged",
+		"RigUnit_ToRigSpace_Rotation": "tagged",
+		"RigUnit_ToRigSpace_Transform": "tagged",
+		"RigUnit_ToSwingAndTwist": "tagged",
+		"RigUnit_ToWorldSpace_Location": "tagged",
+		"RigUnit_ToWorldSpace_Rotation": "tagged",
+		"RigUnit_ToWorldSpace_Transform": "tagged",
+		"RigUnit_TransformConstraint": "tagged",
+		"RigUnit_TransformConstraint_WorkData": "tagged",
+		"RigUnit_TransformConstraintPerItem": "tagged",
+		"RigUnit_TransformFromControlRigSpline": "tagged",
+		"RigUnit_TwistBones": "tagged",
+		"RigUnit_TwistBones_WorkData": "tagged",
+		"RigUnit_TwistBonesPerItem": "tagged",
+		"RigUnit_TwoBoneIKFK": "tagged",
+		"RigUnit_TwoBoneIKSimple": "tagged",
+		"RigUnit_TwoBoneIKSimple_DebugSettings": "tagged",
+		"RigUnit_TwoBoneIKSimplePerItem": "tagged",
+		"RigUnit_TwoBoneIKSimpleTransforms": "tagged",
+		"RigUnit_TwoBoneIKSimpleVectors": "tagged",
+		"RigUnit_UnaryQuaternionOp": "tagged",
+		"RigUnit_UnsetCurveValue": "tagged",
+		"RigUnit_UserDefinedEvent": "tagged",
+		"RigUnit_VerletIntegrateVector": "tagged",
+		"RigUnit_VisualDebugQuat": "tagged",
+		"RigUnit_VisualDebugQuatItemSpace": "tagged",
+		"RigUnit_VisualDebugTransform": "tagged",
+		"RigUnit_VisualDebugTransformItemSpace": "tagged",
+		"RigUnit_VisualDebugVector": "tagged",
+		"RigUnit_VisualDebugVectorItemSpace": "tagged",
+		"RigUnitMutable": "tagged",
+		"RigVectorArrayMetadata": "tagged",
+		"RigVectorMetadata": "tagged",
+		"RigVMActionKey": "tagged",
+		"RigVMAddArrayNodeAction": "tagged",
+		"RigVMAddBranchNodeAction": "tagged",
+		"RigVMAddCommentNodeAction": "tagged",
+		"RigVMAddEnumNodeAction": "tagged",
+		"RigVMAddExposedPinAction": "tagged",
+		"RigVMAddIfNodeAction": "tagged",
+		"RigVMAddInvokeEntryNodeAction": "tagged",
+		"RigVMAddLinkAction": "tagged",
+		"RigVMAddLocalVariableAction": "tagged",
+		"RigVMAddRerouteNodeAction": "tagged",
+		"RigVMAddSelectNodeAction": "tagged",
+		"RigVMAddTemplateNodeAction": "tagged",
+		"RigVMAddUnitNodeAction": "tagged",
+		"RigVMAddVariableNodeAction": "tagged",
+		"RigVMBaseAction": "tagged",
+		"RigVMBaseOp": "tagged",
+		"RigVMBinaryOp": "tagged",
+		"RigVMBreakLinkAction": "tagged",
+		"RigVMBreakpoint": "tagged",
+		"RigVMByteCode": "tagged",
+		"RigVMByteCodeEntry": "tagged",
+		"RigVMByteCodeStatistics": "tagged",
+		"RigVMChangeLocalVariableDefaultValueAction": "tagged",
+		"RigVMChangeLocalVariableTypeAction": "tagged",
+		"RigVMChangePinTypeAction": "tagged",
+		"RigVMChangeTypeOp": "tagged",
+		"RigVMClient": "tagged",
+		"RigVMCollapseNodesAction": "tagged",
+		"RigVMComparisonOp": "tagged",
+		"RigVMCompileSettings": "tagged",
+		"RigVMController_CommonTypePerTemplate": "tagged",
+		"RigVMCopyOp": "tagged",
+		"RigVMDebugInfo": "tagged",
+		"RigVMDispatchFactory": "tagged",
+		"RigVMExecuteContext": "tagged",
+		"RigVMExecuteOp": "tagged",
+		"RigVMExpandNodeAction": "tagged",
+		"RigVMExtendedExecuteContext": "tagged",
+		"RigVMFunctionReferenceArray": "tagged",
+		"RigVMGraphParameterDescription": "tagged",
+		"RigVMGraphVariableDescription": "tagged",
+		"RigVMImportNodeFromTextAction": "tagged",
+		"RigVMInjectNodeIntoPinAction": "tagged",
+		"RigVMInsertArrayPinAction": "tagged",
+		"RigVMInstruction": "tagged",
+		"RigVMInstructionArray": "tagged",
+		"RigVMInverseAction": "tagged",
+		"RigVMInvokeEntryOp": "tagged",
+		"RigVMJumpIfOp": "tagged",
+		"RigVMJumpOp": "tagged",
+		"RigVMMemoryContainer": "tagged",
+		"RigVMMemoryStatistics": "tagged",
+		"RigVMOperand": "tagged",
+		"RigVMParameter": "tagged",
+		"RigVMParserASTSettings": "tagged",
+		"RigVMPopGraphAction": "tagged",
+		"RigVMPromoteNodeAction": "tagged",
+		"RigVMPushGraphAction": "tagged",
+		"RigVMQuaternaryOp": "tagged",
+		"RigVMQuinaryOp": "tagged",
+		"RigVMReferenceNodeData": "tagged",
+		"RigVMRegister": "tagged",
+		"RigVMRegisterOffset": "tagged",
+		"RigVMRemoveArrayPinAction": "tagged",
+		"RigVMRemoveExposedPinAction": "tagged",
+		"RigVMRemoveLocalVariableAction": "tagged",
+		"RigVMRemoveNodeAction": "tagged",
+		"RigVMRenameExposedPinAction": "tagged",
+		"RigVMRenameLocalVariableAction": "tagged",
+		"RigVMRenameNodeAction": "tagged",
+		"RigVMRenameVariableAction": "tagged",
+		"RigVMRuntimeSettings": "tagged",
+		"RigVMSenaryOp": "tagged",
+		"RigVMSetCommentTextAction": "tagged",
+		"RigVMSetLibraryTemplateAction": "tagged",
+		"RigVMSetNodeCategoryAction": "tagged",
+		"RigVMSetNodeColorAction": "tagged",
+		"RigVMSetNodeDescriptionAction": "tagged",
+		"RigVMSetNodeKeywordsAction": "tagged",
+		"RigVMSetNodePositionAction": "tagged",
+		"RigVMSetNodeSelectionAction": "tagged",
+		"RigVMSetNodeSizeAction": "tagged",
+		"RigVMSetPinDefaultValueAction": "tagged",
+		"RigVMSetPinExpansionAction": "tagged",
+		"RigVMSetPinIndexAction": "tagged",
+		"RigVMSetPinWatchAction": "tagged",
+		"RigVMSetPreferredTemplatePermutationsAction": "tagged",
+		"RigVMSetRemappedVariableAction": "tagged",
+		"RigVMSetRerouteCompactnessAction": "tagged",
+		"RigVMSetTemplateFilteredPermutationsAction": "tagged",
+		"RigVMSlice": "tagged",
+		"RigVMStatistics": "tagged",
+		"RigVMStruct": "tagged",
+		"RigVMTemplateArgumentType": "tagged",
+		"RigVMTemplatePreferredType": "tagged",
+		"RigVMTernaryOp": "tagged",
+		"RigVMUnaryOp": "tagged",
+		"RigVMUnknownType": "tagged",
+		"RigVMUserWorkflow": "tagged",
+		"RollbackNetStartupActorInfo": "tagged",
+		"RootMotionExtractionStep": "tagged",
+		"RootMotionFinishVelocitySettings": "tagged",
+		"RootMotionMovementParams": "tagged",
+		"RootMotionSource": "tagged",
+		"RootMotionSource_ConstantForce": "tagged",
+		"RootMotionSource_JumpForce": "tagged",
+		"RootMotionSource_MoveToDynamicForce": "tagged",
+		"RootMotionSource_MoveToForce": "tagged",
+		"RootMotionSource_RadialForce": "tagged",
+		"RootMotionSourceGroup": "tagged",
+		"RootMotionSourceSettings": "tagged",
+		"RootMotionSourceStatus": "tagged",
+		"ROscillator": "tagged",
+		"RotationLimit": "tagged",
+		"RotationRetargetingInfo": "tagged",
+		"RotationTrack": "tagged",
+		"Rotator": "native",
+		"Rotator3d": "native",
+		"Rotator3f": "native",
+		"RPCAnalyticsThreshold": "tagged",
+		"RPCDoSState": "tagged",
+		"RPCDoSStateConfig": "tagged",
+		"RuntimeCurveLinearColor": "tagged",
+		"RuntimeFloatCurve": "tagged",
+		"RuntimeVectorCurve": "tagged",
+		"RuntimeVirtualTextureParameterValue": "tagged",
+		"ScalarMaterialInput": "native",
+		"ScalarParameterAtlasData": "tagged",
+		"ScalarParameterAtlasInstanceData": "tagged",
+		"ScalarParameterNameAndCurve": "tagged",
+		"ScalarParameterValue": "tagged",
+		"ScaleTrack": "tagged",
+		"SceneComponentInstanceData": "tagged",
+		"SceneOutlinerConfig": "tagged",
+		"SceneViewExtensionIsActiveFunctor": "tagged",
+		"ScreenMessageString": "tagged",
+		"ScriptSlateIcon": "tagged",
+		"ScriptTypedElementHandle": "tagged",
+		"ScriptTypedElementListProxy": "tagged",
+		"ScriptVarBindingNameSubscription": "tagged",
+		"ScrollBarStyle": "tagged",
+		"ScrollBorderStyle": "tagged",
+		"ScrollBoxStyle": "tagged",
+		"SearchBoxStyle": "tagged",
+		"SectionEvaluationData": "tagged",
+		"SectionReference": "tagged",
+		"SegmentedControlStyle": "tagged",
+		"SelectedFragmentProperties": "tagged",
+		"SelectedSocketInfo": "tagged",
+		"SelectionStateOfLevel": "tagged",
+		"SequenceEvaluatorReference": "tagged",
+		"SequenceLengthChangedPayload": "tagged",
+		"SequencePlayerReference": "tagged",
+		"SequencerBoundObjects": "tagged",
+		"SequencerChannelProxy": "tagged",
+		"SequenceRecorderActorFilter": "tagged",
+		"SequencerExportFBXParams": "tagged",
+		"SequencerQuickBindingResult": "tagged",
+		"SequencerScriptingRange": "tagged",
+		"SequenceTickManagerWidgetData": "tagged",
+		"SequentialIDBase": "tagged",
+		"SessionServiceLog": "tagged",
+		"SessionServiceLogSubscribe": "tagged",
+		"SessionServiceLogUnsubscribe": "tagged",
+		"SessionServicePing": "tagged",
+		"SessionServicePong": "tagged",
+		"SetCollectionAssetDataflowNode": "tagged",
+		"SettingsForActorClass": "tagged",
+		"ShadingModelMaterialInput": "tagged",
+		"SHAHashData": "tagged",
+		"ShapedTextOptions": "tagged",
+		"SimpleCurve": "tagged",
+		"SimpleCurveKey": "native",
+		"SimpleIndexedHandleBase": "tagged",
+		"SimpleMemberReference": "tagged",
+		"SimSpaceSettings": "tagged",
+		"SimulatedRootMotionReplicatedMove": "tagged",
+		"SimulationStageMetaData": "tagged",
+		"SingleAnimationPlayData": "tagged",
+		"SkeletalControlReference": "tagged",
+		"SkeletalMaterial": "tagged",
+		"SkeletalMeshBoneDataflowNode": "tagged",
+		"SkeletalMeshBuildSettings": "tagged",
+		"SkeletalMeshClothBuildParams": "tagged",
+		"SkeletalMeshComponentClothTickFunction": "tagged",
+		"SkeletalMeshComponentEndPhysicsTickFunction": "tagged",
+		"SkeletalMeshLODGroupSettings": "tagged",
+		"SkeletalMeshLODInfo": "tagged",
+		"SkeletalMeshOptimizationSettings": "tagged",
+		"SkeletalMeshSamplingBuiltData": "tagged",
+		"SkeletalMeshSamplingInfo": "tagged",
+		"SkeletalMeshSamplingLODBuiltData": "native",
+		"SkeletalMeshSamplingRegion": "tagged",
+		"SkeletalMeshSamplingRegionBoneFilter": "tagged",
+		"SkeletalMeshSamplingRegionBuiltData": "native",
+		"SkeletalMeshSamplingRegionMaterialFilter": "tagged",
+		"SkeletalMeshToCollectionDataflowNode": "tagged",
+		"SkeletonToMeshLinkup": "tagged",
+		"SkelMeshComponentLODInfo": "tagged",
+		"SkelMeshMergeMeshUVTransforms": "tagged",
+		"SkelMeshMergeSectionMapping": "tagged",
+		"SkelMeshMergeUVTransformMapping": "tagged",
+		"SkelMeshSkinWeightInfo": "tagged",
+		"SkinWeightProfileInfo": "tagged",
+		"SkinWeightProfileManagerTickFunction": "tagged",
+		"SlateBrush": "tagged",
+		"SlateBrushOutlineSettings": "tagged",
+		"SlateChildSize": "tagged",
+		"SlateColor": "tagged",
+		"SlateFontInfo": "tagged",
+		"SlateMeshVertex": "tagged",
+		"SlateModifierKeysState": "tagged",
+		"SlatePlayInEditorInfo": "tagged",
+		"SlateSound": "tagged",
+		"SlateWidgetStyle": "tagged",
+		"SliderStyle": "tagged",
+		"SlotAnimationTrack": "tagged",
+		"SlotEvaluationPose": "tagged",
+		"SmartName": "native",
+		"SmartNameContainer": "tagged",
+		"SmartNameMapping": "tagged",
+		"SnapToSurfaceSettings": "tagged",
+		"SocketReference": "tagged",
+		"SoftClassPath": "native",
+		"SoftComponentReference": "tagged",
+		"SoftObjectPath": "native",
+		"SolverBreakingData": "tagged",
+		"SolverBreakingFilterSettings": "tagged",
+		"SolverCollisionData": "tagged",
+		"SolverCollisionFilterSettings": "tagged",
+		"SolverInput": "tagged",
+		"SolverIterations": "tagged",
+		"SolverRemovalFilterSettings": "tagged",
+		"SolverTrailingData": "tagged",
+		"SolverTrailingFilterSettings": "tagged",
+		"SortedParamData": "tagged",
+		"SoundAttenuationPluginSettings": "tagged",
+		"SoundAttenuationSettings": "tagged",
+		"SoundClassAdjuster": "tagged",
+		"SoundClassEditorData": "tagged",
+		"SoundClassGraphSchemaAction_NewNode": "tagged",
+		"SoundClassProperties": "tagged",
+		"SoundConcurrencySettings": "tagged",
+		"SoundCueGraphSchemaAction_NewComment": "tagged",
+		"SoundCueGraphSchemaAction_NewFromSelected": "tagged",
+		"SoundCueGraphSchemaAction_NewNode": "tagged",
+		"SoundCueGraphSchemaAction_Paste": "tagged",
+		"SoundDebugEntry": "tagged",
+		"SoundGroup": "tagged",
+		"SoundModulationDefaultRoutingSettings": "tagged",
+		"SoundModulationDefaultSettings": "tagged",
+		"SoundModulationDestinationSettings": "tagged",
+		"SoundNodeEditorData": "tagged",
+		"SoundSourceBusSendInfo": "tagged",
+		"SoundSubmixGraphSchemaAction_NewNode": "tagged",
+		"SoundSubmixSendInfo": "tagged",
+		"SoundSubmixSpectralAnalysisBandSettings": "tagged",
+		"SoundTimecodeOffset": "tagged",
+		"SoundWaveCuePoint": "tagged",
+		"SoundWaveEnvelopeDataPerSound": "tagged",
+		"SoundWaveEnvelopeTimeData": "tagged",
+		"SoundWaveSpectralData": "tagged",
+		"SoundWaveSpectralDataEntry": "tagged",
+		"SoundWaveSpectralDataPerSound": "tagged",
+		"SoundWaveSpectralTimeData": "tagged",
+		"SoundWaveTimecodeInfo": "tagged",
+		"SourceControlState": "tagged",
+		"SourceEffectBitCrusherBaseSettings": "tagged",
+		"SourceEffectBitCrusherSettings": "tagged",
+		"SourceEffectChainEntry": "tagged",
+		"SourceEffectChorusBaseSettings": "tagged",
+		"SourceEffectChorusSettings": "tagged",
+		"SourceEffectConvolutionReverbSettings": "tagged",
+		"SourceEffectDynamicsProcessorSettings": "tagged",
+		"SourceEffectEnvelopeFollowerSettings": "tagged",
+		"SourceEffectEQBand": "tagged",
+		"SourceEffectEQSettings": "tagged",
+		"SourceEffectFilterAudioBusModulationSettings": "tagged",
+		"SourceEffectFilterSettings": "tagged",
+		"SourceEffectFoldbackDistortionSettings": "tagged",
+		"SourceEffectIndividualFilterSettings": "tagged",
+		"SourceEffectMidSideSpreaderSettings": "tagged",
+		"SourceEffectMotionFilterModulationSettings": "tagged",
+		"SourceEffectMotionFilterSettings": "tagged",
+		"SourceEffectPannerSettings": "tagged",
+		"SourceEffectPhaserSettings": "tagged",
+		"SourceEffectRingModulationSettings": "tagged",
+		"SourceEffectSimpleDelaySettings": "tagged",
+		"SourceEffectStereoDelaySettings": "tagged",
+		"SourceEffectWaveShaperSettings": "tagged",
+		"SpaceControlNameAndChannel": "tagged",
+		"SpatialHashRuntimeGrid": "tagged",
+		"SpatialHashStreamingGrid": "tagged",
+		"SpatialHashStreamingGridLayerCell": "tagged",
+		"SpatialHashStreamingGridLevel": "tagged",
+		"SpectatorReservation": "tagged",
+		"SphericalPoseReaderDebugSettings": "tagged",
+		"SphericalRegion": "tagged",
+		"SpinBoxStyle": "tagged",
+		"SplineCurves": "tagged",
+		"SplineIKCachedBoneData": "tagged",
+		"SplineInstanceData": "tagged",
+		"SplineMeshInstanceData": "tagged",
+		"SplineMeshParams": "tagged",
+		"SplinePoint": "tagged",
+		"SplitterStyle": "tagged",
+		"SpriteAssetInitParameters": "tagged",
+		"SpriteCategoryInfo": "tagged",
+		"SpriteDrawCallRecord": "tagged",
+		"SpriteGeometryCollection": "tagged",
+		"SpriteGeometryShape": "tagged",
+		"SpriteInstanceData": "tagged",
+		"StartPhysicsTickFunction": "tagged",
+		"StatColorMapEntry": "tagged",
+		"StatColorMapping": "tagged",
+		"StateMachineDebugData": "tagged",
+		"StateMachineStateDebugData": "tagged",
+		"StateStruct": "tagged",
+		"StaticComponentMaskParameter": "tagged",
+		"StaticComponentMaskValue": "tagged",
+		"StaticMaterial": "tagged",
+		"StaticMaterialLayersParameter": "tagged",
+		"StaticMeshComponentInstanceData": "tagged",
+		"StaticMeshComponentLODInfo": "tagged",
+		"StaticMeshOptimizationSettings": "tagged",
+		"StaticMeshReductionOptions": "tagged",
+		"StaticMeshReductionSettings": "tagged",
+		"StaticMeshSourceModel": "tagged",
+		"StaticMeshVertexColorLODData": "tagged",
+		"StaticParameterBase": "tagged",
+		"StaticParameterSet": "tagged",
+		"StaticParameterSetEditorOnlyData": "tagged",
+		"StaticParameterSetRuntimeData": "tagged",
+		"StaticSwitchParameter": "tagged",
+		"StaticSwitchTypeData": "tagged",
+		"StaticTerrainLayerWeightParameter": "tagged",
+		"StrataMaterialInfo": "tagged",
+		"StrataMaterialInput": "tagged",
+		"StreamableTexture": "tagged",
+		"StreamableTextureInstance": "tagged",
+		"StreamedAudioPlatformData": "tagged",
+		"StreamingLevelsToConsider": "tagged",
+		"StreamingRenderAssetPrimitiveInfo": "tagged",
+		"StreamingSourceShape": "tagged",
+		"StreamingTextureBuildInfo": "tagged",
+		"StringAnimationAttribute": "tagged",
+		"StringAppendDataflowNode": "tagged",
+		"StringCurve": "tagged",
+		"StringCurveKey": "native",
+		"StructCookedMetaDataStore": "tagged",
+		"StructMetadata": "tagged",
+		"StructRedirect": "tagged",
+		"StructReference": "tagged",
+		"StructSerializerArrayTestStruct": "tagged",
+		"StructSerializerBooleanTestStruct": "tagged",
+		"StructSerializerBuiltinTestStruct": "tagged",
+		"StructSerializerByteArray": "tagged",
+		"StructSerializerLWCTypesTest": "tagged",
+		"StructSerializerMapTestStruct": "tagged",
+		"StructSerializerNonLWCTypesTest": "tagged",
+		"StructSerializerNumericTestStruct": "tagged",
+		"StructSerializerObjectTestStruct": "tagged",
+		"StructSerializerSetTestStruct": "tagged",
+		"StructSerializerTestStruct": "tagged",
+		"StructVariableDescription": "tagged",
+		"StyleColorList": "tagged",
+		"StyleTheme": "tagged",
+		"SubjectFrameHandle": "tagged",
+		"SubjectMetadata": "tagged",
+		"SubmixEffectConvolutionReverbSettings": "tagged",
+		"SubmixEffectDelaySettings": "tagged",
+		"SubmixEffectDynamicProcessorFilterSettings": "tagged",
+		"SubmixEffectDynamicsProcessorSettings": "tagged",
+		"SubmixEffectEQBand": "tagged",
+		"SubmixEffectFilterSettings": "tagged",
+		"SubmixEffectFlexiverbSettings": "tagged",
+		"SubmixEffectMultibandCompressorSettings": "tagged",
+		"SubmixEffectReverbSettings": "tagged",
+		"SubmixEffectStereoDelaySettings": "tagged",
+		"SubmixEffectSubmixEQSettings": "tagged",
+		"SubmixEffectTapDelaySettings": "tagged",
+		"SubobjectData": "tagged",
+		"SubobjectDataHandle": "tagged",
+		"SubsurfaceProfileStruct": "tagged",
+		"SubtitleCue": "tagged",
+		"SupportedAreaData": "tagged",
+		"SwapAudioOutputResult": "tagged",
+		"SwarmAlertMessage": "tagged",
+		"SwarmDebugOptions": "tagged",
+		"SwarmInfoMessage": "tagged",
+		"SwarmJobStateMessage": "tagged",
+		"SwarmPingMessage": "tagged",
+		"SwarmPongMessage": "tagged",
+		"SwarmQuitMessage": "tagged",
+		"SwarmTaskRequestMessage": "tagged",
+		"SwarmTaskRequestReleaseMessage": "tagged",
+		"SwarmTaskRequestReservationMessage": "tagged",
+		"SwarmTaskRequestSpecificationMessage": "tagged",
+		"SwarmTaskStateMessage": "tagged",
+		"SwarmTimingMessage": "tagged",
+		"SynesthesiaSpectrumResults": "tagged",
+		"Synth1PatchCable": "tagged",
+		"Synth2DSliderStyle": "tagged",
+		"SynthKnobStyle": "tagged",
+		"SynthSlateStyle": "tagged",
+		"TableColumnHeaderStyle": "tagged",
+		"TableRowBase": "tagged",
+		"TableRowStyle": "tagged",
+		"TableViewStyle": "tagged",
+		"TagAndValue": "tagged",
+		"TakeRecorderParameters": "tagged",
+		"TakeRecorderProjectParameters": "tagged",
+		"TakeRecorderPropertyTrackSettings": "tagged",
+		"TakeRecorderTrackSettings": "tagged",
+		"TakeRecorderUserParameters": "tagged",
+		"TapDelayInfo": "tagged",
+		"TargetChainFKSettings": "tagged",
+		"TargetChainIKSettings": "tagged",
+		"TargetChainSettings": "tagged",
+		"TargetChainSpeedPlantSettings": "tagged",
+		"TargetRootSettings": "tagged",
+		"TemplateCategoryDef": "tagged",
+		"TemplateFolderRename": "tagged",
+		"TemplateMapInfo": "tagged",
+		"TemplateMapInfoOverride": "tagged",
+		"TemplateReplacement": "tagged",
+		"TemplateSectionPropertyScale": "tagged",
+		"TemplateSequenceBindingOverrideData": "tagged",
+		"TemplateString": "tagged",
+		"TentDistribution": "tagged",
+		"TestMovieSceneEvalTemplate": "tagged",
+		"TestSparseClassDataStorage": "tagged",
+		"TestUninitializedScriptStructMembersTest": "tagged",
+		"TextBlockStyle": "tagged",
+		"TextFilterKeyValueHandlerEntry": "tagged",
+		"TextSizingParameters": "tagged",
+		"TextureFormatSettings": "tagged",
+		"TextureLODGroup": "tagged",
+		"TextureParameterValue": "tagged",
+		"TexturePlatformData": "tagged",
+		"TexturesList": "tagged",
+		"TextureSource": "tagged",
+		"TextureSourceBlock": "tagged",
+		"TextureSourceColorSettings": "tagged",
+		"TextureUsage": "tagged",
+		"ThumbnailRenderingInfo": "tagged",
+		"TickAnimationSharingFunction": "tagged",
+		"TickFunction": "tagged",
+		"TickPrerequisite": "tagged",
+		"TileSetImportMapping": "tagged",
+		"Timecode": "tagged",
+		"TimecodeBoneMethod": "tagged",
+		"TimecodeCustomAttributeNameSettings": "tagged",
+		"TimedDataChannelSampleTime": "tagged",
+		"TimedDataInputEvaluationData": "tagged",
+		"Timeline": "tagged",
+		"TimelineEventEntry": "tagged",
+		"TimelineFloatTrack": "tagged",
+		"TimelineLinearColorTrack": "tagged",
+		"TimelineVectorTrack": "tagged",
+		"TimerHandle": "tagged",
+		"Timespan": "native",
+		"TimeStretchCurve": "tagged",
+		"TimeStretchCurveInstance": "tagged",
+		"TimeStretchCurveMarker": "tagged",
+		"ToolBarStyle": "tagged",
+		"ToolDynamicUIAction": "tagged",
+		"ToolMenuContext": "tagged",
+		"ToolMenuEntry": "tagged",
+		"ToolMenuEntryScriptData": "tagged",
+		"ToolMenuEntryScriptDataAdvanced": "tagged",
+		"ToolMenuInsert": "tagged",
+		"ToolMenuOwner": "tagged",
+		"ToolMenuSection": "tagged",
+		"ToolMenuStringCommand": "tagged",
+		"TopLevelAssetPath": "tagged",
+		"TouchInputControl": "tagged",
+		"TraceChannelTestBatchOptions": "tagged",
+		"TraceQueryTestNames": "tagged",
+		"TraceQueryTestResultsInner": "tagged",
+		"TraceQueryTestResultsInnerMost": "tagged",
+		"TrackedGeometryGroup": "tagged",
+		"TrackInstanceInputComponent": "tagged",
+		"TrackRenderData": "tagged",
+		"TrackToSkeletonMap": "tagged",
+		"TrailingEvent": "tagged",
+		"TrajectorySample": "tagged",
+		"TrajectorySampleRange": "tagged",
+		"Transform": "tagged",
+		"Transform3d": "immutable",
+		"Transform3f": "immutable",
+		"TransformAnimationAttribute": "tagged",
+		"TransformBase": "tagged",
+		"TransformBaseConstraint": "tagged",
+		"TransformConstraint": "tagged",
+		"TransformConstraintDescription": "tagged",
+		"TransformCurve": "tagged",
+		"TransformFilter": "tagged",
+		"TransformGizmoHandlePlacement": "tagged",
+		"TransformGizmoMeasurement": "tagged",
+		"TransformMeshesTarget": "tagged",
+		"TransformNoScale": "tagged",
+		"TransformParameterNameAndCurves": "tagged",
+		"TransformToolOptions": "tagged",
+		"TranslationChange": "tagged",
+		"TranslationContextInfo": "tagged",
+		"TranslationTrack": "tagged",
+		"TriangleID": "tagged",
+		"TTEventTrack": "tagged",
+		"TTFloatTrack": "tagged",
+		"TTLinearColorTrack": "tagged",
+		"TTPropertyTrack": "tagged",
+		"TTTrackBase": "tagged",
+		"TTTrackId": "tagged",
+		"TTVectorTrack": "tagged",
+		"TViewTarget": "tagged",
+		"TwistConstraint": "tagged",
+		"TwoVectors": "native",
+		"TypedElementDeletionOptions": "tagged",
+		"TypedElementIsSelectedOptions": "tagged",
+		"TypedElementSelectionNormalizationOptions": "tagged",
+		"TypedElementSelectionOptions": "tagged",
+		"TypedElementSelectionSetState": "tagged",
+		"Typeface": "tagged",
+		"TypefaceEntry": "tagged",
+		"UAssetMeta": "tagged",
+		"UDIMBlock": "tagged",
+		"UDIMSpecifier": "tagged",
+		"UdpMockMessage": "tagged",
+		"Uint32Point": "native",
+		"Uint32Vector": "native",
+		"Uint32Vector2": "native",
+		"Uint32Vector4": "native",
+		"Uint64Point": "native",
+		"Uint64Vector": "native",
+		"Uint64Vector2": "native",
+		"Uint64Vector4": "native",
+		"UintPoint": "native",
+		"UintVector": "native",
+		"UintVector2": "native",
+		"UintVector4": "native",
+		"UniformScatterPointsDataflowNode": "tagged",
+		"UniqueNetIdRepl": "native",
+		"UniqueNetIdReplNetSerializerConfig": "tagged",
+		"UniqueNetIdReplNetSerializerNameStruct": "tagged",
+		"UniqueNetIdReplNetSerializerStringStruct": "tagged",
+		"UniqueNetIdWrapper": "tagged",
+		"UnsortedParamData": "tagged",
+		"UpdateLevelStreamingLevelStatus": "tagged",
+		"UpdateLevelVisibilityLevelInfo": "tagged",
+		"URL": "tagged",
+		"UserActivity": "tagged",
+		"UserPinInfo": "tagged",
+		"UserWidgetPool": "tagged",
+		"UVID": "tagged",
+		"UVMapSettings": "tagged",
+		"ValidateAssetsResults": "tagged",
+		"ValidateAssetsSettings": "tagged",
+		"VariantDependency": "tagged",
+		"Vector": "native",
+		"Vector2D": "native",
+		"Vector2DParameterNameAndCurves": "tagged",
+		"Vector2f": "native",
+		"Vector2MaterialInput": "native",
+		"Vector3d": "native",
+		"Vector3f": "native",
+		"Vector4": "native",
+		"Vector4d": "native",
+		"Vector4Distribution": "tagged",
+		"Vector4f": "native",
+		"Vector_NetQuantize": "tagged",
+		"Vector_NetQuantize10": "tagged",
+		"Vector_NetQuantize100": "tagged",
+		"Vector_NetQuantizeNormal": "tagged",
+		"VectorAnimationAttribute": "tagged",
+		"VectorCurve": "tagged",
+		"VectorDistribution": "tagged",
+		"VectorMaterialInput": "native",
+		"VectorParameterNameAndCurves": "tagged",
+		"VectorParameterValue": "tagged",
+		"VectorRK4SpringInterpolator": "tagged",
+		"VectorSpringState": "tagged",
+		"VectorToStringDataflowNode": "tagged",
+		"VersionData": "tagged",
+		"VersionedNiagaraEmitter": "tagged",
+		"VersionedNiagaraEmitterData": "tagged",
+		"VersionedNiagaraScriptData": "tagged",
+		"VertexID": "tagged",
+		"VertexInstanceID": "tagged",
+		"VertexOffsetUsage": "tagged",
+		"ViewportActionKeyInput": "tagged",
+		"ViewportConfigOptions": "tagged",
+		"ViewTargetTransitionParams": "tagged",
+		"VirtualBone": "tagged",
+		"VirtualKeyboardOptions": "tagged",
+		"VirtualTextureBuildSettings": "tagged",
+		"VirtualTextureSpacePoolConfig": "tagged",
+		"VMExternalFunctionBindingInfo": "native",
+		"VMFunctionSpecifier": "tagged",
+		"VoiceSettings": "tagged",
+		"VolumeControlStyle": "tagged",
+		"VoronoiFractureDataflowNode": "tagged",
+		"VOscillator": "tagged",
+		"VRButton": "tagged",
+		"VREditorFloatingUICreationContext": "tagged",
+		"WalkableSlopeOverride": "tagged",
+		"WarpingVectorValue": "tagged",
+		"WaveOscillator": "tagged",
+		"WaveTableBankEntry": "tagged",
+		"WaveTableSettings": "tagged",
+		"WaveTableTransform": "tagged",
+		"WebJSCallbackBase": "tagged",
+		"WebJSFunction": "tagged",
+		"WebJSResponse": "tagged",
+		"WeightedBlendable": "tagged",
+		"WeightedBlendables": "tagged",
+		"WeightedBlendSample": "tagged",
+		"WeightmapData": "tagged",
+		"WeightmapLayerAllocationInfo": "tagged",
+		"WidgetAnimation_DEPRECATED": "tagged",
+		"WidgetAnimationBinding": "tagged",
+		"WidgetCarouselNavigationBarStyle": "tagged",
+		"WidgetCarouselNavigationButtonStyle": "tagged",
+		"WidgetCompilerOptions": "tagged",
+		"WidgetComponentInstanceData": "tagged",
+		"WidgetNavigationData": "tagged",
+		"WidgetSnapshotRequest": "tagged",
+		"WidgetSnapshotResponse": "tagged",
+		"WidgetTransform": "tagged",
+		"WindowStyle": "tagged",
+		"WorldContext": "tagged",
+		"WorldPartitionPerWorldSettings": "tagged",
+		"WorldPartitionRuntimeCellDebugInfo": "tagged",
+		"WorldPartitionRuntimeCellObjectMapping": "tagged",
+		"WorldPartitionRuntimeSpatialHashGridPreviewer": "tagged",
+		"WorldPartitionStreamingQuerySource": "tagged",
+		"WorldPSCPool": "tagged",
+		"WrappedStringElement": "tagged",
+		"XRDeviceId": "tagged",
+		"XRGestureConfig": "tagged",
+		"XRHMDData": "tagged",
+		"XRMotionControllerData": "tagged",
+		"ZenCookOnTheFlyRegisterServiceMessage": "tagged"
+	},
+	"conflicts":
+	{
+	},
+	"containers":
+	{
+		"ActorBrowserConfig.ActorBrowsers":
+		{
+			"value": "ActorBrowsingModeConfig"
+		},
+		"AdditiveControlRig.ControlCustomizations":
+		{
+			"key": "RigElementKey",
+			"value": "RigControlElementCustomization"
+		},
+		"AdditiveControlRig.InputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"AdditiveControlRig.OutputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"AnimBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"AnimBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"AnimBlueprintGeneratedClass.CookedComponentInstancingData":
+		{
+			"value": "BlueprintCookedComponentInstancingData"
+		},
+		"AnimBlueprintGeneratedClass.CookedPropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"AnimBlueprintGeneratedClass.GraphAssetPlayerInformation":
+		{
+			"value": "GraphAssetPlayerInformation"
+		},
+		"AnimBlueprintGeneratedClass.GraphBlendOptions":
+		{
+			"value": "AnimGraphBlendOptions"
+		},
+		"AnimBlueprintGeneratedClass.NodeTypeMap":
+		{
+			"value": "AnimNodeStructData"
+		},
+		"AnimBlueprintGeneratedClass.OrderedSavedPoseIndicesMap":
+		{
+			"value": "CachedPoseIndices"
+		},
+		"AnimBlueprintGeneratedClass.PropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"AnimClassData.GraphBlendOptions":
+		{
+			"value": "AnimGraphBlendOptions"
+		},
+		"AnimClassData.GraphNameAssetPlayers":
+		{
+			"value": "GraphAssetPlayerInformation"
+		},
+		"AnimClassData.OrderedSavedPoseIndicesMap":
+		{
+			"value": "CachedPoseIndices"
+		},
+		"AnimGraphNode_AimOffsetLookAt.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_AnimDynamics.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ApplyAdditive.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ApplyLimits.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ApplyMeshSpaceAdditive.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_AssetPlayerBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Base.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendBoneByChannel.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendListBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendListByBool.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendListByEnum.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendListByInt.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpaceBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpaceEvaluator.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpaceGraph.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpaceGraphBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpacePlayer.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BlendSpaceSampleResult.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_BoneDrivenController.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CallFunction.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CCDIK.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ComponentToLocalSpace.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Constraint.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ControlRig.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CopyBone.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CopyBoneDelta.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CopyPoseFromMesh.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CurveSource.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CustomProperty.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_CustomTransitionResult.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Fabrik.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_HandIKRetargeting.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_IdentityPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_IKRig.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Inertialization.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LayeredBoneBlend.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LegIK.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LinkedAnimGraph.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LinkedAnimGraphBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LinkedAnimLayer.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LinkedInputPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LocalRefPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LocalToComponentSpace.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_LookAt.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_MakeDynamicAdditive.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_MeshRefPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Mirror.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ModifyBone.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ModifyCurve.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_MultiWayBlend.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ObserveBone.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_PoseBlendNode.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_PoseByName.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_PoseDriver.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_PoseHandler.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_PoseSnapshot.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RandomPlayer.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RefPoseBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ResetRoot.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RetargetPoseFromMesh.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RigidBody.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Root.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RotateRootBone.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RotationMultiplier.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RotationOffsetBlendSpace.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_RotationOffsetBlendSpaceGraph.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SaveCachedPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_ScaleChainLength.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SequenceEvaluator.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SequencePlayer.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SkeletalControlBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Slot.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SplineIK.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_SpringBone.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_StateMachine.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_StateMachineBase.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_StateResult.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Sync.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_Trail.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_TransitionPoseEvaluator.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_TransitionResult.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_TwistCorrectiveNode.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_TwoBoneIK.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_TwoWayBlend.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimGraphNode_UseCachedPose.PropertyBindings":
+		{
+			"value": "AnimGraphNodePropertyBinding"
+		},
+		"AnimNotifyQueue.UnfilteredMontageAnimNotifies":
+		{
+			"value": "AnimNotifyArray"
+		},
+		"AnimSequence.AttributeCurves":
+		{
+			"key": "AnimationAttributeIdentifier",
+			"value": "AttributeCurve"
+		},
+		"ARFilter.RecursiveClassPathsExclusionSet":
+		{
+			"element": "TopLevelAssetPath"
+		},
+		"BaseWidgetBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"BaseWidgetBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"Blueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"Blueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"BlueprintEditorSettings.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"BlueprintEditorSettings.GraphEditorQuickJumps":
+		{
+			"value": "EditedDocumentInfo"
+		},
+		"BlueprintEditorSettings.PerBlueprintSettings":
+		{
+			"value": "PerBlueprintSettings"
+		},
+		"BlueprintGeneratedClass.CookedComponentInstancingData":
+		{
+			"value": "BlueprintCookedComponentInstancingData"
+		},
+		"BlueprintGeneratedClass.CookedPropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"BlueprintGeneratedClass.PropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"CameraAnimationSequence.BoundActorComponents":
+		{
+			"key": "Guid"
+		},
+		"CameraModifier_CameraShake.ExpiredPooledShakesMap":
+		{
+			"value": "PooledCameraShakes"
+		},
+		"ChaosCache.ChannelsTracks":
+		{
+			"value": "RichCurves"
+		},
+		"ChaosCache.CurveData":
+		{
+			"value": "RichCurve"
+		},
+		"ChaosCache.EventTracks":
+		{
+			"value": "CacheEventTrack"
+		},
+		"ChaosGameplayEventDispatcher.BreakEventRegistrations":
+		{
+			"value": "BreakEventCallbackWrapper"
+		},
+		"ChaosGameplayEventDispatcher.CollisionEventRegistrations":
+		{
+			"value": "ChaosHandlerSet"
+		},
+		"ChaosGameplayEventDispatcher.CrumblingEventRegistrations":
+		{
+			"value": "CrumblingEventCallbackWrapper"
+		},
+		"ChaosGameplayEventDispatcher.RemovalEventRegistrations":
+		{
+			"value": "RemovalEventCallbackWrapper"
+		},
+		"ChildActorComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"ClassCookedMetaData.FunctionsMetaData":
+		{
+			"value": "StructCookedMetaDataStore"
+		},
+		"ClothPhysicalMeshData.WeightMaps":
+		{
+			"value": "PointWeightMap"
+		},
+		"CompilerNativizationOptions.ExcludedAssets":
+		{
+			"element": "SoftObjectPath"
+		},
+		"ContentBundleDuplicateForPIEHelper.StreamingObjects":
+		{
+			"key": "Guid"
+		},
+		"ControllablePlayer.BindingTargets":
+		{
+			"value": "BindingTargets"
+		},
+		"ControlRig.ControlCustomizations":
+		{
+			"key": "RigElementKey",
+			"value": "RigControlElementCustomization"
+		},
+		"ControlRig.InputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"ControlRig.OutputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"ControlRigBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"ControlRigBlueprint.PinToOperandMap":
+		{
+			"value": "RigVMOperand"
+		},
+		"ControlRigBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"ControlRigBlueprintGeneratedClass.CookedComponentInstancingData":
+		{
+			"value": "BlueprintCookedComponentInstancingData"
+		},
+		"ControlRigBlueprintGeneratedClass.CookedPropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"ControlRigBlueprintGeneratedClass.PropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"ControlRigDetailPanelControlProxies.AllProxies":
+		{
+			"value": "ControlToProxyMap"
+		},
+		"ControlRigEditorSettings.RigUnitPinExpansion":
+		{
+			"value": "ControlRigSettingsPerPinBool"
+		},
+		"ControlRigSequence.PossessedObjects":
+		{
+			"value": "LevelSequenceObject"
+		},
+		"CustomizedToolMenu.Entries":
+		{
+			"value": "CustomizedToolMenuEntry"
+		},
+		"CustomizedToolMenu.EntryOrder":
+		{
+			"value": "CustomizedToolMenuNameArray"
+		},
+		"CustomizedToolMenu.Sections":
+		{
+			"value": "CustomizedToolMenuSection"
+		},
+		"DatasmithMaterialInstanceTemplate.VectorParameterValues":
+		{
+			"value": "LinearColor"
+		},
+		"DatasmithMeshSectionInfoMapTemplate.Map":
+		{
+			"value": "DatasmithMeshSectionInfoTemplate"
+		},
+		"DemoNetDriver.ChannelDefinitionMap":
+		{
+			"value": "ChannelDefinition"
+		},
+		"DemoNetDriver.RollbackNetStartupActors":
+		{
+			"value": "RollbackNetStartupActorInfo"
+		},
+		"DetailsConfig.Views":
+		{
+			"value": "DetailsViewConfig"
+		},
+		"DetailsViewConfig.SelectedSections":
+		{
+			"value": "DetailsSectionSelection"
+		},
+		"EditorConfigTestComplexMap.Map":
+		{
+			"key": "EditorConfigTestKey",
+			"value": "EditorConfigTestKey"
+		},
+		"EditorConfigTestComplexSet.Set":
+		{
+			"element": "EditorConfigTestKey"
+		},
+		"EditorConfigTestSimpleKeyComplexValueMap.Map":
+		{
+			"value": "EditorConfigTestKey"
+		},
+		"EditorUtilityBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"EditorUtilityBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"EditorUtilityWidgetBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"EditorUtilityWidgetBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"EnhancedPlayerInput.ActionInstanceData":
+		{
+			"value": "InputActionInstance"
+		},
+		"EnhancedPlayerInput.InputsInjectedThisTick":
+		{
+			"value": "InjectedInputArray"
+		},
+		"EnhancedPlayerInput.KeysPressedThisTick":
+		{
+			"key": "Key",
+			"value": "Vector"
+		},
+		"FilterBarConfig.FilterBars":
+		{
+			"value": "FilterBarSettings"
+		},
+		"FKControlRig.ControlCustomizations":
+		{
+			"key": "RigElementKey",
+			"value": "RigControlElementCustomization"
+		},
+		"FKControlRig.InputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"FKControlRig.OutputProperties":
+		{
+			"value": "CachedPropertyPath"
+		},
+		"ForeignWorldSplineData.ForeignControlPointDataMap":
+		{
+			"value": "ForeignControlPointData"
+		},
+		"ForeignWorldSplineData.ForeignSplineSegmentDataMap":
+		{
+			"value": "ForeignSplineSegmentData"
+		},
+		"GameplayTagsManager.TagSources":
+		{
+			"value": "GameplayTagSource"
+		},
+		"GLTFExportOptions.DefaultInputBakeSettings":
+		{
+			"value": "GLTFOverrideMaterialBakeSettings"
+		},
+		"GLTFMaterialExportOptions.Inputs":
+		{
+			"value": "GLTFOverrideMaterialBakeSettings"
+		},
+		"GLTFProxyOptions.DefaultInputBakeSettings":
+		{
+			"value": "GLTFOverrideMaterialBakeSettings"
+		},
+		"HLODProxy.HLODActors":
+		{
+			"value": "HLODProxyMesh"
+		},
+		"IKRetargeter.Profiles":
+		{
+			"value": "RetargetProfile"
+		},
+		"IKRetargeter.RetargetPoses":
+		{
+			"value": "IKRetargetPose"
+		},
+		"IKRetargeter.SourceRetargetPoses":
+		{
+			"value": "IKRetargetPose"
+		},
+		"IKRetargeter.TargetRetargetPoses":
+		{
+			"value": "IKRetargetPose"
+		},
+		"IKRetargetPose.BoneRotationOffsets":
+		{
+			"value": "Quat"
+		},
+		"InstancedFoliageActor.ClientInstanceManagers":
+		{
+			"key": "Guid",
+			"value": "ISMClientInstanceManagerData"
+		},
+		"InstancedPlacementPartitionActor.ClientInstanceManagers":
+		{
+			"key": "Guid",
+			"value": "ISMClientInstanceManagerData"
+		},
+		"InstancedStaticMeshComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"InterchangeBlueprintPipelineBase.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"InterchangeBlueprintPipelineBase.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"InterchangeContentImportSettings.PipelineStacks":
+		{
+			"value": "InterchangePipelineStack"
+		},
+		"InterchangeGenericAnimationPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericAssetsPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericCommonMeshesProperties.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericCommonSkeletalMeshesAndAnimationsProperties.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericLevelPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericMaterialPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericMeshPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGenericTexturePipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeGraphInspectorPipeline.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangeImportSettings.PipelineStacks":
+		{
+			"value": "InterchangePipelineStack"
+		},
+		"InterchangeMeshInstance.SceneNodePerLodIndex":
+		{
+			"value": "InterchangeLodSceneNodeContainer"
+		},
+		"InterchangePipelineBase.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"InterchangePythonPipelineBase.PropertiesStates":
+		{
+			"value": "InterchangePipelinePropertyStates"
+		},
+		"IpNetDriver.ChannelDefinitionMap":
+		{
+			"value": "ChannelDefinition"
+		},
+		"ISMPartitionActor.ClientInstanceManagers":
+		{
+			"key": "Guid",
+			"value": "ISMClientInstanceManagerData"
+		},
+		"LandscapeComponent.LayersData":
+		{
+			"key": "Guid",
+			"value": "LandscapeLayerComponentData"
+		},
+		"LandscapeSplinesComponent.ForeignWorldSplineDataMap":
+		{
+			"value": "ForeignWorldSplineData"
+		},
+		"LegacyLevelSequenceDirectorBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"LegacyLevelSequenceDirectorBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"Level.ActorFolders":
+		{
+			"key": "Guid"
+		},
+		"Level.FolderLabelToActorFolders":
+		{
+			"value": "ActorFolderSet"
+		},
+		"LevelScriptBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"LevelScriptBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"LevelSequence.PossessedObjects":
+		{
+			"value": "LevelSequenceObject"
+		},
+		"LevelSequenceBindingReferences.AnimSequenceInstances":
+		{
+			"element": "Guid"
+		},
+		"LevelSequenceBindingReferences.BindingIdToReferences":
+		{
+			"key": "Guid",
+			"value": "LevelSequenceBindingReferenceArray"
+		},
+		"LevelSequenceBindingReferences.PostProcessInstances":
+		{
+			"element": "Guid"
+		},
+		"LiveLinkCurveConversionSettings.CurveConversionAssetMap":
+		{
+			"value": "SoftObjectPath"
+		},
+		"LODActor.InstancedStaticMeshComponents":
+		{
+			"key": "HLODInstancingKey"
+		},
+		"LODSyncComponent.CustomLODMapping":
+		{
+			"value": "LODMappingData"
+		},
+		"MaterialCachedParameterEntry.ParameterInfoSet":
+		{
+			"element": "MaterialParameterInfo"
+		},
+		"MeshSectionInfoMap.Map":
+		{
+			"value": "MeshSectionInfo"
+		},
+		"MeshTexturePaintingTool.PaintTargetData":
+		{
+			"value": "PaintTexture2DData"
+		},
+		"MetadataConfig.Classes":
+		{
+			"value": "StructMetadata"
+		},
+		"MetasoundFrontendDocument.Interfaces":
+		{
+			"element": "MetasoundFrontendVersion"
+		},
+		"MetasoundFrontendNodeStyleDisplay.Locations":
+		{
+			"key": "Guid",
+			"value": "Vector2D"
+		},
+		"MetaSoundPatch.ReferenceAssetClassCache":
+		{
+			"element": "SoftObjectPath"
+		},
+		"MetaSoundSource.ReferenceAssetClassCache":
+		{
+			"element": "SoftObjectPath"
+		},
+		"MouseCursorInteractor.KeyToActionMap":
+		{
+			"key": "Key",
+			"value": "ViewportActionKeyInput"
+		},
+		"MovieScene.BindingGroups":
+		{
+			"value": "MovieSceneObjectBindingIDs"
+		},
+		"MovieScene.ObjectsToLabels":
+		{
+			"value": "MovieSceneTrackLabels"
+		},
+		"MovieSceneAudioSection.Inputs_Bool":
+		{
+			"value": "MovieSceneBoolChannel"
+		},
+		"MovieSceneAudioSection.Inputs_Float":
+		{
+			"value": "MovieSceneFloatChannel"
+		},
+		"MovieSceneAudioSection.Inputs_Int":
+		{
+			"value": "MovieSceneIntegerChannel"
+		},
+		"MovieSceneAudioSection.Inputs_String":
+		{
+			"value": "MovieSceneStringChannel"
+		},
+		"MovieSceneAudioSection.Inputs_Trigger":
+		{
+			"value": "MovieSceneAudioTriggerChannel"
+		},
+		"MovieSceneCompiledDataManager.EntityComponentFields":
+		{
+			"value": "MovieSceneEntityComponentField"
+		},
+		"MovieSceneCompiledDataManager.Hierarchies":
+		{
+			"value": "MovieSceneSequenceHierarchy"
+		},
+		"MovieSceneCompiledDataManager.TrackTemplateFields":
+		{
+			"value": "MovieSceneEvaluationField"
+		},
+		"MovieSceneCompiledDataManager.TrackTemplates":
+		{
+			"value": "MovieSceneEvaluationTemplate"
+		},
+		"MovieSceneControlRigParameterSection.ControlChannelMap":
+		{
+			"value": "ChannelMapInfo"
+		},
+		"MovieSceneEditorData.ExpansionStates":
+		{
+			"value": "MovieSceneExpansionState"
+		},
+		"MovieSceneEditorData.MarkedFrames":
+		{
+			"element": "FrameNumber"
+		},
+		"MovieSceneEvaluationHookSystem.PendingEventsByRootInstance":
+		{
+			"key": "MovieSceneEvaluationInstanceKey",
+			"value": "MovieSceneEvaluationHookEventContainer"
+		},
+		"MovieSceneEvaluationTemplate.Tracks":
+		{
+			"key": "MovieSceneTrackIdentifier",
+			"value": "MovieSceneEvaluationTrack"
+		},
+		"MovieSceneEvent.PayloadVariables":
+		{
+			"value": "MovieSceneEventPayloadVariable"
+		},
+		"MovieSceneRootEvaluationTemplateInstance.DirectorInstances":
+		{
+			"key": "MovieSceneSequenceID"
+		},
+		"MovieSceneSequenceHierarchy.Hierarchy":
+		{
+			"key": "MovieSceneSequenceID",
+			"value": "MovieSceneSequenceHierarchyNode"
+		},
+		"MovieSceneSequenceHierarchy.SubSequences":
+		{
+			"key": "MovieSceneSequenceID",
+			"value": "MovieSceneSubSequenceData"
+		},
+		"MovieSceneTemplateGenerationLedger.SubSectionRanges":
+		{
+			"key": "Guid",
+			"value": "MovieSceneFrameRange"
+		},
+		"MovieSceneTemplateGenerationLedger.TrackSignatureToTrackIdentifier":
+		{
+			"key": "Guid",
+			"value": "MovieSceneTrackIdentifier"
+		},
+		"NetDriver.ChannelDefinitionMap":
+		{
+			"value": "ChannelDefinition"
+		},
+		"NiagaraComponent.InstanceParameterOverrides":
+		{
+			"key": "NiagaraVariableBase",
+			"value": "NiagaraVariant"
+		},
+		"NiagaraComponent.TemplateParameterOverrides":
+		{
+			"key": "NiagaraVariableBase",
+			"value": "NiagaraVariant"
+		},
+		"NiagaraComponentPool.WorldParticleSystemPools":
+		{
+			"value": "NCPool"
+		},
+		"NiagaraComponentSettings.GPUEmitterAllowList":
+		{
+			"element": "NiagaraEmitterNameSettingsRef"
+		},
+		"NiagaraComponentSettings.SuppressEmitterList":
+		{
+			"element": "NiagaraEmitterNameSettingsRef"
+		},
+		"NiagaraCullProxyComponent.InstanceParameterOverrides":
+		{
+			"key": "NiagaraVariableBase",
+			"value": "NiagaraVariant"
+		},
+		"NiagaraCullProxyComponent.TemplateParameterOverrides":
+		{
+			"key": "NiagaraVariableBase",
+			"value": "NiagaraVariant"
+		},
+		"NiagaraEditorSettings.NewAssetDialogConfigMap":
+		{
+			"value": "NiagaraNewAssetDialogConfig"
+		},
+		"NiagaraEmitter.MessageKeyToMessageMap":
+		{
+			"key": "Guid"
+		},
+		"NiagaraEmitterEditorData.SummaryViewFunctionInputMetadata":
+		{
+			"key": "FunctionInputSummaryViewKey",
+			"value": "FunctionInputSummaryViewMetadata"
+		},
+		"NiagaraFunctionSignature.InputDescriptions":
+		{
+			"key": "NiagaraVariableBase"
+		},
+		"NiagaraFunctionSignature.OutputDescriptions":
+		{
+			"key": "NiagaraVariableBase"
+		},
+		"NiagaraGraph.ParameterToReferencesMap":
+		{
+			"key": "NiagaraVariable",
+			"value": "NiagaraGraphParameterReferenceCollection"
+		},
+		"NiagaraGraph.VariableToMetaData":
+		{
+			"key": "NiagaraVariable",
+			"value": "NiagaraVariableMetaData"
+		},
+		"NiagaraGraph.VariableToScriptVariable":
+		{
+			"key": "NiagaraVariable"
+		},
+		"NiagaraNodeAssignment.BoundPinNames":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeAssignment.MessageKeyToMessageMap":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeCustomHlsl.BoundPinNames":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeCustomHlsl.MessageKeyToMessageMap":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeFunctionCall.BoundPinNames":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeFunctionCall.MessageKeyToMessageMap":
+		{
+			"key": "Guid"
+		},
+		"NiagaraNodeParameterMapGet.PinOutputToPinDefaultPersistentId":
+		{
+			"key": "Guid",
+			"value": "Guid"
+		},
+		"NiagaraOutlinerData.WorldData":
+		{
+			"value": "NiagaraOutlinerWorldData"
+		},
+		"NiagaraOutlinerWorldData.Systems":
+		{
+			"value": "NiagaraOutlinerSystemData"
+		},
+		"NiagaraParameterStore.ParameterGuidMapping":
+		{
+			"key": "NiagaraVariable",
+			"value": "Guid"
+		},
+		"NiagaraParameterStore.ParameterOffsets":
+		{
+			"key": "NiagaraVariable"
+		},
+		"NiagaraScriptExecutionParameterStore.ParameterGuidMapping":
+		{
+			"key": "NiagaraVariable",
+			"value": "Guid"
+		},
+		"NiagaraScriptExecutionParameterStore.ParameterOffsets":
+		{
+			"key": "NiagaraVariable"
+		},
+		"NiagaraScriptInstanceParameterStore.ParameterGuidMapping":
+		{
+			"key": "NiagaraVariable",
+			"value": "Guid"
+		},
+		"NiagaraScriptInstanceParameterStore.ParameterOffsets":
+		{
+			"key": "NiagaraVariable"
+		},
+		"NiagaraSimCache.DataInterfaceStorage":
+		{
+			"key": "NiagaraVariableBase"
+		},
+		"NiagaraSystem.MessageKeyToMessageMap":
+		{
+			"key": "Guid"
+		},
+		"NiagaraUserRedirectionParameterStore.ParameterGuidMapping":
+		{
+			"key": "NiagaraVariable",
+			"value": "Guid"
+		},
+		"NiagaraUserRedirectionParameterStore.ParameterOffsets":
+		{
+			"key": "NiagaraVariable"
+		},
+		"NiagaraUserRedirectionParameterStore.UserParameterRedirects":
+		{
+			"key": "NiagaraVariable",
+			"value": "NiagaraVariable"
+		},
+		"NiagaraVMExecutableData.DataSetToParameters":
+		{
+			"value": "NiagaraParameters"
+		},
+		"NodeMappingContainer.SourceItems":
+		{
+			"value": "NodeItem"
+		},
+		"NodeMappingContainer.TargetItems":
+		{
+			"value": "NodeItem"
+		},
+		"ObjectMixerEditorSerializedData.SerializedDataPerFilter":
+		{
+			"element": "ObjectMixerSerializationDataPerFilter"
+		},
+		"ObjectMixerSerializationDataPerFilter.SerializedColumnData":
+		{
+			"element": "ObjectMixerColumnData"
+		},
+		"OutlinerConfig.Outliners":
+		{
+			"value": "SceneOutlinerConfig"
+		},
+		"PerParticleCacheData.CurveData":
+		{
+			"value": "RichCurve"
+		},
+		"PhysicsAssetRenderUtilities.IdToSettingsMap":
+		{
+			"value": "PhysicsAssetRenderSettings"
+		},
+		"PlatformSettingsManager.SettingsMap":
+		{
+			"value": "PlatformSettingsInstances"
+		},
+		"PrecomputedLightInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"PrecomputedSkyLightInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"PrimitiveComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"PropertyEditorTestObject.Int32ToStructMap":
+		{
+			"value": "PropertyEditorTestBasicStruct"
+		},
+		"PropertyEditorTestObject.IntToCustomMap":
+		{
+			"value": "PropertyEditorTestBasicStruct"
+		},
+		"PropertyEditorTestObject.IntToSubStructMap":
+		{
+			"value": "PropertyEditorTestSubStruct"
+		},
+		"PropertyEditorTestObject.LinearColorSet":
+		{
+			"element": "LinearColor"
+		},
+		"PropertyEditorTestObject.LinearColorToStringMap":
+		{
+			"key": "LinearColor"
+		},
+		"PropertyEditorTestObject.LinearColorToVectorMap":
+		{
+			"key": "LinearColor",
+			"value": "Vector"
+		},
+		"PropertyEditorTestObject.NameToColorMap":
+		{
+			"value": "LinearColor"
+		},
+		"PropertyEditorTestObject.NameToCustomMap":
+		{
+			"value": "PropertyEditorTestBasicStruct"
+		},
+		"PropertyEditorTestObject.ObjectToColorMap":
+		{
+			"value": "LinearColor"
+		},
+		"PropertyEditorTestObject.StringToColorMap":
+		{
+			"value": "LinearColor"
+		},
+		"PropertyEditorTestObject.VectorSet":
+		{
+			"element": "Vector"
+		},
+		"PropertyEditorTestObject.VectorToFloatMap":
+		{
+			"key": "Vector"
+		},
+		"RecordedFrame.Trailings":
+		{
+			"element": "SolverTrailingData"
+		},
+		"RetargetProfile.ChainSettings":
+		{
+			"value": "TargetChainSettings"
+		},
+		"RigHierarchy.PreviousNameMap":
+		{
+			"key": "RigElementKey",
+			"value": "RigElementKey"
+		},
+		"RigInfluenceMap.KeyToIndex":
+		{
+			"key": "RigElementKey"
+		},
+		"RigVMBuildData.FunctionReferences":
+		{
+			"value": "RigVMFunctionReferenceArray"
+		},
+		"RigVMClient.Controllers":
+		{
+			"key": "SoftObjectPath"
+		},
+		"RigVMControllerSettings.TemplateDefaultTypes":
+		{
+			"value": "RigVMController_CommonTypePerTemplate"
+		},
+		"RigVMFunctionLibrary.FunctionReferences":
+		{
+			"value": "RigVMFunctionReferenceArray"
+		},
+		"SceneComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"SourceEffectMotionFilterSettings.ModulationMappings":
+		{
+			"value": "SourceEffectMotionFilterModulationSettings"
+		},
+		"SplineInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"SplineMeshInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"StaticMeshComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"StructCookedMetaDataStore.PropertiesMetaData":
+		{
+			"value": "FieldCookedMetaDataStore"
+		},
+		"StructMetadata.Fields":
+		{
+			"value": "MetadataSet"
+		},
+		"StructSerializerLWCTypesTest.StrToVec":
+		{
+			"value": "Vector"
+		},
+		"StructSerializerLWCTypesTest.VectorSet":
+		{
+			"element": "Vector"
+		},
+		"StructSerializerMapTestStruct.StrToStruct":
+		{
+			"value": "StructSerializerBuiltinTestStruct"
+		},
+		"StructSerializerMapTestStruct.StrToVec":
+		{
+			"value": "Vector"
+		},
+		"StructSerializerNonLWCTypesTest.StrToVec":
+		{
+			"value": "Vector3f"
+		},
+		"StructSerializerNonLWCTypesTest.VectorSet":
+		{
+			"element": "Vector3f"
+		},
+		"StructSerializerSetTestStruct.StructSet":
+		{
+			"element": "StructSerializerBuiltinTestStruct"
+		},
+		"TemplateSequence.BoundActorComponents":
+		{
+			"key": "Guid"
+		},
+		"ToolStackContext.ToolStacks":
+		{
+			"value": "InteractiveToolStack"
+		},
+		"UMGSequenceTickManager.WeakUserWidgetData":
+		{
+			"value": "SequenceTickManagerWidgetData"
+		},
+		"UserInterfaceSettings.HardwareCursors":
+		{
+			"value": "HardwareCursorReference"
+		},
+		"UserInterfaceSettings.SoftwareCursors":
+		{
+			"value": "SoftClassPath"
+		},
+		"UserWidgetBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"UserWidgetBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"ViewportInteractor.KeyToActionMap":
+		{
+			"key": "Key",
+			"value": "ViewportActionKeyInput"
+		},
+		"VREditorInteractor.KeyToActionMap":
+		{
+			"key": "Key",
+			"value": "ViewportActionKeyInput"
+		},
+		"VRScoutingInteractor.KeyToActionMap":
+		{
+			"key": "Key",
+			"value": "ViewportActionKeyInput"
+		},
+		"WidgetBlueprint.Bookmarks":
+		{
+			"key": "Guid",
+			"value": "EditedDocumentInfo"
+		},
+		"WidgetBlueprint.PRIVATE_CachedMacroInfo":
+		{
+			"value": "BlueprintMacroCosmeticInfo"
+		},
+		"WidgetBlueprintGeneratedClass.CookedComponentInstancingData":
+		{
+			"value": "BlueprintCookedComponentInstancingData"
+		},
+		"WidgetBlueprintGeneratedClass.CookedPropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"WidgetBlueprintGeneratedClass.PropertyGuids":
+		{
+			"value": "Guid"
+		},
+		"WidgetComponentInstanceData.AttachedInstanceComponents":
+		{
+			"value": "Transform"
+		},
+		"WorldPartitionEditorPerProjectUserSettings.PerWorldEditorSettings":
+		{
+			"value": "WorldPartitionPerWorldSettings"
+		},
+		"WorldPartitionMiniMap.ExcludedDataLayers":
+		{
+			"element": "ActorDataLayer"
+		},
+		"WorldPSCPool.WorldParticleSystemPools":
+		{
+			"value": "PSCPool"
+		}
+	}
+}
