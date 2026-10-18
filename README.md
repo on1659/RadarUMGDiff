@@ -13,7 +13,7 @@
 프로젝트의 `Plugins/RadarUMGDiff` 에 두고(서브모듈 권장) 에디터를 빌드합니다. 런타임 모듈은 없습니다.
 
 ```
-git submodule add -b 5.8 https://github.com/<owner>/RadarUMGDiff.git Plugins/RadarUMGDiff
+git submodule add -b 5.8 https://github.com/on1659/RadarUMGDiff.git Plugins/RadarUMGDiff
 ```
 
 ## 쓰는 법 (에디터)
