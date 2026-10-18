@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Radar UMG Diff",
+	"Description": "위젯 블루프린트 두 리비전을 렌더해서 비교한다",
+	"Category": "Editor",
+	"CreatedBy": "Radar",
+	"CanContainContent": true,
+	"Modules": [
+		{
+			"Name": "RadarUMGDiffEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

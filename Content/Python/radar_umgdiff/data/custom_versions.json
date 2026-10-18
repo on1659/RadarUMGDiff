@@ -1,0 +1,860 @@
+{
+  "generatedBy": "tools/gen_custom_versions.py",
+  "engines": [
+    "UE_5.8",
+    "UE_5.1"
+  ],
+  "versions": {
+    "02AA05D1AF1A436692017933729C6419": {
+      "name": "FDisplayClusterICVFXCameraCustomVersion",
+      "source": "Private/Version/DisplayClusterICVFXCameraCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "06C4F6DCF518B97487B0C096E3855B05": {
+      "name": "FDisplayClusterCustomVersion",
+      "source": "DisplayCluster/Private/DisplayClusterVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "077636E944119FD926477F9D0A7E9F6E": {
+      "name": "FRemoteControlProtocolDMXObjectVersion",
+      "source": "RemoteControlProtocolDMX/Private/RemoteControlProtocolDMXObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "0925477B763D40019D91D6730B75B411": {
+      "name": "FCommonCustomVersion",
+      "source": "CommonUI/Private/CommonCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "0C5DB848021757CE0C42843E0CA16973": {
+      "name": "FMetaHumanCharacterCustomVersion",
+      "source": "MetaHumanCharacter/Private/MetaHumanCharacterCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "0D03FD52BF174EAE89C8DE2A98BF53FE": {
+      "name": "FMaterialValidationGroupObjectVersion",
+      "source": "Source/Private/MaterialValidationGroup.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "0DF73D61A23F47EAB72789E90C41499A": {
+      "name": "FAutomationObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "11310AED2E554D61AF679AA3C5A1082C": {
+      "name": "FPaperCustomVersion",
+      "source": "Paper2D/Private/PaperCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "12345678123456781234567812345678": {
+      "name": "FHeightmapTextureEdgeSnapshotCustomVersion",
+      "source": "Landscape/Private/LandscapeEdgeFixup.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "12F88B9F88754AFCA67CD90C383ABD29": {
+      "name": "FRenderingObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "134A157ED5E249A38D4E843C98FE9E31": {
+      "name": "FPropertyBagCustomVersion",
+      "source": "Private/StructUtils/PropertyBag.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "174F1F0BB4C645A5B13F2EE8D0FB917D": {
+      "name": "FDestructionObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "1ED048F42F2E4C6889D053A4F18F102D": {
+      "name": "FWorldSettingCustomVersion",
+      "source": "Engine/Private/WorldSettings.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "23D9FD274F6A0FDFEA0554807D4B3AB0": {
+      "name": "FMLDeformerObjectVersion",
+      "source": "MLDeformerFramework/Private/MLDeformerObjectVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "24BB7AF356464F831F2F2DC249AD96FF": {
+      "name": "FVariantManagerObjectVersion",
+      "source": "VariantManagerContent/Private/VariantManagerObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "26075A32730F470888E98C32F1599D05": {
+      "name": "FUE5CookerObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.1"
+      ]
+    },
+    "2763920D0F784B39986E4BB3A88D666D": {
+      "name": "FPCGCustomVersion",
+      "source": "PCG/Private/PCGCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "28B0103666B4498F99425ACADB78A9B5": {
+      "name": "FDatasmithClothSerializationVersion",
+      "source": "DatasmithCore/Private/DatasmithCloth.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "28E21331501F47238110FA64EA10DA1E": {
+      "name": "FStateTreeCustomVersion",
+      "source": "StateTreeModule/Private/StateTree.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "29E575DDE0A346279D10D276232CDCEA": {
+      "name": "FAnimPhysObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "2C28AC2215CF46FEBD19F011652A3C05": {
+      "name": "FWorldConditionCustomVersion",
+      "source": "WorldConditions/Private/WorldConditionQuery.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "2EB5FDBD01AC4D108136F38F3393A5DA": {
+      "name": "FAnimationCustomVersion",
+      "source": "AnimGraphRuntime/Private/AnimationCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "30D58BE395EA4282A6E3B159D8EBB06A": {
+      "name": "FNaniteResearchStreamObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ],
+      "aliases": [
+        "FUE5LWCRenderingStreamObjectVersion"
+      ]
+    },
+    "35F94A83E258406CA31809F59610247C": {
+      "name": "FExternalPhysicsCustomObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "375EC13C06E448FBB50084F0262A717E": {
+      "name": "FCoreObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "39C831C95AE647DC9A449C173E1C8E7C": {
+      "name": "FOnlineObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "40D2FBA74B484CE5B0385A75884E499E": {
+      "name": "FWaterCustomVersion",
+      "source": "Runtime/Private/WaterVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "430C4D197154497087699B69DF90B0E5": {
+      "name": "FFoliageCustomVersion",
+      "source": "Foliage/Private/InstancedFoliage.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "45641511102F42BBA6EF181D6C442CAC": {
+      "name": "FAnimNextStateTreeCustomVersion",
+      "source": "UAFStateTree/Private/AnimNextStateTree.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "4A56EB4010F511DC92D3347EB2C96AE7": {
+      "name": "FParticleSystemCustomVersion",
+      "source": "Private/Particles/ParticleSystemComponent.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "4CEF9221470ED43A7E603D8C16995726": {
+      "name": "FComposureCustomVersion",
+      "source": "Composure/Private/ComposureCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "5579F886933A4C1F83BA087B6361B92F": {
+      "name": "FRecomputeTangentCustomVersion",
+      "source": "Engine/Private/SkeletalMesh.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "59DA5D5212324948B878597870B8E98B": {
+      "name": "FUE5SpecialProjectStreamObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ],
+      "aliases": [
+        "FUE5PrivateFrostyStreamObjectVersion"
+      ]
+    },
+    "5B4C06B724634AF8805BBF70CDF5D0DD": {
+      "name": "FFortniteSeasonBranchObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ],
+      "aliases": [
+        "FFortniteNCBranchObjectVersion"
+      ]
+    },
+    "5FBC690755C840AE8E67F1845EFFF13F": {
+      "name": "FChaosClothSharedConfigCustomVersion",
+      "source": "Private/ChaosCloth/ChaosClothSharedConfigCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "601D1886AC644F84AA16D3DE0DEAC7D6": {
+      "name": "FFortniteMainBranchObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "60C4F0DE8B264C34AA9372015DFF09CC": {
+      "name": "FStateTreeInstanceStorageCustomVersion",
+      "source": "StateTreeModule/Private/StateTreeInstanceData.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "612FBE52DA53400B910D4F919FB1857C": {
+      "name": "FOverlappingVerticesCustomVersion",
+      "source": "Engine/Private/SkeletalMesh.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "6304A3E700594F598CFC21BD7721FD4E": {
+      "name": "FComputeFrameworkObjectVersion",
+      "source": "ComputeFramework/Private/ComputeFrameworkModule.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "64F58936FD1B42BABA967289D5D0FA4E": {
+      "name": "FVirtualProductionObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "6631380F2D4D43E08009CF276956A95A": {
+      "name": "FPlatformObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "68D13BF963C348C8B9E787CF22329F39": {
+      "name": "FAvaOutlinerVersion",
+      "source": "Private/Data/AvaOutlinerVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "697DD581E64F41ABAA4A51ECBEB7B628": {
+      "name": "FUE5MainStreamObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "6B266CEC1EC74B8FA30BE4D90942FC07": {
+      "name": "FReflectionCaptureObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "6C3BE9C24D8186854D93ABAE9AF3C0BA": {
+      "name": "FDMXControlConsoleMainStreamObjectVersion",
+      "source": "DMXControlConsole/Private/DMXControlConsoleMainStreamObjectVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "6EACA3D440EC4CC1B7868BED09428FC5": {
+      "name": "FGeometryObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "6F0ED827A60948959C91998D90180EA4": {
+      "name": "FMediaFrameworkObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "717F9EE7E9B0493A88B391321B388107": {
+      "name": "FAssetRegistryVersion",
+      "source": "Private/AssetRegistry/AssetData.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "75A7B6834F4C7E28DDE5488585323939": {
+      "name": "FDMXRuntimeMainStreamObjectVersion",
+      "source": "DMXRuntime/Private/DMXRuntimeMainStreamObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "75A7B6834F4C7E28DDE5488585323940": {
+      "name": "FDMXPixelMappingMainStreamObjectVersion",
+      "source": "DMXPixelMappingRuntime/Private/DMXPixelMappingMainStreamObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ],
+      "aliases": [
+        "FDMXPixelMappingRuntimeObjectVersion"
+      ]
+    },
+    "76A52329092345B598AED841CF2F6AD8": {
+      "name": "FChaosClothConfigCustomVersion",
+      "source": "Private/ChaosCloth/ChaosClothConfigCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "78F01B33EBEA4F98B9B484EACCB95AA2": {
+      "name": "FPhysicsObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "79D2530147AF41F8ADCF10E797415C16": {
+      "name": "FSoundSubmixCustomVersion",
+      "source": "Engine/Private/SoundSubmixCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "7B5AE74CD2704C10A95857980B212A5A": {
+      "name": "FSequencerObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "82E77C4E332343A5B46B13C597310DF3": {
+      "name": "FAudioSynesthesiaCustomVersion",
+      "source": "AudioSynesthesiaCore/Private/AudioSynesthesiaCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "83E2C5C2364D11EB90A93CDFFB2CA371": {
+      "name": "FRemoteControlObjectVersion",
+      "source": "RemoteControl/Public/RemoteControlObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "84F72F2E4181C25526721CB537DFB222": {
+      "name": "FTG_CustomVersion",
+      "source": "TextureGraph/Private/TG_CustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "8652A554966A466C9FD71C6DD61B1ADB": {
+      "name": "FLensFileObjectVersion",
+      "source": "CameraCalibrationCore/Private/LensFileObjectVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "867597A5492791B63FDACDB060344667": {
+      "name": "FRivermaxMediaVersion",
+      "source": "RivermaxMedia/Private/RivermaxMediaUtils.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "8DBC2C5B54A743E0A768FCBB7DA29060": {
+      "name": "FFortniteValkyrieBranchObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "93EDE1AA10CA73754DF98A2849B157A0": {
+      "name": "FOptimusObjectVersion",
+      "source": "OptimusCore/Private/OptimusCoreModule.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "946623564DAE92ACABF8BE9819FE8C2F": {
+      "name": "FDMXProtocolObjectVersion",
+      "source": "DMXProtocol/Public/DMXProtocolObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "9950B70EB41A4E17BBCCFA0D57817FD6": {
+      "name": "FClothConfigNvCustomVersion",
+      "source": "ClothingSystemRuntimeNv/Private/ClothConfigNvCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "9A529652B6F785F74B868FB5744F83E3": {
+      "name": "FMetaHumanCoreCustomVersion",
+      "source": "MetaHumanCoreTech/Private/MetaHumanCoreCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "9C54D522A8264FBE9421074661B482D0": {
+      "name": "FReleaseObjectVersion",
+      "source": "Private/Misc/EngineVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "9DE7BD9867D445B28C0E9D73FDE1E367": {
+      "name": "FDNAAssetCustomVersion",
+      "source": "RigLogicModule/Private/DNAAssetCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "9DFFBCD6494F0158E22112823C92A888": {
+      "name": "FEnterpriseObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "A26D36AE26935388A8C5CB962B95B4AF": {
+      "name": "FCurveExpressionCustomVersion",
+      "source": "Runtime/Private/CurveExpressionCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "A4E4105C59A149B5A7C540C4547EDFEE": {
+      "name": "FNetworkingObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "A6EBC74A3BAD46B8AA30D6B27D58EA25": {
+      "name": "FInstancedActorsCustomVersion",
+      "source": "InstancedActors/Private/InstancedActorsCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "A6FC056045B83348D0E5E18A3129CD45": {
+      "name": "FZoneShapeCustomVersion",
+      "source": "ZoneGraph/Private/ZoneShapeComponent.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "A7820CFB20A743598C542C149623CF50": {
+      "name": "FControlRigObjectVersion",
+      "source": "ControlRig/Private/ControlRigModule.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "A7C3E2915F8B4D063E1A9C74D20F68B5": {
+      "name": "FRigDynamicsObjectVersion",
+      "source": "ControlRigDynamics/Private/ControlRigDynamicsModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "AAFE32BD53954C14B66A5E251032D1DD": {
+      "name": "FProceduralFoliageCustomVersion",
+      "source": "Foliage/Private/ProceduralFoliageSpawner.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "AB96519645D808FCB7D7228D78AD569E": {
+      "name": "FLiveLinkCustomVersion",
+      "source": "LiveLinkInterface/Private/LiveLinkCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "AF43A65D7FD3494798733E8ED9C1BB05": {
+      "name": "FAnimObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "AFE086913A0D4952B673673B7CF22D1E": {
+      "name": "FPoseDriverCustomVersion",
+      "source": "AnimGraph/Private/AnimGraphNode_PoseDriver.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B02B49B5BB2044E9A30432B752E40360": {
+      "name": "FMobileObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B0D832E41F894F0DACCF7EB736FD4AA2": {
+      "name": "FBlueprintsObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B2E185064273CFC2A54EF4BB758BBA07": {
+      "name": "FCineCameraObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B4E2D1C05A3F8B7E92461035D7F8E9A0": {
+      "name": "FLevelStreamingPersistenceCustomVersion",
+      "source": "LevelStreamingPersistence/Private/LevelStreamingPersistenceManager.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "B68FC16E8B1B42E2B453215C058844FE": {
+      "name": "FExternalPhysicsMaterialCustomObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B69D2E47E2A84003BF7718A492C4D899": {
+      "name": "FFortniteMainInterchangePipelineObjectVersion",
+      "source": "Pipelines/Private/InterchangePipelinesModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "B6E31B1CD29F11EC857E9F856F9970E2": {
+      "name": "FShapeComponentCustomVersion",
+      "source": "Private/Components/ShapeComponent.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "B7F3D2854A1C5E082D6B9F71C50E8A14": {
+      "name": "FRigPhysicsObjectVersion",
+      "source": "ControlRigPhysics/Private/ControlRigPhysicsModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "C1270312AB730B1E0B1EC74571C70F73": {
+      "name": "FCustomizableObjectCustomVersion",
+      "source": "Private/MuCO/CustomizableObjectCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "C1270312AB730B1E0B1EC790917A7105": {
+      "name": "FCustomizableObjectPopulationCustomVersion",
+      "source": "Private/MuCOP/CustomizableObjectPopulationCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "C2A15278BFE74AFE6C1790FF531DF755": {
+      "name": "FLoadTimesObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "C9C9491C457EAE01AA0F109994768AC0": {
+      "name": "FRivermaxMediaOutputCustomVersion",
+      "source": "RivermaxMedia/Private/RivermaxMediaOutput.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "CB8AB0CDE78C4BDEA862139314E9EF62": {
+      "name": "FTempCustomVersion",
+      "source": "SerializedRecorderInterface/Private/MovieSceneSectionSerialization.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "CFFC743F43B04480939114DF171D2073": {
+      "name": "FFrameworkObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "D3B4C40CD15A4DA1ADF25940B2C65167": {
+      "name": "FAvaSequenceVersion",
+      "source": "AvalancheSequence/Private/AvaSequenceVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "D72969181DD64BDD9DE264A83CC13884": {
+      "name": "FVRObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "D78A4A00E8584697BAA819B5487D46B4": {
+      "name": "FSkeletalMeshCustomVersion",
+      "source": "Engine/Private/SkeletalMesh.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "D89B5E4224BD4D468412ACA8DF641779": {
+      "name": "FUE5ReleaseStreamObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "DC49359B53C04DE79126EA885E1C5D39": {
+      "name": "FScribbleObjectVersion",
+      "source": "Scribble/Private/ScribbleModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "DC49959B53C04DE79156EA885E7C5D39": {
+      "name": "FRigVMObjectVersion",
+      "source": "RigVM/Private/RigVMModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "DCC215F26CB44CD09693A2A0BE6A6D23": {
+      "name": "FSubsurfaceProfileCustomVersion",
+      "source": "Private/Rendering/SubsurfaceProfile.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "E1C64328A22C4D53A36C8E866417BD8C": {
+      "name": "FBuildObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "E4B068EDF49442E9A231DA0B2E46BB41": {
+      "name": "FEditorObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "E68A5C1A42C3CA0DB01441B228C1F2DD": {
+      "name": "FPhysicsControlObjectVersion",
+      "source": "PhysicsControl/Private/PhysicsControlModule.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "E70863686B234C5884391B7016265E91": {
+      "name": "FFortniteReleaseBranchCustomObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "F2AED0AC9AFE416F8664AA7FFA26D6FC": {
+      "name": "FNiagaraObjectVersion",
+      "source": "Private/UObject/DevObjectVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "F6DFBB78BB50A0E44018B84D60CBAF23": {
+      "name": "FIKRigObjectVersion",
+      "source": "IKRig/Private/IKRig.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "FA0C4D226D36415E937F159FB7814F35": {
+      "name": "FRegionAffiliationAssetCustomVersion",
+      "source": "GeneSplicerModule/Private/RegionAffiliationAssetCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "FB64E1482E284BF7A91177591FE5C6CE": {
+      "name": "FGenePoolAssetCustomVersion",
+      "source": "GeneSplicerModule/Private/GenePoolAssetCustomVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    },
+    "FB680AF259EF4BA3BAA819B573C8443D": {
+      "name": "FClothingAssetCustomVersion",
+      "source": "ClothingSystemRuntimeCommon/Private/ClothingAssetCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "FCF57AFA50764283B9A9E658FFA02D32": {
+      "name": "FNiagaraCustomVersion",
+      "source": "NiagaraCore/Private/NiagaraCustomVersion.cpp",
+      "engines": [
+        "5.8",
+        "5.1"
+      ]
+    },
+    "FCF57AFC50764285B9A9E660FFA02D34": {
+      "name": "FDynamicMaterialModelEditorOnlyDataVersion",
+      "source": "Private/Model/DynamicMaterialModelEditorOnlyDataVersion.cpp",
+      "engines": [
+        "5.8"
+      ]
+    }
+  }
+}

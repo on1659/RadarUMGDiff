@@ -1,0 +1,97 @@
+{
+  "generatedBy": "tools/gen_version_gates.py",
+  "engines": [
+    "UE_5.8",
+    "UE_5.1"
+  ],
+  "gates": {
+    "FFrameworkObjectVersion": {
+      "guid": "CFFC743F43B04480939114DF171D2073",
+      "members": {
+        "PinsStoreFName": {
+          "value": 31
+        },
+        "EdGraphPinContainerType": {
+          "value": 26
+        }
+      }
+    },
+    "FReleaseObjectVersion": {
+      "guid": "9C54D522A8264FBE9421074661B482D0",
+      "members": {
+        "PinTypeIncludesUObjectWrapperFlag": {
+          "value": 32
+        }
+      }
+    },
+    "FUE5ReleaseStreamObjectVersion": {
+      "guid": "D89B5E4224BD4D468412ACA8DF641779",
+      "members": {
+        "SerializeFloatPinDefaultValuesAsSinglePrecision": {
+          "value": 36
+        },
+        "TextFormatArgumentData64bitSupport": {
+          "value": 12
+        }
+      }
+    },
+    "FUE5MainStreamObjectVersion": {
+      "guid": "697DD581E64F41ABAA4A51ECBEB7B628",
+      "members": {
+        "EdGraphPinSourceIndex": {
+          "value": 50
+        }
+      }
+    },
+    "FBlueprintsObjectVersion": {
+      "guid": "B0D832E41F894F0DACCF7EB736FD4AA2",
+      "members": {
+        "EdGraphPinOptimized": {
+          "value": 4
+        }
+      }
+    },
+    "FSequencerObjectVersion": {
+      "guid": "7B5AE74CD2704C10A95857980B212A5A",
+      "members": {
+        "SerializeFloatChannel": {
+          "value": 10
+        },
+        "SerializeFloatChannelCompletely": {
+          "value": 12
+        }
+      }
+    },
+    "FFortniteMainBranchObjectVersion": {
+      "guid": "601D1886AC644F84AA16D3DE0DEAC7D6",
+      "members": {
+        "SerializeFloatChannelShowCurve": {
+          "value": 53
+        },
+        "AddDevNotesToFText": {
+          "value": 260,
+          "missingIn": [
+            "5.1"
+          ]
+        },
+        "SoftObjectPathUtf8SubPaths": {
+          "value": 192,
+          "missingIn": [
+            "5.1"
+          ]
+        }
+      }
+    },
+    "FEditorObjectVersion": {
+      "guid": "E4B068EDF49442E9A231DA0B2E46BB41",
+      "members": {
+        "AddedAlwaysSignNumberFormattingOption": {
+          "value": 21
+        },
+        "TextFormatArgumentDataIsVariant": {
+          "value": 5
+        }
+      }
+    }
+  }
+}
