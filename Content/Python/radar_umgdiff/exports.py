@@ -68,6 +68,8 @@ def read_export(pkg, e):
             acct.understood += r.pos - pos0
             if r.pos < end and _is_graph_node(pkg, e, cls):
                 _read_node_suffix(pkg, r, end, suffix, acct, cls)
+            elif r.pos < end and cls == "MetaData":
+                _read_metadata_suffix(pkg, r, end, suffix, acct)
             rest = end - r.pos
             if rest:
                 acct.add_unparsed("(suffix:%s)" % cls, rest)
@@ -115,6 +117,39 @@ def _read_node_suffix(pkg, r, end, suffix, acct, cls):
     if user is not None:
         suffix["userDefinedPins"] = user
     acct.understood += r.pos - pos0
+
+
+def _read_metadata_suffix(pkg, r, end, suffix, acct):
+    """UMetaData (FileVersionUE5 < 1014 에서는 패키지 메타데이터가 익스포트다 — 1014 부터는 MetaDataOffset 구역).
+    5.1 CoreUObject/Private/UObject/MetaData.cpp UMetaData::Serialize: UObject 부분 뒤에
+      TMap<FWeakObjectPtr, TMap<FName, FString>> ObjectMetaDataMap  (약참조 = 오브젝트 FPackageIndex i32 — FArchiveUObject::SerializeWeakObjectPtr)
+      TMap<FName, FString> RootMetaDataMap                          (FEditorObjectVersion >= RootMetaDataSupport)
+    끝이 익스포트 끝과 맞을 때만 받아들인다."""
+    from . import versions as V
+    pos0 = r.pos
+    try:
+        objects = {}
+        for _ in range(_count_of(r)):
+            obj = pkg.object_path(r.i32())
+            objects[obj] = {r.fname(): r.fstring() for _ in range(_count_of(r))}
+        root = {}
+        if V.at_least(pkg, "FEditorObjectVersion", "RootMetaDataSupport"):
+            root = {r.fname(): r.fstring() for _ in range(_count_of(r))}
+        if r.pos != end:
+            raise ParseError("메타데이터 끝 %d != 익스포트 끝 %d" % (r.pos, end))
+    except ParseError as ex:
+        r.pos = pos0
+        suffix["metaDataError"] = str(ex)
+        return
+    suffix["metaData"] = {"objects": objects, "root": root}
+    acct.understood += r.pos - pos0
+
+
+def _count_of(r):
+    n = r.i32()
+    if n < 0 or n > 1000000:
+        raise ParseError("맵 원소 수 이상: %d" % n)
+    return n
 
 
 def read_all(pkg):

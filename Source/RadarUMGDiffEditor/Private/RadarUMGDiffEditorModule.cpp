@@ -48,7 +48,7 @@ void FRadarUMGDiffEditorModule::RegisterMenus()
 	FToolMenuOwnerScoped OwnerScoped(this);
 
 	// "ContentBrowser.AssetContextMenu.WidgetBlueprint" (ContentBrowserMenuContexts.cpp:115 이 클래스 이름으로 만든다)
-	UToolMenu* Menu = UE::ContentBrowser::ExtendToolMenu_AssetContextMenu(UWidgetBlueprint::StaticClass());
+	UToolMenu* Menu = RadarCompat::ExtendWidgetBlueprintAssetMenu();
 	FToolMenuSection& Section = Menu->FindOrAddSection("GetAssetActions");
 	Section.AddDynamicEntry("RadarUMGDiff", FNewToolMenuSectionDelegate::CreateLambda([](FToolMenuSection& InSection)
 	{

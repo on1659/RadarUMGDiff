@@ -7,7 +7,7 @@
 
 #include "Blueprint/UserWidget.h"
 #include "WidgetBlueprintEditorUtils.h"
-#include "Settings/WidgetDesignerSettings.h"
+#include "RadarEngineCompat.h"
 #include "Layout/ArrangedChildren.h"
 #include "Layout/LayoutUtils.h"
 #include "Widgets/SOverlay.h"
@@ -165,8 +165,7 @@ void SRadarPreviewPane::RebuildHost()
 FVector2D SRadarPreviewPane::GetPreviewSize() const
 {
 	UUserWidget* P = PreviewFor(false);
-	const FUintVector2 Res = GetDefault<UWidgetDesignerSettings>()->DefaultPreviewResolution;
-	const FVector2D Preview(Res.X, Res.Y);
+	const FVector2D Preview = RadarCompat::DefaultPreviewResolution();
 	if (!P)
 	{
 		return Preview;
@@ -174,29 +173,27 @@ FVector2D SRadarPreviewPane::GetPreviewSize() const
 	const TSharedPtr<SWidget> Root = P->GetCachedWidget();
 	const FVector2D Desired = Root.IsValid() ? FVector2D(Root->GetDesiredSize()) : FVector2D::ZeroVector;
 	// 두 패널 모두 새 쪽의 DesignSizeMode/DesignTimeSize (goal: "forced to the same preview area")
-	return FWidgetBlueprintEditorUtils::GetWidgetPreviewAreaAndSize(P, Desired, Preview, P->DesignSizeMode, TOptional<FVector2D>()).Get<1>();
+	return RadarCompat::WidgetPreviewAreaAndSize(P, Desired, Preview, P->DesignSizeMode).Get<1>();
 }
 
 FVector2D SRadarPreviewPane::GetAreaSize() const
 {
 	UUserWidget* P = PreviewFor(false);
-	const FUintVector2 Res = GetDefault<UWidgetDesignerSettings>()->DefaultPreviewResolution;
-	const FVector2D Preview(Res.X, Res.Y);
+	const FVector2D Preview = RadarCompat::DefaultPreviewResolution();
 	if (!P)
 	{
 		return Preview;
 	}
 	const TSharedPtr<SWidget> Root = P->GetCachedWidget();
 	const FVector2D Desired = Root.IsValid() ? FVector2D(Root->GetDesiredSize()) : FVector2D::ZeroVector;
-	return FWidgetBlueprintEditorUtils::GetWidgetPreviewAreaAndSize(P, Desired, Preview, P->DesignSizeMode, TOptional<FVector2D>()).Get<0>();
+	return RadarCompat::WidgetPreviewAreaAndSize(P, Desired, Preview, P->DesignSizeMode).Get<0>();
 }
 
 float SRadarPreviewPane::GetPreviewDPI() const
 {
 	// 디자이너와 같은 공식 (SDesignerView::GetPreviewDPIScale → GetWidgetPreviewDPIScale(위젯, 미리보기 해상도))
 	UUserWidget* P = PreviewFor(false);
-	const FUintVector2 Res = GetDefault<UWidgetDesignerSettings>()->DefaultPreviewResolution;
-	return P ? FWidgetBlueprintEditorUtils::GetWidgetPreviewDPIScale(P, FVector2D(Res.X, Res.Y)) : 1.f;
+	return P ? RadarCompat::WidgetPreviewDPIScale(P, RadarCompat::DefaultPreviewResolution()) : 1.f;
 }
 
 FSlateRect SRadarPreviewPane::ComputeAreaBounds() const

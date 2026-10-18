@@ -506,7 +506,7 @@ namespace
 			Used.Add(Id);
 			Out.Add({ Id, Track });
 		};
-		for (const UMovieSceneTrack* Track : Anim->MovieScene->GetTracks())
+		for (const UMovieSceneTrack* Track : RadarCompat::GetRootTracks(Anim->MovieScene))
 		{
 			AddTrack(TEXT("Root"), Track);
 		}

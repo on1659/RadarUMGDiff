@@ -2,6 +2,7 @@
 
 #include "RadarPropertyCompare.h"
 #include "RadarUMGDiffSettings.h"
+#include "RadarEngineCompat.h"
 
 #include "UObject/UnrealType.h"
 #include "UObject/EnumProperty.h"
@@ -48,7 +49,7 @@ namespace RadarProperty
 
 	static int32 StaticDim(const FProperty* Property)
 	{
-		const int32 Elem = Property->GetElementSize();
+		const int32 Elem = RadarCompat::ElementSizeOf(Property);
 		return Elem > 0 ? FMath::Max(1, Property->GetSize() / Elem) : 1;
 	}
 
@@ -248,7 +249,7 @@ namespace RadarProperty
 			TArray<TSharedPtr<FJsonValue>> Items;
 			for (FScriptSetHelper::FIterator It(Helper); It; ++It)
 			{
-				Items.Add(ToJson(SetP->ElementProp, Helper.GetElementPtr(It), Ctx));
+				Items.Add(ToJson(SetP->ElementProp, Helper.GetElementPtr(RadarCompat::ContainerIndex(It)), Ctx));
 			}
 			return MakeShared<FJsonValueArray>(Items);
 		}
@@ -259,8 +260,8 @@ namespace RadarProperty
 			for (FScriptMapHelper::FIterator It(Helper); It; ++It)
 			{
 				TSharedRef<FJsonObject> Pair = MakeShared<FJsonObject>();
-				Pair->SetField(TEXT("key"), ToJson(MP->KeyProp, Helper.GetKeyPtr(It), Ctx));
-				Pair->SetField(TEXT("value"), ToJson(MP->ValueProp, Helper.GetValuePtr(It), Ctx));
+				Pair->SetField(TEXT("key"), ToJson(MP->KeyProp, Helper.GetKeyPtr(RadarCompat::ContainerIndex(It)), Ctx));
+				Pair->SetField(TEXT("value"), ToJson(MP->ValueProp, Helper.GetValuePtr(RadarCompat::ContainerIndex(It)), Ctx));
 				Items.Add(MakeShared<FJsonValueObject>(Pair));
 			}
 			return MakeShared<FJsonValueArray>(Items);
@@ -477,7 +478,7 @@ namespace RadarProperty
 	static bool IsZeroValue(const FProperty* P, const void* ValuePtr, const FRadarCompareContext& Ctx)
 	{
 		TArray<uint8, TAlignedHeapAllocator<16>> Buffer;
-		Buffer.SetNumZeroed(FMath::Max(P->GetElementSize(), 1));
+		Buffer.SetNumZeroed(FMath::Max(RadarCompat::ElementSizeOf(P), 1));
 		P->InitializeValue(Buffer.GetData());
 		const bool bZero = Equal(P, ValuePtr, Buffer.GetData(), Ctx);
 		P->DestroyValue(Buffer.GetData());

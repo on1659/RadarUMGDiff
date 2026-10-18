@@ -25,7 +25,7 @@ WANTED = {
     "FBlueprintsObjectVersion": ["EdGraphPinOptimized"],
     "FSequencerObjectVersion": ["SerializeFloatChannel", "SerializeFloatChannelCompletely"],
     "FFortniteMainBranchObjectVersion": ["SerializeFloatChannelShowCurve", "AddDevNotesToFText", "SoftObjectPathUtf8SubPaths"],
-    "FEditorObjectVersion": ["AddedAlwaysSignNumberFormattingOption", "TextFormatArgumentDataIsVariant"],
+    "FEditorObjectVersion": ["AddedAlwaysSignNumberFormattingOption", "TextFormatArgumentDataIsVariant", "RootMetaDataSupport"],
 }
 
 HEADER_DIR = os.path.join("Engine", "Source", "Runtime", "Core", "Public", "UObject")

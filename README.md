@@ -4,7 +4,7 @@
 위젯·슬롯·바인딩·클래스 기본값·애니메이션(키 단위)·그래프 단위로 알려 주는 언리얼 에디터 플러그인입니다.
 같은 결과(`diff.json`)를 에디터 없이 만드는 표준 라이브러리 전용 Python 분석기가 함께 들어 있습니다.
 
-- 엔진: UE 5.8 (`5.8` 브랜치), UE 5.1 (`5.1` 브랜치 — M5)
+- 엔진: UE 5.8 (`5.8` 브랜치), UE 5.1 (`5.1` 브랜치). 두 브랜치의 차이는 `RadarEngineCompat.h` 의 `#if` 결과, 픽스처 저장본, `data/struct_kinds_ue5.1.json` 뿐입니다
 - 형상관리: 에디터의 소스 컨트롤 프로바이더(Perforce·Git 등) · git 명령줄 · 파일 두 개 — 어느 쪽이든 같은 화면
 - 게임 모듈에 의존하지 않습니다 (에디터 모듈 하나)
 
@@ -44,13 +44,14 @@ git submodule add -b 5.8 https://github.com/on1659/RadarUMGDiff.git Plugins/Rada
 | `RadarUMGDiff.DumpHistory <폴더> [패키지...]` | git 인접 커밋 쌍마다 diff.json (정확도 모드) |
 | `RadarUMGDiff.OpenJson <diff.json>` | data-only 뷰어 |
 | `RadarUMGDiff.DumpSchema [출력]` | Python 분석기용 스키마(클래스·구조체 속성과 기본값) |
-| `RadarUMGDiff.BuildFixtures [Anim\|Graph\|Text\|Bind\|All] [-force]` | 테스트 픽스처를 버전별로 만들어 `Test/Fixtures/` 에 저장 |
+| `RadarUMGDiff.BuildFixtures [Anim\|Graph\|Text\|Bind\|Layout\|All] [-force]` | 테스트 픽스처를 버전별로 만들어 `Test/Fixtures/` 에 저장 (그 엔진의 저장본) |
 
 커맨드릿(에디터를 닫은 창에서):
 
 ```
 UnrealEditor-Cmd.exe <Project>.uproject -run=RadarUMGDiffDump -asset=/Game/UI/WBP_HUD -old=git:<sha> -new=working -out=<폴더> [-state]
 UnrealEditor-Cmd.exe <Project>.uproject -run=RadarUMGDiffDump -history -out=<폴더>
+UnrealEditor-Cmd.exe <Project>.uproject -run=RadarStructKinds [-out=<경로>]     # 옛 태그(FileVersionUE5 < 1012)용 구조체 종류 표
 ```
 
 ## Python 분석기 (에디터 없이)
@@ -68,7 +69,9 @@ python -I Content/Python/umgdiff_cli.py summary <diff.json>
 
 종료 코드: 0 성공, 1 불일치(conform·schema-check), 3 인자, 4 거부(지원하지 않는 파일 버전·커스텀 버전).
 
-- 지원 파일 버전: FileVersionUE5 1012 이상(완전 타입 이름 태그). 5.1 저장본(1008)의 옛 태그 형식은 M5.
+- 지원 파일 버전: FileVersionUE5 1004~1018. 1012 이상은 완전 타입 이름 태그라 그대로 읽습니다. 1012 미만(5.1 저장본 = 1008)의
+  옛 태그에는 구조체 몸체가 태그인지 바이트인지와 집합·맵 원소 구조체 이름이 없어서, 그 파일 버전으로 만든
+  `Content/Python/radar_umgdiff/data/struct_kinds_<engine>.json`(그 엔진에서 `-run=RadarStructKinds`)이 있어야 읽습니다. 없으면 거부(4).
 - **스키마는 선택**입니다. 없어도 해석·판정은 같고(`schema-check` 로 확인), 있으면 한쪽에만 태그가 있는 줄
   ("기본값일 수 있음")을 아키타입 기본값으로 확정하고 dump 에 `state: default` 줄을 채웁니다.
   만들기: 에디터에서 `py "<플러그인>/Content/Python/editor/dump_schema.py"` (→ `Saved/RadarUMGDiff/schema.json`).
@@ -101,7 +104,7 @@ python -I Content/Python/umgdiff_cli.py summary <diff.json>
 
 ## 정확도
 
-`Content/Python/tools/accuracy_report.py` 가 [Test/accuracy_report.md](Test/accuracy_report.md) 를 만듭니다. 2026-10-18 (UE 5.8.3):
+`Content/Python/tools/accuracy_report.py` 가 [Test/accuracy_report.md](Test/accuracy_report.md) 를 만듭니다(그 브랜치 엔진의 픽스처). 2026-10-18 (UE 5.8.3):
 
 | 대상 | 쌍·파일 | 결과 |
 |---|---|---|
@@ -114,6 +117,13 @@ python -I Content/Python/umgdiff_cli.py summary <diff.json>
 "범위 안" 은 클래스·함수 익스포트의 UStruct 데이터(컴파일된 블루프린트 클래스 몸체 — 비교 대상이 아닌 생성물)를 뺀 값입니다.
 남은 보류 2건은 그 사이 C++ 에서 이름이 바뀐 속성의 옛 태그입니다 — 에디터는 지금 클래스로 로드하므로 그 값을 볼 수 없고,
 Python 은 파일에 있는 그대로 알려 줍니다.
+
+2026-10-18 (UE 5.1.1, `5.1` 브랜치, 5.1 에디터로 저장한 픽스처):
+
+| 대상 | 쌍·파일 | 결과 |
+|---|---|---|
+| 커버리지 (픽스처 21개, FileVersionUE5 1008) | 334,794 익스포트 바이트 | 범위 안 **1.0000**, 전체 0.9464 |
+| 5.1 커맨드릿 vs Python — 픽스처 | 15쌍 | 판정 불일치 **0**, 보류 0 |
 
 ## 알려진 한계
 

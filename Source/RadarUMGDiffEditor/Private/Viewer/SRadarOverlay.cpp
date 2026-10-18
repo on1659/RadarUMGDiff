@@ -5,6 +5,7 @@
 #include "Viewer/RadarViewModel.h"
 #include "RadarRevisionSource.h"
 #include "RadarUMGDiffSettings.h"
+#include "RadarEngineCompat.h"
 
 #include "Blueprint/UserWidget.h"
 #include "Rendering/DrawElements.h"
@@ -40,7 +41,7 @@ namespace
 			FSlateDrawElement::MakeLines(Out, Layer + ExtraLayer, Geo.ToPaintGeometry(), MoveTemp(Halo), ESlateDrawEffect::None, FLinearColor(0, 0, 0, 0.85f), true, Thickness + 2.f * S.HaloThickness);
 			if (bDashed)
 			{
-				FSlateDrawElement::MakeDashedLines(Out, Layer + ExtraLayer + 1, Geo.ToPaintGeometry(), MoveTemp(Pts), ESlateDrawEffect::None, Color, Thickness, S.RemovedBoxDashLength);
+				RadarCompat::MakeDashedLines(Out, Layer + ExtraLayer + 1, Geo.ToPaintGeometry(), MoveTemp(Pts), Color, Thickness, S.RemovedBoxDashLength);
 			}
 			else
 			{
@@ -67,7 +68,7 @@ namespace
 			{
 				return;
 			}
-			FSlateDrawElement::MakeBox(Out, Layer + ExtraLayer, Geo.ToPaintGeometry(FVector2f(R.Max - R.Min), FSlateLayoutTransform(FVector2f(R.Min))),
+			FSlateDrawElement::MakeBox(Out, Layer + ExtraLayer, RadarCompat::PaintGeometry(Geo, R.Max - R.Min, R.Min),
 				FAppStyle::GetBrush("WhiteBrush"), ESlateDrawEffect::None, Color);
 		}
 
@@ -76,7 +77,7 @@ namespace
 			const FSlateFontInfo Font = FCoreStyle::GetDefaultFontStyle("Regular", 9);
 			const FVector2D Size(Text.Len() * 7.5f + 8.f, 16.f);
 			Fill(FBox2D(At, At + Size), FLinearColor(0, 0, 0, 0.8f), ExtraLayer);
-			FSlateDrawElement::MakeText(Out, Layer + ExtraLayer + 1, Geo.ToPaintGeometry(FVector2f(Size), FSlateLayoutTransform(FVector2f(At + FVector2D(4, 1)))), Text, Font, ESlateDrawEffect::None, Color);
+			FSlateDrawElement::MakeText(Out, Layer + ExtraLayer + 1, RadarCompat::PaintGeometry(Geo, Size, At + FVector2D(4, 1)), Text, Font, ESlateDrawEffect::None, Color);
 		}
 	};
 

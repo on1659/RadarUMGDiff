@@ -6,6 +6,7 @@
 #include "RadarRevisionSource.h"
 #include "RadarPropertyCompare.h"
 #include "RadarUMGDiffSettings.h"
+#include "RadarEngineCompat.h"
 
 #include "WidgetBlueprint.h"
 #include "Blueprint/WidgetTree.h"
@@ -342,7 +343,7 @@ FReply SRadarDetailsGrid::OnOpenFullDetails()
 			+ SVerticalBox::Slot().AutoHeight().Padding(4)[ SNew(STextBlock).Text(Label).Font(FAppStyle::GetFontStyle("BoldFont")) ]
 			+ SVerticalBox::Slot().FillHeight(1.f)
 			[
-				Obj ? StaticCastSharedRef<SWidget>(FDetailsDiff::CreateDetailsView(Obj)) : StaticCastSharedRef<SWidget>(SNew(STextBlock).Text(LOCTEXT("NoObject", "(없음)")))
+				Obj ? StaticCastSharedRef<SWidget>(RadarCompat::CreateReadOnlyDetailsView(Obj)) : StaticCastSharedRef<SWidget>(SNew(STextBlock).Text(LOCTEXT("NoObject", "(없음)")))
 			];
 	};
 	TSharedRef<SWindow> Window = SNew(SWindow)

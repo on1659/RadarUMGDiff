@@ -263,10 +263,10 @@ void SRadarDiffWindow::RebuildPreviews()
 	{
 		TSharedRef<SRadarPreviewPane> P = SNew(SRadarPreviewPane, M).Side(Model->bFlipShowOld ? ERadarPaneSide::Old : ERadarPaneSide::New);
 		Panes = { P };
-		TWeakPtr<SRadarDiffWindow> WeakThis = SharedThis(this);
-		PreviewArea->SetContent(PaneWithLabel(P, TAttribute<FText>::CreateLambda([WeakThis]()
+		TWeakPtr<SRadarDiffWindow> WeakSelf = SharedThis(this);
+		PreviewArea->SetContent(PaneWithLabel(P, TAttribute<FText>::CreateLambda([WeakSelf]()
 		{
-			TSharedPtr<SRadarDiffWindow> This = WeakThis.Pin();
+			TSharedPtr<SRadarDiffWindow> This = WeakSelf.Pin();
 			return This.IsValid() ? FText::Format(LOCTEXT("FlipLabel", "뒤집기 · {0} · {1}"), This->Model->bFlipShowOld ? LOCTEXT("FlipOld", "이전") : LOCTEXT("FlipNew", "이후"), This->SideLabel(This->Model->bFlipShowOld)) : FText::GetEmpty();
 		})));
 	}

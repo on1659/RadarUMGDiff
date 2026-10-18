@@ -90,6 +90,9 @@
         },
         "TextFormatArgumentDataIsVariant": {
           "value": 5
+        },
+        "RootMetaDataSupport": {
+          "value": 3
         }
       }
     }

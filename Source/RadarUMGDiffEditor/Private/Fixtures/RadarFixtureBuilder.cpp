@@ -1,6 +1,6 @@
 // Copyright Radar. All Rights Reserved.
 
-// 픽스처 위젯 블루프린트 생성기 (dev 문서 §13). 콘솔: RadarUMGDiff.BuildFixtures [Anim|Graph|Text|Bind|All]
+// 픽스처 위젯 블루프린트 생성기 (dev 문서 §13). 콘솔: RadarUMGDiff.BuildFixtures [Anim|Graph|Text|Bind|Layout|All]
 // 버전마다 앞 버전을 고쳐서(같은 GUID 를 유지해야 이동·이름 변경을 볼 수 있다) 저장하고,
 // 저장된 .uasset 을 Plugins/RadarUMGDiff/Test/Fixtures/<이름>/v<N>/ 에 복사한다.
 // 5.1 브랜치(M5)에서도 같은 명령으로 그 엔진이 저장한 픽스처를 다시 만든다.
@@ -15,6 +15,7 @@
 #include "UObject/SavePackage.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 
+#include "RadarEngineCompat.h"
 #include "WidgetBlueprint.h"
 #include "Blueprint/WidgetTree.h"
 #include "Blueprint/UserWidget.h"
@@ -24,6 +25,10 @@
 #include "Components/TextBlock.h"
 #include "Components/Image.h"
 #include "Components/ProgressBar.h"
+#include "Components/Button.h"
+#include "Components/Overlay.h"
+#include "Components/WidgetSwitcher.h"
+#include "Components/CanvasPanelSlot.h"
 #include "Animation/WidgetAnimation.h"
 #include "Animation/MovieScene2DTransformTrack.h"
 #include "Tracks/MovieSceneColorTrack.h"
@@ -92,8 +97,8 @@ namespace RadarFixtures
 		return true;
 	}
 
-	/** 새 위젯 블루프린트 (루트 Canvas). 같은 이름이 이미 있으면 -force 일 때만 지우고 다시 만든다. */
-	UWidgetBlueprint* Create(const FString& Name)
+	/** 새 위젯 블루프린트 (루트 기본 Canvas "Root"). 같은 이름이 이미 있으면 -force 일 때만 지우고 다시 만든다. */
+	UWidgetBlueprint* Create(const FString& Name, UClass* RootClass = UCanvasPanel::StaticClass(), const TCHAR* RootName = TEXT("Root"))
 	{
 		const FString PackageName = FString::Printf(TEXT("%s/%s"), Root, *Name);
 		if (FPackageName::DoesPackageExist(PackageName) || FindObject<UPackage>(nullptr, *PackageName))
@@ -112,9 +117,9 @@ namespace RadarFixtures
 		{
 			return nullptr;
 		}
-		UCanvasPanel* RootPanel = BP->WidgetTree->ConstructWidget<UCanvasPanel>(UCanvasPanel::StaticClass(), TEXT("Root"));
+		UPanelWidget* RootPanel = BP->WidgetTree->ConstructWidget<UPanelWidget>(RootClass, RootName);
 		BP->WidgetTree->RootWidget = RootPanel;
-		BP->OnVariableAdded(RootPanel->GetFName());
+		RadarCompat::NotifyWidgetVariableAdded(BP, RootPanel->GetFName());
 		FAssetRegistryModule::AssetCreated(BP);
 		return BP;
 	}
@@ -126,7 +131,7 @@ namespace RadarFixtures
 		Parent->AddChild(W);
 		W->bIsVariable = true;
 		// 에디터가 위젯·애니메이션을 더할 때처럼 이름 → GUID 표에 올린다 (WidgetBlueprintCompiler.cpp 792 의 ensure)
-		BP->OnVariableAdded(W->GetFName());
+		RadarCompat::NotifyWidgetVariableAdded(BP, W->GetFName());
 		return W;
 	}
 
@@ -152,7 +157,7 @@ namespace RadarFixtures
 		const FFrameNumber End = FFrameRate::TransformTime(FFrameTime(EndDisplayFrame), FFrameRate(20, 1), Tick).FloorToFrame();
 		Anim->MovieScene->SetPlaybackRange(TRange<FFrameNumber>(0, End + 1));
 		BP->Animations.Add(Anim);
-		BP->OnVariableAdded(Anim->GetFName());
+		RadarCompat::NotifyWidgetVariableAdded(BP, Anim->GetFName());
 		return Anim;
 	}
 
@@ -232,7 +237,7 @@ namespace RadarFixtures
 		if (!BP) { return false; }
 		UBorder* Panel = Add<UBorder>(BP, RootOf(BP), TEXT("Panel"));
 		UTextBlock* Label = Add<UTextBlock>(BP, RootOf(BP), TEXT("Label"));
-		Label->SetText(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_ANIM_LABEL"), TEXT("움직이는 글자")));
+		Label->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_ANIM_LABEL"), TEXT("움직이는 글자")));
 		UImage* Icon = Add<UImage>(BP, RootOf(BP), TEXT("Icon"));
 
 		// v1: FadeIn (Panel 위치·Label 색·Panel 불투명도), Pulse (Icon 크기) — 키 4개씩
@@ -422,8 +427,8 @@ namespace RadarFixtures
 		UPackage* Package = CreatePackage(*PackageName);
 		UStringTable* Table = NewObject<UStringTable>(Package, TEXT("ST_Fix"), RF_Public | RF_Standalone);
 		Table->GetMutableStringTable()->SetNamespace(TEXT("RadarFix"));
-		Table->GetMutableStringTable()->SetSourceString(TEXT("Greeting"), TEXT("안녕하세요"), FString());
-		Table->GetMutableStringTable()->SetSourceString(TEXT("Farewell"), TEXT("안녕히 가세요"), FString());
+		RadarCompat::SetStringTableSource(Table, TEXT("Greeting"), TEXT("안녕하세요"));
+		RadarCompat::SetStringTableSource(Table, TEXT("Farewell"), TEXT("안녕히 가세요"));
 		FAssetRegistryModule::AssetCreated(Table);
 		return SavePackageOf(Table);
 	}
@@ -440,7 +445,7 @@ namespace RadarFixtures
 		// v1: 한국어 DisplayLabel, 일반 텍스트, 스트링테이블 텍스트, 텍스처 브러시, 소프트 텍스처 변수
 		UTextBlock* Title = Add<UTextBlock>(BP, RootOf(BP), TEXT("Title"));
 		Title->SetDisplayLabel(TEXT("제목 텍스트"));
-		Title->SetText(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_TITLE_1"), TEXT("시작하기")));
+		Title->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_TITLE_1"), TEXT("시작하기")));
 		UTextBlock* Greeting = Add<UTextBlock>(BP, RootOf(BP), TEXT("Greeting"));
 		Greeting->SetDisplayLabel(TEXT("인사말"));
 		Greeting->SetText(FText::FromStringTable(FName(StringTableId), TEXT("Greeting")));
@@ -451,11 +456,11 @@ namespace RadarFixtures
 		if (!Snapshot(BP, 1)) { return false; }
 
 		// v2: 텍스트 변경 (같은 키, 원문만)
-		Title->SetText(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_TITLE_1"), TEXT("지금 시작")));
+		Title->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_TITLE_1"), TEXT("지금 시작")));
 		if (!Snapshot(BP, 2)) { return false; }
 
 		// v3: 키만 변경 (원문 같음) — Python 만 text-key-only 로 낸다
-		Title->SetText(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_TITLE_2"), TEXT("지금 시작")));
+		Title->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_TITLE_2"), TEXT("지금 시작")));
 		if (!Snapshot(BP, 3)) { return false; }
 
 		// v4: 테이블 키 변경 + 텍스처 교체 (브러시·소프트 변수 기본값)
@@ -478,14 +483,14 @@ namespace RadarFixtures
 			FFormatNamedArguments Args;
 			Args.Add(TEXT("Count"), FText::AsNumber(Count));
 			Args.Add(TEXT("Max"), 7);
-			return FText::Format(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_SCORE_FMT"), TEXT("{Count}점 / {Max}")), Args);
+			return FText::Format(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_SCORE_FMT"), TEXT("{Count}점 / {Max}")), Args);
 		};
 		Score->SetText(ScoreText(10));
 		UTextBlock* Stamp = Add<UTextBlock>(BP, RootOf(BP), TEXT("Stamp"));
-		Stamp->SetText(FText::Format(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_STAMP_FMT"), TEXT("{0} · {1} · {2}")),
+		Stamp->SetText(FText::Format(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_STAMP_FMT"), TEXT("{0} · {1} · {2}")),
 			FText::AsPercent(0.5f), FText::AsDate(FDateTime(2026, 10, 18), EDateTimeStyle::Short, TEXT("UTC")), FText::AsCurrencyBase(1234, TEXT("KRW"))));
 		UTextBlock* Upper = Add<UTextBlock>(BP, RootOf(BP), TEXT("Upper"));
-		Upper->SetText(FText::AsLocalizable_Advanced(TEXT(""), TEXT("FIX_UPPER"), TEXT("hello")).ToUpper());
+		Upper->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_UPPER"), TEXT("hello")).ToUpper());
 		if (!Snapshot(BP, 5)) { return false; }
 
 		// v6: 포맷 인자 값만 변경 (Count 10 → 20)
@@ -500,7 +505,7 @@ namespace RadarFixtures
 		UEdGraph* Graph = AddFunction(BP, Name);
 		UK2Node_FunctionResult* Result = AddResult(Graph, 400);
 		UEdGraphPin* Ret = Result->CreateUserDefinedPin(UEdGraphSchema_K2::PN_ReturnValue, PinType(UEdGraphSchema_K2::PC_Text), EGPD_Input);
-		Ret->DefaultTextValue = FText::AsLocalizable_Advanced(TEXT(""), FString::Printf(TEXT("FIX_%s"), Name), Text);
+		Ret->DefaultTextValue = RadarCompat::MakeLocalizedText(TEXT(""), FString::Printf(TEXT("FIX_%s"), Name), Text);
 		if (UK2Node_FunctionEntry* Entry = FindNode<UK2Node_FunctionEntry>(Graph))
 		{
 			Entry->AddExtraFlags(FUNC_BlueprintPure | FUNC_Const);
@@ -564,13 +569,110 @@ namespace RadarFixtures
 		return Snapshot(BP, 3);
 	}
 
+	// ── 레이아웃 (M2 의 손 픽스처를 생성기로 옮김, §13) ──
+
+	template <typename T>
+	T* AddAt(UWidgetBlueprint* BP, UPanelWidget* Parent, const TCHAR* Name, const FMargin& Offsets)
+	{
+		T* W = Add<T>(BP, Parent, Name);
+		W->SetDisplayLabel(Name);
+		if (UCanvasPanelSlot* CanvasSlot = Cast<UCanvasPanelSlot>(W->Slot))
+		{
+			CanvasSlot->SetOffsets(Offsets);
+		}
+		return W;
+	}
+
+	UTextBlock* AddLabel(UWidgetBlueprint* BP, UPanelWidget* Parent, const TCHAR* Name, const TCHAR* Text, const FMargin& Offsets = FMargin())
+	{
+		UTextBlock* W = AddAt<UTextBlock>(BP, Parent, Name, Offsets);
+		W->SetText(RadarCompat::MakeLocalizedText(TEXT(""), FString::Printf(TEXT("FIX_LAYOUT_%s"), Name), Text));
+		return W;
+	}
+
+	/** 위젯을 지운다 — 에디터 삭제처럼 트리에서 떼고 임시 패키지로 옮겨 저장본에 남지 않게 한다. */
+	void RemoveWidget(UWidgetBlueprint* BP, const TCHAR* Name)
+	{
+		if (UWidget* W = Find(BP, Name))
+		{
+			BP->WidgetTree->RemoveWidget(W);
+			W->Rename(nullptr, GetTransientPackage(), REN_DontCreateRedirectors | REN_NonTransactional);
+			RadarCompat::NotifyWidgetVariableRemoved(BP, FName(Name));
+		}
+	}
+
+	/** 중첩 UserWidget 용: 루트 Border 하나 + 글자 */
+	UWidgetBlueprint* BuildChild()
+	{
+		const TCHAR* Name = TEXT("WBP_Fix_Child");
+		UWidgetBlueprint* BP = Create(Name, UBorder::StaticClass(), TEXT("CardBorder"));
+		if (!BP) { return nullptr; }
+		RootOf(BP)->SetDisplayLabel(TEXT("CardBorder"));
+		AddLabel(BP, RootOf(BP), TEXT("CardText"), TEXT("카드"));
+		return Snapshot(BP, 1) ? BP : nullptr;
+	}
+
+	bool BuildLayout()
+	{
+		UWidgetBlueprint* Child = BuildChild();
+		if (!Child) { return false; }
+		const TCHAR* Name = TEXT("WBP_Fix_Layout");
+		UWidgetBlueprint* BP = Create(Name);
+		if (!BP) { return false; }
+		UPanelWidget* Canvas = RootOf(BP);
+		Canvas->SetDisplayLabel(TEXT("Root"));
+
+		// v1: Canvas 안 9개(+ 버튼 글자·스위처 두 페이지·그룹 글자), 중첩 UserWidget, 비활성 스위처 페이지, Collapsed 위젯
+		AddLabel(BP, Canvas, TEXT("Title"), TEXT("제목 v1"), FMargin(40, 40, 400, 60));
+		AddAt<UImage>(BP, Canvas, TEXT("Icon"), FMargin(40, 120, 64, 64));
+		UButton* Ok = AddAt<UButton>(BP, Canvas, TEXT("OkButton"), FMargin(40, 220, 200, 50));
+		AddLabel(BP, Ok, TEXT("OkLabel"), TEXT("확인"));
+		UProgressBar* Hp = AddAt<UProgressBar>(BP, Canvas, TEXT("HpBar"), FMargin(40, 300, 300, 24));
+		Hp->SetPercent(0.7f);
+		Hp->SetFillColorAndOpacity(FLinearColor(0.f, 0.5f, 1.f, 1.f));
+		UTextBlock* Hidden = AddLabel(BP, Canvas, TEXT("HiddenNote"), TEXT("숨김 메모"), FMargin(40, 340, 300, 30));
+		Hidden->SetVisibility(ESlateVisibility::Collapsed);
+		UWidgetSwitcher* Pages = AddAt<UWidgetSwitcher>(BP, Canvas, TEXT("Pages"), FMargin(400, 120, 300, 200));
+		UBorder* PageA = AddAt<UBorder>(BP, Pages, TEXT("PageA"), FMargin());
+		AddLabel(BP, PageA, TEXT("PageAText"), TEXT("페이지 A"));
+		UBorder* PageB = AddAt<UBorder>(BP, Pages, TEXT("PageB"), FMargin());
+		AddLabel(BP, PageB, TEXT("PageBText"), TEXT("페이지 B (비활성)"));
+		UOverlay* Group = AddAt<UOverlay>(BP, Canvas, TEXT("Group"), FMargin(400, 360, 300, 100));
+		AddLabel(BP, Group, TEXT("GroupText"), TEXT("그룹"));
+		{
+			UUserWidget* Card = BP->WidgetTree->ConstructWidget<UUserWidget>(Child->GeneratedClass.Get(), TEXT("ChildCard"));
+			Canvas->AddChild(Card);
+			Card->bIsVariable = true;
+			Card->SetDisplayLabel(TEXT("ChildCard"));
+			RadarCompat::NotifyWidgetVariableAdded(BP, Card->GetFName());
+			Cast<UCanvasPanelSlot>(Card->Slot)->SetOffsets(FMargin(40, 420, 200, 80));
+		}
+		AddLabel(BP, Canvas, TEXT("Footer"), TEXT("꼬리말"), FMargin(40, 520, 600, 30));
+		if (!Snapshot(BP, 1)) { return false; }
+
+		// v2: 이름 변경(같은 자리, Title → Heading, 색 변경) · 이동+슬롯 클래스 변경(Icon: Canvas → Group[0]) · 삭제 3 · 텍스트 변경
+		UTextBlock* Title = Cast<UTextBlock>(Find(BP, TEXT("Title")));
+		Title->Rename(TEXT("Heading"));
+		Title->SetDisplayLabel(TEXT("Heading"));
+		RadarCompat::NotifyWidgetVariableRenamed(BP, TEXT("Title"), TEXT("Heading"));
+		Title->SetColorAndOpacity(FSlateColor(FLinearColor(1.f, 0.6f, 0.2f, 1.f)));
+		UWidget* Icon = Find(BP, TEXT("Icon"));
+		Icon->RemoveFromParent();
+		Group->InsertChildAt(0, Icon);
+		RemoveWidget(BP, TEXT("HpBar"));
+		RemoveWidget(BP, TEXT("HiddenNote"));
+		RemoveWidget(BP, TEXT("PageBText"));
+		Cast<UTextBlock>(Find(BP, TEXT("OkLabel")))->SetText(RadarCompat::MakeLocalizedText(TEXT(""), TEXT("FIX_LAYOUT_OkLabel2"), TEXT("확인하기")));
+		return Snapshot(BP, 2);
+	}
+
 	void Run(const TArray<FString>& Args)
 	{
 		GForce = Args.Contains(TEXT("-force"));
 		const FString Which = Args.Num() > 0 && !Args[0].StartsWith(TEXT("-")) ? Args[0] : FString(TEXT("All"));
 		const bool bAll = Which.Equals(TEXT("All"), ESearchCase::IgnoreCase);
 		struct FEntry { const TCHAR* Key; bool (*Fn)(); };
-		const FEntry Entries[] = { { TEXT("Anim"), &BuildAnim }, { TEXT("Graph"), &BuildGraph }, { TEXT("Text"), &BuildText }, { TEXT("Bind"), &BuildBind } };
+		const FEntry Entries[] = { { TEXT("Anim"), &BuildAnim }, { TEXT("Graph"), &BuildGraph }, { TEXT("Text"), &BuildText }, { TEXT("Bind"), &BuildBind }, { TEXT("Layout"), &BuildLayout } };
 		for (const FEntry& E : Entries)
 		{
 			if (bAll || Which.Equals(E.Key, ESearchCase::IgnoreCase))
@@ -582,6 +684,6 @@ namespace RadarFixtures
 	}
 
 	FAutoConsoleCommand GBuildFixturesCommand(TEXT("RadarUMGDiff.BuildFixtures"),
-		TEXT("픽스처 위젯 블루프린트를 버전별로 만든다 (dev 문서 §13): [Anim|Graph|Text|Bind|All] [-force]"),
+		TEXT("픽스처 위젯 블루프린트를 버전별로 만든다 (dev 문서 §13): [Anim|Graph|Text|Bind|Layout|All] [-force]"),
 		FConsoleCommandWithArgsDelegate::CreateStatic(&Run));
 }
