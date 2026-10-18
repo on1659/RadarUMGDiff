@@ -13,7 +13,65 @@
 프로젝트의 `Plugins/RadarUMGDiff` 에 두고(서브모듈 권장) 에디터를 빌드합니다. 런타임 모듈은 없습니다.
 
 ```
-git submodule add -b 5.8 https://github.com/on1659/RadarUMGDiff.git Plugins/RadarUMGDiff
+git submodule add -b 5.8 https://github.com/on1659/RadarUMGDiff.git Plugins/RadarUMGDiff   # UE 5.8 프로젝트
+git submodule add -b 5.1 https://github.com/on1659/RadarUMGDiff.git Plugins/RadarUMGDiff   # UE 5.1 프로젝트
+```
+서브모듈을 못 쓰는 곳(Perforce 만 쓰는 프로젝트)은 `git clone -b <브랜치> … Plugins/RadarUMGDiff` 로 받아 폴더째 넣습니다.
+폴더 이름은 `RadarUMGDiff` 그대로여야 하고, .uproject 에 따로 등록할 것은 없습니다(프로젝트 Plugins 폴더의 플러그인은 자동으로 켜집니다).
+
+## 새 컴퓨터에서 시작하기 — Claude 세션 프롬프트
+
+설계 문서는 이 저장소의 `docs/` 에 있습니다. `docs/radar-umg-diff.md` 가 결정의 정본, `docs/radar-umg-diff-dev.md` 가 구현 지시
+(폴더 구조·diff.json 스키마·바이트 레이아웃·마일스톤·검증)입니다. 두 문서 안의 `C:\Work\CL9`, `C:\Work\P4` 경로는 처음 개발한 PC 의
+것이니 새 PC 에서는 그 자리에 자기 프로젝트 경로를 넣어 읽습니다. 문서를 고칠 때는 이 저장소의 `docs/` 를 먼저 고치고,
+CL9 저장소의 `docs/goal/` 사본은 그에 맞춥니다.
+
+### A. 회사 프로젝트에 붙여서 쓰기 (UE 5.1 + Perforce 같은 환경)
+
+새 세션 첫 메시지로 아래를 붙입니다. `<프로젝트>` 자리만 바꿉니다.
+
+```
+이 PC 의 언리얼 프로젝트 <프로젝트 폴더 절대경로> 에 RadarUMGDiff 플러그인을 붙여서 쓸 수 있게 해 줘. 위젯 블루프린트 두 리비전을
+에디터 안에서 렌더해 비교하는 에디터 전용 플러그인이다. 먼저 <프로젝트>/Plugins/RadarUMGDiff/README.md 를 전부 읽어라.
+
+순서:
+1. 프로젝트의 엔진 버전(.uproject 의 EngineAssociation, 엔진 폴더의 Engine/Build/Build.version)을 확인하고, 플러그인 폴더의
+   git 브랜치가 그 버전과 맞는지 본다(5.1 프로젝트는 5.1 브랜치, 5.8 프로젝트는 5.8 브랜치). 다르면 맞는 브랜치로 바꾼다.
+2. 에디터 타깃을 빌드한다. C++ 프로젝트면 평소 방법으로, 아니면
+   <엔진>\Engine\Build\BatchFiles\Build.bat <프로젝트이름>Editor Win64 Development -Project=<uproject 절대경로> 로.
+   빌드 오류가 플러그인 안이면 고친다. 엔진이 회사에서 고친 소스 빌드라 API 가 다르면 분기는
+   Source/RadarUMGDiffEditor/Private/RadarEngineCompat.h 한 곳에만 둔다.
+3. 에디터를 띄우고 위젯 블루프린트 하나를 우클릭해 "Radar UMG Diff..." 가 뜨는지, 리비전 피커의 소스 컨트롤 탭(에디터가
+   Perforce 에 연결돼 있을 때)에 그 파일의 히스토리가 나오고 "이전과 비교" 로 뷰어가 열리는지 확인한다. 결과는 스크린샷으로 보여 준다.
+   히스토리가 안 나오면 "파일 두 개" 탭으로 P4V 에서 받은 리비전 파일 둘을 비교해 뷰어 자체는 도는지 본다.
+4. 엔진이 소스 빌드(회사 수정 엔진)면 UnrealEditor-Cmd.exe <uproject> -run=RadarStructKinds 로 구조체 종류 표를 이 엔진에서
+   다시 뽑아 Content/Python/radar_umgdiff/data/struct_kinds_<버전>.json 을 바꾼다. 런처 엔진이면 건너뛴다.
+5. 실제 위젯 블루프린트 서너 개로 Content/Python/umgdiff_cli.py dump 를 돌려(번들 Python:
+   <엔진>\Engine\Binaries\ThirdParty\Python3\Win64\python.exe -I) 커버리지와 읽지 못한 구조체 이름을 보고한다.
+   읽지 못한 구조체가 있으면 README 의 "정확도" 절대로 리더를 추가할지 적어 둔다.
+
+규칙: 프로젝트의 에셋·게임 코드는 건드리지 않고 Plugins/RadarUMGDiff 만 만진다. p4 sync -f, p4 clean 을 돌리지 않는다. 추측으로
+고치지 않고 엔진 소스를 열어 확인한다. 조절 수치는 Config/DefaultRadarUMGDiff.ini 에 둔다. 주석·UI 문자열은 한국어다. 눈으로 볼
+결과는 스크린샷으로 올린다. 끝났다고 말하기 전에 3~5 를 실제로 돌리고 결과를 그대로 보고한다.
+```
+
+### B. 개발 이어가기 (새 기능·버그·다른 엔진 버전)
+
+```
+RadarUMGDiff 플러그인 개발을 이어간다. 저장소 https://github.com/on1659/RadarUMGDiff, 로컬 위치 <플러그인 폴더 절대경로>.
+브랜치는 엔진 버전별이다: 5.8 = UE 5.8, 5.1 = UE 5.1. 공통 변경은 5.8 에 먼저 넣고 5.1 에 체리픽한다. 두 브랜치의 차이는
+Source/RadarUMGDiffEditor/Private/RadarEngineCompat.h 의 분기와 Content/Python/radar_umgdiff/data/struct_kinds_ue5.1.json 뿐이어야 한다.
+
+먼저 읽을 것(읽기만, 순서대로): README.md, docs/radar-umg-diff.md(결정의 정본, Design Decisions 와 Acceptance Criteria),
+docs/radar-umg-diff-dev.md(구현 지시 — §3.3 엔진 호환 표, §5 diff.json, §8 리비전 소스, §9 뷰어, §11 Python 바이트 레이아웃,
+§14 테스트, §15 마일스톤). 문서 안의 C:\Work\CL9, C:\Work\P4 는 처음 개발한 PC 의 경로다.
+
+할 일: <여기에 적는다>
+
+규칙: 결정을 바꾸면 docs/radar-umg-diff.md 에 날짜와 함께 적고 기각한 대안도 남긴다. 구현 세부와 엔진 소스 근거는 dev 문서에 적는다.
+추측으로 구현하지 않고 엔진 소스를 열어 확인한다. 조절 수치는 Config/DefaultRadarUMGDiff.ini. 주석·UI 문자열은 한국어, Copyright
+헤더만 예외. 빌드가 도는 동안 Python 쪽을 진행한다. 검증은 dev 문서 §14(일치 테스트·픽스처·커버리지) 대로 실제로 돌리고 결과를
+그대로 보고한다. 눈으로 볼 결과는 에디터 스크린샷으로 올린다. 커밋은 재촉 없이 나중에 한 번에, 두 브랜치 모두.
 ```
 
 ## 쓰는 법 (에디터)
